@@ -43,3 +43,5 @@
   - **Interne :** réalisait en interne des processus externes, représente le « comment », modèle objets « métier »
 - **Business Use Case (BUC) :** permet de représenter les activités existantes et les besoins du domaine étudié, comprend un schéma et une description textuelle, en cas d’utilisation métier il se doit de fournir une valeur observable a un acteur métier
 - **BUC vs UC :** acteur principal a gauche, secondaire a droite
+
+---
