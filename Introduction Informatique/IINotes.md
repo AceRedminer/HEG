@@ -17,4 +17,4 @@
 
 **Conversion from 10 to X :** Division euclidienne \
 **Conversion from X to 10 :** a*X^n dans une boucle \
-**Conversion from X to X :** On passe par la base 10 et on faire 10 to X \
+**Conversion from X to X :** On passe par la base 10 et on faire 10 to X
