@@ -48,4 +48,27 @@ print(l * w, "\n")
 print("Division et reste")
 x: int = int(input("X : "))
 y: int = int(input("Y : "))
-print(int(x / y), int(x % y))
+print(int(x / y), int(x % y), "\n")
+
+print("Convertisseur EUR to USD")
+x: float = float(input("EUR : "))
+y: float = x * 1.12
+print("USD : ", y, "\n")
+
+print("Calcul aire cercle")
+rayon: float = float(input("Rayon : "))
+aire: float = 3.14 * rayon**2
+print("Aire : ", aire, "\n")
+
+print("Somme et produit")
+x: float = float(input("X : "))
+y: float = float(input("Y : "))
+z: float = float(input("Z : "))
+print("Somme : ", x + y + z, "\n")
+print("Produit : ", x * y * z, "\n")
+
+print("Calcul pourcentage")
+x: float = float(input("X : "))
+percent: float = float(input("Pourcentage : "))
+print(percent, "pourcent de ", x, " est égal à ", x * percent/100)
+
