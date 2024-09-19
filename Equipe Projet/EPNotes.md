@@ -35,6 +35,8 @@ La répartition des taches entre les différentes nations afin de se repartir le
 
 Si on fais une fois c’est un projet, si c’est des taches répétées c’est un processus
 
+---
+
 # 18.09.24
 
 **SMART :** Spécifique, Mesurable, Atteignable/Acceptable, Réaliste, Temporellement défini

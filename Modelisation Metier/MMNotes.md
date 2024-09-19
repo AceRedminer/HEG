@@ -45,3 +45,42 @@
 - **BUC vs UC :** acteur principal a gauche, secondaire a droite
 
 ---
+
+# 18.09.24
+
+**Qu’est-ce que l’informatique de gestion :**
+- Domaine informatique qui se concentre sur l’utilisation des technologies informatique afin de gérer et soutenir les operations, processus et décision des entreprises. Le but étant d’améliorer l’efficacité, la productivité et la prise de décisions en exploitant les avantages de l’informatique
+
+**Entreprise :**
+- **Définition :** unité institutionnelle mue par un projet décliné en stratégie, en politiques et en plans d’actions, dont le but est de produire et de fournir des biens et services à destination d’un ensemble de client
+- **3 couches :** Décision, Gestion, Production
+- **Processus :** enchainement ordonné d’opérations
+
+**Logiciel :** ensemble de processus nécessaire au fonctionnement d’un système informatique, structurées en fichiers
+**Application :** programme conçu pour répondre un besoin spécifique
+**Client :** origine (client-serveur), permet aux utilisateurs d’accéder aux fonctionnalités, contient au minimum les interfaces utilisateurs
+
+**Client lourd :**
+- Regroupe toutes les applications classiques
+- Installé sur la machine cible
+- Nécessite une installation
+
+**Client léger :**
+- Existe depuis l’avènement d’Internet (1990-2000)
+- Utilisé à travers un navigateur
+- Aucune installation, une URL suffit
+
+**Client riche :**
+- Existe depuis 2002 pour améliorer les interactions « homme-machine » avec les applications web
+- Utilisé dans un navigateur
+- Aucune installation, une URL suffit
+
+**Client embarqué :**
+- Utilisé dans un environnement hôte
+- Aucune installation
+
+**Exercice :**
+- Installation : lourd, embarqué
+- Maintenance : lourd, riche, léger, embarqué
+- Portabilité : riche, léger
+- Performance : lourd
