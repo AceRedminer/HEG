@@ -110,3 +110,37 @@ print("Calcul vitesse moyenne")
 distance_parcourue: float = float(input("Distance parcourue :"))
 temps: float = float(input("Temps employé :"))
 print("Vitesse moyenne :", distance_parcourue / temps, "\n")
+
+# Serie 2, une fonction permet a partir d'entrée (parametre, arguments, x) de recuperer le resultat (sortie, output, y) de l'algorithme pour f(x) = y
+
+def timesTwo(x: int):
+    return x * 2 # permet de recupérer la valeur calculé dans la fonction
+res_times_two = timesTwo(int(input("Rentrez un nombre pour connaitre son double : "))) # retour attendu 10
+print("Le double du nombre rentré vaut", res_times_two)
+
+def showName(name: str):
+    print("Bonjour", name)
+showName("Costi")
+
+def showNameYear(name: str, birth_year: int):
+    print("Bonjour", name, ", vous etes ne en", birth_year)
+showName("Costi")
+
+from datetime import datetime # Ce qu'on appelle une librairie est un fichier dans le "cloud" qui contient un certain nombre de fonction que l'on peut utiliser sur le projet en les important avec cette ligne de code
+
+def calcOldness(birth_year: int):
+    years_old:int = datetime.now().year - birth_year
+    print("Vous etes né en", birth_year, ", l'age calculé est de", years_old)
+calcOldness(2002)
+
+def calcEpargne(montant: float, nb_annee: int):
+    epargne_annuelle: float = montant  * 12
+    epargne_totale: float = epargne_annuelle * nb_annee
+    print("En épargnant", montant, "par mois, pendant ", nb_annee,", vous obtiendrez un total de", epargne_totale)
+calcEpargne(100, 12)
+
+def calcPillsBox(name: str, max_boite: int, nb_pills: int):
+    nb_boite:int = max_boite // nb_pills # Retourne le résultat de la division entière
+    loose_pills:int = max_boite % nb_pills # Retourne le nombre de pillule "en trop" après avoir rempli les autres boites au max
+    print("Pour votre production de", nb_pills, name,", vous avez besoin de", nb_boite, "boites de capacité de", max_boite,"médicaments. Le solde de production qui ne sera pas emballé est de", loose_pills,"médicaments")
+calcPillsBox("Paracetamol", 20, 256) # Sortie attendue : name = Paracetamol, nb_boite = 12, loose_pills = 16
