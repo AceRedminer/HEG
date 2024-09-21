@@ -70,5 +70,43 @@ print("Produit : ", x * y * z, "\n")
 print("Calcul pourcentage")
 x: float = float(input("X : "))
 percent: float = float(input("Pourcentage : "))
-print(percent, "pourcent de ", x, " est égal à ", x * percent/100)
+print(percent, "pourcent de ", x, " est égal à ", x * percent/100, "\n")
 
+print("Conversion secondes")
+sec: int = int(input("Secondes : "))
+hours: int = sec // 3600
+minutes: int = sec // 60
+print(sec, " en heures = ", hours, " en minutes = ", minutes, " en secondes = ", sec % 60,"\n")
+
+print("Calcul distance parcourue")
+vitesse: float = float(input("Vitesse (Km/h): "))
+temps: float = float(input("Temps (Heure) : "))
+distance_parcourue: float =  temps * vitesse
+print("Vous avez parcouru", distance_parcourue, "Km en ", temps, "heures a une vitesse de", vitesse, "Km/h \n")
+
+print("Périmètre rectangle")
+large: float = float(input("Largeur : "))
+long: float = float(input("Longeur : "))
+perimetre: float = 2 * large + 2 * long
+print("Le périmètre vaut :", perimetre, "\n")
+
+print("Carré d'un nombre")
+x: float = float(input("X: "))
+x_square: float = x**2
+print("Le carré de", x, "vaut :", x_square, "\n")
+
+print("Volume cube")
+cote_cube: float = float(input("Longeur de l'arrete : "))
+volume_cube: float = cote_cube**3
+print("Le volume d'un cube dont l'arrete vaut :", cote_cube, "est égale à", volume_cube, "\n")
+
+print("TVA/TTC")
+prix_ht: float = float(input("Prix hors taxe : "))
+TVA: float = float(input("TVA :"))
+ttc: float = prix_ht + TVA * prix_ht / 100
+print("TTC : ", ttc, "\n")
+
+print("Calcul vitesse moyenne")
+distance_parcourue: float = float(input("Distance parcourue :"))
+temps: float = float(input("Temps employé :"))
+print("Vitesse moyenne :", distance_parcourue / temps, "\n")
