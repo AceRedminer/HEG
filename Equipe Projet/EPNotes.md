@@ -7,13 +7,13 @@
 **Approches :**
 
 - Traditionnelle
-    Qualité                                 Defaut
-    Simplicité (feuille de route)           Pas de flexibilité
-    Moins de chance de se perdre            Retour en arrière compliqué
-    Transparence client                     Pas d’implication du client, retard sur le projet
-                                            Peu de coordination entre les employés
-
+  Qualité                                 Defaut
+  Simplicité (feuille de route)           Pas de flexibilité
+  Moins de chance de se perdre            Retour en arrière compliqué
+  Transparence client                     Pas d’implication du client, retard sur le projet
+  Peu de coordination entre les employés
 - Agile
+
   - Méthode de gestion de projet
   - Adaptable
   - Efficacité sur la répartition des taches et de la réalisation, et le temps de travail
@@ -26,7 +26,7 @@
     Efficace                                Manque de planification a long terme
     Qualitatif                              Dépendance des taches
     Rapport client                          Stress, burn-out, temps limité
-                                            Caprices du client
+    Caprices du client
 
 **Projets :**
 C’est un projet car il y a un objectif/but/ambition (interconnecté les continents/états)
@@ -49,11 +49,13 @@ Si on fais une fois c’est un projet, si c’est des taches répétées c’est
 **T :** A la fin de la saison
 
 **Quality :**
+
 - Scope
 - Cost
 - Time
 
 **Exercices Triptyque :**
+
 - **Mariage de rêve :**
   - **Contraint ->** La date de mariage (Délai)
   - **Optimisé ->**  Se marier sur le bateau (Périmètre)
@@ -76,6 +78,7 @@ Si on fais une fois c’est un projet, si c’est des taches répétées c’est
   - **Compromis ->** Pas spécifié (Budget)
 
 **Définition et notions communes :**
+
 - **Organisation**
 - **Planification :** mise en place d’un planning
 - **Coordination :** sous-traitement, sous-projet, coordination entre les équipes
@@ -87,6 +90,7 @@ Si on fais une fois c’est un projet, si c’est des taches répétées c’est
 - **Jalon :** un moment de la planification
 
 **Types de risques :**
+
 - **Financiers :** couts supérieur à l’estimation, manque de budget, etc.
 - **Humains :** manque de compétence, absence, démission, conflits
 - **Temporels :** retard des différents acteurs du projet, mauvaise estimation
@@ -96,9 +100,28 @@ Si on fais une fois c’est un projet, si c’est des taches répétées c’est
 - **Organisationnels :** changement dans la politique de l’entreprise
 
 **Principales causes d’échec :**
+
 - **Mauvaise planification :** trop optimiste, manque de réalisme, inexpérience du chef de projet
 - **Objectif mal définis :** client indécis qui fais travailler dans le vide
 - **Mauvais timing**
 - **Manque d’engagement des parties prenantes**
 - **Manque de compétence sur les technologies choisies**
 - **Pas de leçon tirées des échecs antérieurs**
+
+---
+
+# 24.09.24
+
+**S :** spécifique, objectif précis, défini
+
+**M :** mesurable, on doit pouvoir établir si on a atteint ou pas l’objectif sans ambiguïté
+
+**A :** atteignable/acceptable, relatif au compétence et au feeling des partis prenant
+
+**R :** réaliste, est-ce qu’on a les ressources économique, temporelles et humaine
+
+**T :** temporel, défini dans le temps
+
+**Mission** : pas de fin prévue
+
+**Mandat :** durée définie
