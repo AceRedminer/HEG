@@ -125,3 +125,43 @@ Si on fais une fois c’est un projet, si c’est des taches répétées c’est
 **Mission** : pas de fin prévue
 
 **Mandat :** durée définie
+
+**Principes :**
+
+* **Pourquoi et jusqu’ou manager un projet ?**
+  * Pour utiliser des bonnes pratiques
+  * Pour que le projet aboutisse
+* **Quels sont les avantages d’une gestion de projets structurée ?**
+  * On veut pas passer trop de temps a manager le projet afin d’avancer le projet
+* **Pour une gestion adaptée des projets…**
+  * **Les arguments manifeste :**
+    * Les problèmes sont identifiés
+    * Des objectifs claires sont définis
+    * Les étapes du projet sont connues
+    * Le projet a un budget
+    * Le management est impliqué
+  * **Les arguments induits :**
+    * Les déviations peuvent être évitées
+    * Des mesures correctives doivent être prises
+    * Les couts peuvent être maitrisé
+    * Des résultats (les livrables) sont attendus
+  * **Les mauvais arguments :**
+    * Les problèmes sont connus d’avance
+    * Le projet correspondra aux besoins
+* **Adapter sa gestion = savoir s’arrêter au bon moment**
+* **Durée/Effort :** durée-effort = jour homme, durée-effort totale = résultat du calcul temps sur jour homme
+
+**Exercice :**
+
+* **Objectif :** organiser la prochaine sortie d’été
+* **Description objectif :** sortie sur une demi-journée, planifiée un samedi et annoncé longtemps en avance
+* **Acteurs :**
+  * **Mandant :** l’entreprise,le client, celui qui veut le produit, qui commande produit/
+  * **Mandataire :** nous, commission du personnel, celui qui execute
+  * **Participants :** conjoints, enfants
+* **Décomposition :**
+  * **Initialisation :** définir l’objectifobjectif = organiser la prochaine sortie, on se met d’accord sur qui fais quoi, établir l’organisation du projet
+  * **Planification** **:** définir une date, définir un activité/lieu, établir une liste d’invitée, établir une feuille de route, contacter les partis prenants (fournisseur, propriétaire du lieu), définir un budget, validation du budget, **identifier les étapes** et définir les dépendances temporels, planifier les ressources
+  * **Execution :** réserver le lieu, commander la bouffe et matériel pour les activités, envoyer un rappel, s’assurer de la bonne mise en place du lieu et des activité
+
+**De manière optimale on va planifier peu et travailler beaucoup**
