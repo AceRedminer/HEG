@@ -165,6 +165,7 @@ print(is_promoted(4, 5, 6))
 
 solde = 1000 #On declare et assigne le solde en dehors de la fonction afin que le solde ne se remettre pas a la valeur initiale a chaque appel de fonction
 def bancomat(name: str, mdp: str, montant: float):
+    global solde
     EXPECTED_NAME = "Costi"
     EXPECTED_MDP = "123"
     if(name == EXPECTED_NAME and mdp == EXPECTED_MDP and montant <= solde):
@@ -178,19 +179,18 @@ def bancomat(name: str, mdp: str, montant: float):
 bancomat("Costi", "123", 500)
 
 def find_number(guess: int, answer: int):
-    match guess:
-        case guess < answer:
-            print("La réponse est plus petite")
-        case guess > answer:
-            print("La réponse est plus grande")
-        case guess == answer:
-            has_found = true
-            print("BRAVOOOOOO")
+    if(guess < answer) :
+        print("La réponse est plus grande")
+    elif(guess > answer) :
+        print("La réponse est plus petite")
+    else :
+        print("BRAVOOOOOO")
+        has_found = True
 
-MIN = 0
-MAX = 100
-answer: int = random.randint(min, max)
-has_found: bool = false
+MIN_VAL: int = 0
+MAX_VAL: int = 100
+answer: int = random.randint(MIN_VAL, MAX_VAL)
+has_found: bool = False
 
 while not has_found:
     guess: int = int(input("Veuillez rentrer un nombre : "))
