@@ -102,45 +102,97 @@ print("Le volume d'un cube dont l'arrete vaut :", cote_cube, "est égale à", vo
 
 print("TVA/TTC")
 prix_ht: float = float(input("Prix hors taxe : "))
-TVA: float = float(input("TVA :"))
+TVA: float = float(input("TVA : "))
 ttc: float = prix_ht + TVA * prix_ht / 100
 print("TTC : ", ttc, "\n")
 
 print("Calcul vitesse moyenne")
-distance_parcourue: float = float(input("Distance parcourue :"))
-temps: float = float(input("Temps employé :"))
+distance_parcourue: float = float(input("Distance parcourue : "))
+temps: float = float(input("Temps employé : "))
 print("Vitesse moyenne :", distance_parcourue / temps, "\n")
 
 # Serie 2, une fonction permet a partir d'entrée (parametre, arguments, x) de recuperer le resultat (sortie, output, y) de l'algorithme pour f(x) = y
 
-def timesTwo(x: int):
+def times_two(x: int):
     return x * 2 # permet de recupérer la valeur calculé dans la fonction
-res_times_two = timesTwo(int(input("Rentrez un nombre pour connaitre son double : "))) # retour attendu 10
+res_times_two = times_two(int(input("Rentrez un nombre pour connaitre son double : "))) # retour attendu 10
 print("Le double du nombre rentré vaut", res_times_two)
 
-def showName(name: str):
+def show_name(name: str):
     print("Bonjour", name)
-showName("Costi")
+show_name("Costi")
 
-def showNameYear(name: str, birth_year: int):
+def show_name_year(name: str, birth_year: int):
     print("Bonjour", name, ", vous etes ne en", birth_year)
-showName("Costi")
+show_name_year("Costi", 2002)
 
 from datetime import datetime # Ce qu'on appelle une librairie est un fichier dans le "cloud" qui contient un certain nombre de fonction que l'on peut utiliser sur le projet en les important avec cette ligne de code
 
-def calcOldness(birth_year: int):
+def calc_oldness(birth_year: int):
     years_old:int = datetime.now().year - birth_year
     print("Vous etes né en", birth_year, ", l'age calculé est de", years_old)
-calcOldness(2002)
+calc_oldness(2002)
 
-def calcEpargne(montant: float, nb_annee: int):
+def calc_epargne(montant: float, nb_annee: int):
     epargne_annuelle: float = montant  * 12
     epargne_totale: float = epargne_annuelle * nb_annee
-    print("En épargnant", montant, "par mois, pendant ", nb_annee,", vous obtiendrez un total de", epargne_totale)
-calcEpargne(100, 12)
+    print("En épargnant", montant, "par mois, pendant ", nb_annee,",ans vous obtiendrez un total de", epargne_totale)
+calc_epargne(100, 12)
 
-def calcPillsBox(name: str, max_boite: int, nb_pills: int):
-    nb_boite:int = max_boite // nb_pills # Retourne le résultat de la division entière
-    loose_pills:int = max_boite % nb_pills # Retourne le nombre de pillule "en trop" après avoir rempli les autres boites au max
+def calc_pills_box(name: str, max_boite: int, nb_pills: int):
+    nb_boite:int = nb_pills // max_boite # Retourne le résultat de la division entière
+    loose_pills:int = nb_pills % max_boite # Retourne le nombre de pillule "en trop" après avoir rempli les autres boites au max
     print("Pour votre production de", nb_pills, name,", vous avez besoin de", nb_boite, "boites de capacité de", max_boite,"médicaments. Le solde de production qui ne sera pas emballé est de", loose_pills,"médicaments")
-calcPillsBox("Paracetamol", 20, 256) # Sortie attendue : name = Paracetamol, nb_boite = 12, loose_pills = 16
+calc_pills_box("Paracetamol", 20, 256) # Sortie attendue : name = Paracetamol, nb_boite = 12, loose_pills = 16
+
+# 24.09.24
+# Serie 3
+
+import random
+
+def verif_age(age: int):
+    return 'Tu es majeur' if age >= 18 else 'Tu es mineur'
+print(verif_age(16))
+
+def compare_numbers(a: int, b: int):
+    return 'Le premier nombre est plus petit que le deuxième' if a < b else ('Le premier nombre est plus grand que le deuxième' if a > b else 'Les deux nombres sont égaux')
+print(compare_numbers(10, 13))
+
+def is_promoted(a: int, b: int, c: int):
+    moyenne_calculee = (a + b + c) / 3
+    return f'Bravo, vous avez réussi votre module avec une moyenne de {moyenne_calculee}' if moyenne_calculee >= 4 else (f'Dommage, vous êtes en rattrapage avec votre moyenne de {moyenne_calculee}' if 3.5 < moyenne_calculee < 4 else f'Oups, vous avez échoué le module avec une moyenne de {moyenne_calculee}') 
+print(is_promoted(4, 5, 6))
+
+solde = 1000 #On declare et assigne le solde en dehors de la fonction afin que le solde ne se remettre pas a la valeur initiale a chaque appel de fonction
+def bancomat(name: str, mdp: str, montant: float):
+    EXPECTED_NAME = "Costi"
+    EXPECTED_MDP = "123"
+    if(name == EXPECTED_NAME and mdp == EXPECTED_MDP and montant <= solde):
+        solde -= montant
+        print(f"Le montant de montant-désiré va être distribué, le nouveau solde de votre compte est : {solde}")
+    elif(montant > solde):
+        print("Le solde de votre compte n’est pas suffisant")
+    else:
+        print("Il n’a pas été possible de vous authentifier")
+
+bancomat("Costi", "123", 500)
+
+def find_number(guess: int, answer: int):
+    match guess:
+        case guess < answer:
+            print("La réponse est plus petite")
+        case guess > answer:
+            print("La réponse est plus grande")
+        case guess == answer:
+            has_found = true
+            print("BRAVOOOOOO")
+
+MIN = 0
+MAX = 100
+answer: int = random.randint(min, max)
+has_found: bool = false
+
+while not has_found:
+    guess: int = int(input("Veuillez rentrer un nombre : "))
+    answer = 45
+    find_number(guess, answer)
