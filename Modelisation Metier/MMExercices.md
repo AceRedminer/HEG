@@ -52,3 +52,24 @@ Remplit une demande de crédit, soit en ligne, soit sur un formulaire qu'il envo
 - La portabilité
 - La maintenance
 - La sécurité
+
+---
+
+# **26.09.24**
+
+Assuré -> ( Demande de dédommagement ) -> Agent d’assurance / Assureur
+
+**Flow de base :**
+
+1. L’agent assurance reçoit la déclaration d’accident
+2. L’agent accepte la déclaration
+3. L’agent demande rappel
+4. L’agent demande la facture
+5. L’agent reçoit la facture
+6. L’agent reçoit le rapport
+7. L’agent effectue le paiement
+
+**Flow alternatif :**
+
+2a. L’agent refuse declaration
+2a1. Fin use case

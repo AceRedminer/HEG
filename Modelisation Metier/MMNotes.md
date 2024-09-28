@@ -94,13 +94,12 @@
 
 ---
 
-**23.09.24**
+# **23.09.24**
 
 **Mini cas 1**
 
-**Enoncé du cas :**
-
-**Vous êtes informaticien au sein de la banque CASH SA. Le métier de base de cet établissement est la gestion de fortune. Cependant, au vu des conditions du marché, de plus en plus de clients désirent placer leur argent dans la "pierre", car ça leur semble actuellement plus sûr que la bourse. La demande de financement hypothécaire est donc de plus en plus fréquente et la banque ne possède pas encore d'application ad-hoc. Les applications informatiques sont, pour des raisons de confidentialité, développées en interne. Votre responsable vous a chargé du développement de l'application "crédits hypothécaires" qui devront s'intégrer à l'ensemble de nos autres applications. Pour le développement de votre application, vous devez utiliser, dans la mesure du possible, les données déjà présentes dans les bases de données existantes.
+**Enoncé du cas :
+Vous êtes informaticien au sein de la banque CASH SA. Le métier de base de cet établissement est la gestion de fortune. Cependant, au vu des conditions du marché, de plus en plus de clients désirent placer leur argent dans la "pierre", car ça leur semble actuellement plus sûr que la bourse. La demande de financement hypothécaire est donc de plus en plus fréquente et la banque ne possède pas encore d'application ad-hoc. Les applications informatiques sont, pour des raisons de confidentialité, développées en interne. Votre responsable vous a chargé du développement de l'application "crédits hypothécaires" qui devront s'intégrer à l'ensemble de nos autres applications. Pour le développement de votre application, vous devez utiliser, dans la mesure du possible, les données déjà présentes dans les bases de données existantes.**
 
 **Les acteurs intervenants dans une demande de crédit hypothécaire sont :**
 
@@ -110,7 +109,6 @@
 **Le gérant**
 
 - Vérifie s’il s’agit d’un nouveau client. Si c’est le cas celui-ci devra être créé dans le système et utilisant le module "création client".
-
 - Enregistre la demande de crédit en complétant les informations du client
 
 **Le collaborateur du service crédit**
@@ -135,13 +133,41 @@
 **Réaliser le Business Use Case du cas décrit**
 
 **Quel type de logiciel client proposez-vous pour les personnes suivantes? Justifiez votre réponse !**
-
-    - Le demandeur du crédit
+ 	- Le demandeur du crédit
 	- Le personnel de CASH SA
 
 **Pour vos réponses en a) et en b), les critères suivants sont-ils favorisés (oui, non et pourquoi) ?**
 
-    - La performance
+ 	- La performance
 	- La portabilité
 	- La maintenance
 	- La sécurité
+
+# **25.09.24**
+
+**TP1**
+
+| ``    | Lourd | Riche   | Leger | Embarqué |
+| ------------ | ----- | ------- | ----- | --------- |
+| Install      | oui   | non     | non   | non       |
+| Maintenance  | oui   | non     | non   | (non)     |
+| Portabilité | non   | oui     | oui   | oui       |
+| Performance  | oui   | oui/non | non   | oui       |
+
+* **Architectures :**
+  * **Standalone :** Fonctionne par lui meme
+  * **Client-serveur (2 tiers) :** Un client et un serveur, le logiciel est subdivisé entre les trucs installé et le trucs en ligne/donnée/base de données
+  * **Client-serveur (n tiers) :** Comme client serveur mais on passe par plusieurs serveurs
+  * **Architecture peer-to-peer :** Client-Client, transfère direct de fichier
+  * **Avantages et inconvénients des architectures :**
+    * **Standalone :**
+      * **Avantages :** indépendant, fiable, un seul logiciel
+      * **Inconvénients :** partage de données « difficile »
+    * **Client-serveur (2 tiers) :**
+      * **Avantages :** partage de données, serveur proche des données
+      * **Inconvénients :** plusieurs logiciels, plusieurs environnement, dépendant d’un noeud central qui doit assurer la disponibilité et le load-balancing
+    * **Peer-to-peer :**
+      * **Avantages** : décentralisé
+      * **Inconvénients** : fortement dépendant des utilisateurs, ne fonctionne pas sans une « deuxième » personne, peer to peer comprend le faites qu’il est au moins 2 personnes
+
+---
