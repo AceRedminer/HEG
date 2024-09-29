@@ -1,4 +1,4 @@
-# Dans le cadre de la réalistion de ce TP j'ai utilisé ChatGpt pour valider mon code ainsi que pour m'assurer que j'utilisais bien les normes imposé a l'école, la logique les if else et tout le reste ont été réalisé a la mano par mes soins
+# Dans le cadre de la réalistion de ce TP j'ai utilisé ChatGpt pour valider mon code ainsi que pour m'assurer que j'utilisais bien les normes imposé a l'école, la logique les if else et tout le reste ont été réalisé a la mano par mes soins 
 
 # Conversion d'unité d'énergie
 
@@ -112,23 +112,21 @@ sucre: bool = input("Avez-vous une alimentation trop sucrée ? (oui/non) : ").lo
 
 risque: int = 0
 
-# Calcul du niveau de risque avec des ifs
 if fumeur:
-    risque += 2  # Si fumeur
+    risque += 2
 
 if sport:
-    risque -= 1  # Si fait du sport
+    risque -= 1
 
 if sexe and age > 50:
-    risque += 1  # Si homme de plus de 50 ans
+    risque += 1
 
 if not sexe and age > 60:
-    risque += 1  # Si femme de plus de 60 ans
+    risque += 1
 
 if sucre:
-    risque += 2  # Si alimentation trop sucrée
+    risque += 2
 
-# Affichage du résultat
 if risque <= 1:
     print("Votre niveau de risque cardiovasculaire est faible. \n")
 elif 2 <= risque <= 3:
@@ -153,8 +151,9 @@ if annee % 4 == 0:
     else:
         bissextile = True
 
-# Jours dans chaque mois
+# Jours dans chaque mois, logique trouvé avec ChatGpt, uniquement pour cette partie
 jours_par_mois = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+# ----------------------------------------------------------------
 
 if bissextile:
     jours_par_mois[1] = 29
