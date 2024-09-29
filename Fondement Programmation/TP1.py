@@ -1,4 +1,8 @@
+# Dans le cadre de la réalistion de ce TP j'ai utilisé ChatGpt pour valider mon code ainsi que pour m'assurer que j'utilisais bien les normes imposé a l'école, la logique les if else et tout le reste ont été réalisé a la mano par mes soins
+
 # Conversion d'unité d'énergie
+
+print("Conversion d'unité d'énergie")
 
 val: float = float(input("Veuillez rentrer la valeur que vous souhaitez convertir : "))
 unit: str = input("Veuillez rentrer l'unité de départ (J, ft-lb, cal, ev): ")
@@ -34,6 +38,12 @@ elif (unit == "ev") :
 else : # Mokey proof case
     print("Vous avez séléctionné une unité inexistante, veuillez redémarrer le programme et respecter la syntaxe unitaire.")
     
+# ----------------------------   
+
+# Risque Cardiovasculaire    
+
+print("Risque Cardiovasculaire")
+
     
 print("\nBonjour, voici les articles a disposition : \n 1. Fanta Orange \n 2. Coca Cola \n 3. Coca Cola Light \n 4. Henniez \n 5. Ice Tea \n 6. Limonade")
 montant: float = float(input("Veuillez rentrer le montant a disposition : "))
@@ -85,6 +95,72 @@ match num_article:
         exit()
         
 print(f"Reste : {reste}")
-print(f"{produit} servi, Santé/Salute/Prost !")
-    
-    
+print(f"{produit} servi, Santé/Salute/Prost ! \n")
+
+# ----------------------------   
+
+# Risque Cardiovasculaire
+
+print("Risque Cardiovasculaire")
+
+
+age: int = int(input("Veuillez entrer votre âge : "))
+sexe: bool = input("Êtes-vous un homme ? (h/f) : ").lower() == "h"
+fumeur: bool = input("Êtes-vous fumeur ? (oui/non) : ").lower() == "oui"
+sport: bool = input("Pratiquez-vous du sport ? (oui/non) : ").lower() == "oui"
+sucre: bool = input("Avez-vous une alimentation trop sucrée ? (oui/non) : ").lower() == "oui"
+
+risque: int = 0
+
+# Calcul du niveau de risque avec des ifs
+if fumeur:
+    risque += 2  # Si fumeur
+
+if sport:
+    risque -= 1  # Si fait du sport
+
+if sexe and age > 50:
+    risque += 1  # Si homme de plus de 50 ans
+
+if not sexe and age > 60:
+    risque += 1  # Si femme de plus de 60 ans
+
+if sucre:
+    risque += 2  # Si alimentation trop sucrée
+
+# Affichage du résultat
+if risque <= 1:
+    print("Votre niveau de risque cardiovasculaire est faible. \n")
+elif 2 <= risque <= 3:
+    print("Votre niveau de risque cardiovasculaire est élevé. \n")
+else:
+    print("Votre niveau de risque cardiovasculaire est très élevé. \n")
+
+# ------------------------------
+
+# Année Bissextile
+print("Année Bissextile")
+
+jour: int = int(input("Veuillez entrer le jour (1-31) : "))
+mois: int = int(input("Veuillez entrer le mois (1-12) : "))
+annee: int = int(input("Veuillez entrer l'année : "))
+
+bissextile: bool = False
+if annee % 4 == 0:
+    if annee % 100 == 0:
+        if annee % 400 == 0:
+            bissextile = True
+    else:
+        bissextile = True
+
+# Jours dans chaque mois
+jours_par_mois = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+
+if bissextile:
+    jours_par_mois[1] = 29
+
+if 1 <= mois <= 12 and 1 <= jour <= jours_par_mois[mois - 1]:
+    print(f"La date {jour}/{mois}/{annee} est valide.")
+else:
+    print(f"La date {jour}/{mois}/{annee} est invalide.")
+
