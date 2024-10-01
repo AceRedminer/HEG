@@ -165,3 +165,36 @@ Si on fais une fois c’est un projet, si c’est des taches répétées c’est
   * **Execution :** réserver le lieu, commander la bouffe et matériel pour les activités, envoyer un rappel, s’assurer de la bonne mise en place du lieu et des activité
 
 **De manière optimale on va planifier peu et travailler beaucoup**
+
+---
+
+# **01.10.24**
+
+**Comment définir la durée d’une tache :** en se basant sur d’ancien projet, en prenant la tache la plus longue a réaliser
+
+**Dépendances :** ordre dans les taches a réaliser
+
+* Fin, Fin : **A** et **B** doivent se finir en meme temps en mode parallèle
+* Debut, Debut : **A** et **B** doivent commencer au meme temps
+* Fin, Debut : **B **dépend de **A** ,** dépendance directe**
+
+**Indépendantes :** aucune tache ne découle de celle-ci
+
+**Ressources humaines :** certaine tache s’améliore avec plus de personne et donc du budget
+
+ **Ressources matériels :** (à lire dans le doc)
+
+**PERT :** **P**rogram **E**valuation and **R**eview **T**echnic, règle et normes de nomenclature a respecter, différentes représentation
+
+**Diagramme de PERT :** se compose d’étapes et de taches, étapes similaire au jalon
+
+* **Flèche :** taches, EX : A5, A = Nom, 5 = durée prévu en jour
+* **Cercle :** étapes, EX : ((3, 5), 4), 3 = date au plus tot, 5 = date au plus tard de l’étape, 4 = repère de l’étape
+
+**Chemin critique :** pas de marge de temps, essentiel de respecter le délai imposé
+
+**Tache fantôme :** sert a indiquer une dépendance lorsqu’on est pas sur la branche, toujours 0 car déjà faites
+
+**Comment définir l’étape finale :** aucune tache ne dépend de celle-ci, n’est pas le prédécesseur d’une tache
+
+**Comment définir le début de la fin :** on addition les chemins les plus long
