@@ -196,3 +196,18 @@ while not has_found:
     guess: int = int(input("Veuillez rentrer un nombre : "))
     answer = 45
     find_number(guess, answer)
+    
+# Serie 4
+'''
+Exercices : 
+- Pseudo-Code : 
+    - DEBUT
+    - Demander le prix de 3 articles
+    - Calculer remise de 10% SI total des articles dépasse 100%
+    - Appliquer une taxe de 8.1%
+    - Affiche le prix total final
+    - FIN
+- Organigramme
+'''
+
+

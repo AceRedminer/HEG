@@ -66,3 +66,13 @@ else
 **Méthodes, Fonctions :**
 
 x.isnumeric() : retourne vrai si c’est un nombre ou faux si ce n’en ai pas, x qui doit etre une variable/constante
+
+---
+
+# **01.10.24**
+
+**Pseudo-Code :** permet de décrire un problème/programme avec un langage presque naturel
+
+**Organigramme :** comme pseudo-code mais avec des diagrammes
+
+**Decomposition :** séparer la logique du programme en petite partie défini de sorte à y aller étape par étape
