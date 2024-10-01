@@ -207,7 +207,11 @@ Exercices :
     - Appliquer une taxe de 8.1%
     - Affiche le prix total final
     - FIN
-- Organigramme
 '''
+
+# Serie 5
+ESCALADE: int = 1602
+annee_user: int = int(input("Veuillez "))
+
 
 

@@ -1,4 +1,6 @@
-# Dans le cadre de la réalistion de ce TP j'ai utilisé ChatGpt pour valider mon code ainsi que pour m'assurer que j'utilisais bien les normes imposé a l'école, la logique les if else et tout le reste ont été réalisé a la mano par mes soins 
+# Dans le cadre de la réalistion de ce TP j'ai utilisé ChatGpt pour valider mon code ainsi 
+# que pour m'assurer que j'utilisais bien les normes imposé a l'école, la logique les if else 
+# et tout le reste ont été réalisé a la mano par mes soins 
 
 # Conversion d'unité d'énergie
 
@@ -40,9 +42,9 @@ else : # Mokey proof case
     
 # ----------------------------   
 
-# Risque Cardiovasculaire    
+# Distributeur de boissons    
 
-print("Risque Cardiovasculaire")
+print("Distributeur de boissons")
 
     
 print("\nBonjour, voici les articles a disposition : \n 1. Fanta Orange \n 2. Coca Cola \n 3. Coca Cola Light \n 4. Henniez \n 5. Ice Tea \n 6. Limonade")
@@ -102,7 +104,6 @@ print(f"{produit} servi, Santé/Salute/Prost ! \n")
 # Risque Cardiovasculaire
 
 print("Risque Cardiovasculaire")
-
 
 age: int = int(input("Veuillez entrer votre âge : "))
 sexe: bool = input("Êtes-vous un homme ? (h/f) : ").lower() == "h"
