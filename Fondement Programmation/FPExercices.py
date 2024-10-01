@@ -210,8 +210,47 @@ Exercices :
 '''
 
 # Serie 5
-ESCALADE: int = 1602
-annee_user: int = int(input("Veuillez "))
+def test_escalade():
+    ESCALADE: int = 1602
+    annee_user: int = int(input("Veuillez rentrer la date de l'escalade"))
+
+    if (annee_user == ESCALADE):
+        print("C'est booooon !")
+    elif (annee_user == ESCALADE + 5 or annee_user == ESCALADE - 5):
+        print("Presque, t'es proche wolla")
+    else:
+        print("Noooooon t'a pas suivi en primaire frérot")
+        
+def f_c_c():
+    choix_user: int = int(input("Choisi Feuille Caillou ou Ciseaux (1, 2, 3) : "))
+    choix_ordi: int = random.randint(1, 3)
+    
+    choix_type: str = 0
+    
+    match choix_user:
+        case 1:
+            choix_type = "Feuille"
+        case 2:
+            choix_type = "Caillou"
+        case 3:
+            choix_type = "Ciseaux"
+    
+    print(f"User = {type}")
+    
+    ordi_type: str = 0
+    
+    match choix_ordi:
+        case 1:
+            ordi_type = "Feuille"
+        case 2:
+            ordi_type = "Caillou"
+        case 3:
+            ordi_type = "Ciseaux"
+    
+    print(f"User = {choix_type}")
+    print(f"Ordi = {ordi_type}")
+
+    
 
 
 
