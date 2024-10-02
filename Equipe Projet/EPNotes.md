@@ -343,3 +343,53 @@ Si tu as besoin d'un résumé ou de précisions, fais-le moi savoir !
     - **Cascade** : Très rigide et peu adaptable, les erreurs découvertes tardivement sont coûteuses à corriger.
 
 Cette comparaison te permet d'avoir une vue d'ensemble des forces et faiblesses des trois méthodes pour ton QCM. N’hésite pas à demander des précisions !
+
+---
+
+# **02.10.24**
+
+**Présenter les risques :**
+
+* Pour mieux apprehender les risques
+* Sous forme de graphique
+* Calcul de probabilité du fait que sa arrive
+
+**L’inventaire des risques :**
+
+* Financiers
+* **Humains**
+* Temporels
+* Techniques
+* Juridiques
+* Environnementaux
+* Organisationnels
+
+**Diagramme de Farmer :**
+
+* **Rouge :** intolérable
+* **Jaune** **:** à maîtriser
+* **Vert** **:** c’est calme
+* **Elements :**
+  * Description
+  * **Impact (axe X)**
+  * **Probabilité (axe Y)**
+  * Action preventive
+  * Action corrective
+* **Evaluation des risques en équipe** **:** dépendant de l’expérience de chacun
+
+**En deux temps**
+
+* Avant mitigation
+* Après mitigation
+
+**Exemple de risques :**
+
+* Mauvaise compréhension
+* Pas assez formé
+* Mauvaise évaluation des risques
+
+**Force du diagramme de Farmer :**
+
+* Classifier les risques et determiner les priorité
+* Identifier clairement les actions preventive et correctives selon les risques définis
+* Toujours considérer un risque réaliste, probabilité 0 est impossible
