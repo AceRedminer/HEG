@@ -393,3 +393,9 @@ Cette comparaison te permet d'avoir une vue d'ensemble des forces et faiblesses 
 * Classifier les risques et determiner les priorité
 * Identifier clairement les actions preventive et correctives selon les risques définis
 * Toujours considérer un risque réaliste, probabilité 0 est impossible
+
+**Outils techniques :**
+
+* Livraison : résultat du projet
+* Recette : accord du maitre d’ouvrage
+* Terminus : libération de l’équipe
