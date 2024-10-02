@@ -138,7 +138,7 @@ Vous êtes informaticien au sein de la banque CASH SA. Le métier de base de cet
 
 **Pour vos réponses en a) et en b), les critères suivants sont-ils favorisés (oui, non et pourquoi) ?**
 
- 	- La performance
+    - La performance
 	- La portabilité
 	- La maintenance
 	- La sécurité
@@ -147,7 +147,7 @@ Vous êtes informaticien au sein de la banque CASH SA. Le métier de base de cet
 
 **TP1**
 
-| ``    | Lourd | Riche   | Leger | Embarqué |
+| ``           | Lourd | Riche   | Leger | Embarqué |
 | ------------ | ----- | ------- | ----- | --------- |
 | Install      | oui   | non     | non   | non       |
 | Maintenance  | oui   | non     | non   | (non)     |
@@ -171,3 +171,67 @@ Vous êtes informaticien au sein de la banque CASH SA. Le métier de base de cet
       * **Inconvénients** : fortement dépendant des utilisateurs, ne fonctionne pas sans une « deuxième » personne, peer to peer comprend le faites qu’il est au moins 2 personnes
 
 ---
+
+# **02.10.24**
+
+**4 Types de clients :**
+
+* **Lourd :** installé
+* **Riche :** appli web
+* **Leger :** site web simple
+* **Embarqué :** a l’intérieur d’un autre logiciel
+
+**3 Types de architecture :**
+
+* Standalone
+* Peer-to-peer
+* Serveur n-tiers
+
+**Progiciels :** outil spécifique pour un métier donné
+
+**ERP**  **(E**ntreprise** R**essources** P**lanner**) :** ensemble de programme non spécifique au métier
+
+* Employés
+* Stocks
+* Ressources financières
+* Clients
+* Fournisseurs
+
+**Critères de comparaison :**
+
+* Performance, Efficacité
+* Interface, Facilité
+* Efficience
+* Sécurité
+* Portabilité
+* Fournisseur
+
+**Normes : **défini par une entité
+
+* ISO, Internation Standardized Organization
+
+**Standard :** sélection naturel des outils qui marchent bien
+
+**Certification :** entreprise qui va venir valider que vous suivez bien les normes
+
+**Licences :**
+
+* Propriétaires
+* Gratuites (Freeware)
+* Libres (Open Source)
+
+**Formes :**
+
+* Installé
+* Saas (Software as a Service), PaaS (Platform as a Service), IaaS (Infrastructure as a Service)
+
+**TP4 :**
+
+* WinBiz : propriétaire, installé et cloud
+* Crésus Compatibilité : propriétaire, installé et cloud
+* WinEUR : propriétaire, installé et cloud
+* Winzip : propriétaire
+* 7zip : libre
+* Avast : gratuit
+
+**Business analyse :** lien entre client et dev
