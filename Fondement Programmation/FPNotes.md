@@ -24,6 +24,83 @@ Liste des modules Liste objet
 
 ---
 
+# **22.09.24**
+
+**Serie 1**
+
+**Exercice 1 :**
+
+Indiquer les énoncés qui peuvent être considérés comme des propositions de la logique
+
+des propositions.
+
+1. Janvier a 31 jours.
+
+**
+    Non**
+
+2. De combien de lettres est constitué l’alphabet ?
+
+**
+    Non**
+
+3. La proposition que vous êtes en train de lire est fausse.
+
+**
+    Oui**
+
+4. Mettez vos chaussures !
+
+**
+    Non**
+
+5. Jean et Charles sont frères et Alice et Emma sont cousines.
+
+**
+    Oui**
+
+6. 4 est le carré de ±2.
+
+**
+    Non**
+
+**Exercice 2 :**
+
+Soient les propositions suivantes :
+
+**A = “je suis fatigué”**
+
+**B = “je suis heureux”**
+
+Traduire en langage usuel les propositions suivantes :
+
+(! est le signe de négation j’ai pas le symbole du cours)
+
+1. !A
+
+   ON EST PAS FATIGUE !!!! (Je suis pas fatigué)
+2. !(!A)
+
+   Je suis fatigué (Je suis fatiguant surtout)
+3. !A **ou **B
+
+   Je ne suis pas fatigué ou je suis heureux
+4. !(!A **ou** B)
+
+   Je suis fatigué et je ne suis pas heureux
+5. !(A **et **B)
+
+   Je suis pas fatigué ou je suis pas heureux
+6. !A **ou** !B
+
+   Je suis pas fatigué ou je suis pas heureux
+7. !(A **ou **B)
+
+   Je suis ni fatigué ni heureux
+8. !A  **et ** !B
+
+   Je suis pas fatigué et pas heureux
+
 # 24.09.24
 
 ![Diagramme1](./FPDiagramme1.png "Diagramme1")
