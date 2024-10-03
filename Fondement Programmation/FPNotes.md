@@ -82,22 +82,22 @@ Traduire en langage usuel les propositions suivantes :
 2. !(!A)
 
    Je suis fatigué (Je suis fatiguant surtout)
-3. !A **ou **B
+3. !A **ou** B
 
    Je ne suis pas fatigué ou je suis heureux
 4. !(!A **ou** B)
 
    Je suis fatigué et je ne suis pas heureux
-5. !(A **et **B)
+5. !(A **et** B)
 
    Je suis pas fatigué ou je suis pas heureux
 6. !A **ou** !B
 
    Je suis pas fatigué ou je suis pas heureux
-7. !(A **ou **B)
+7. !(A **ou** B)
 
    Je suis ni fatigué ni heureux
-8. !A  **et ** !B
+8. !A  **et** !B
 
    Je suis pas fatigué et pas heureux
 
