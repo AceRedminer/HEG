@@ -153,3 +153,37 @@ x.isnumeric() : retourne vrai si c’est un nombre ou faux si ce n’en ai pas, 
 **Organigramme :** comme pseudo-code mais avec des diagrammes
 
 **Decomposition :** séparer la logique du programme en petite partie défini de sorte à y aller étape par étape
+
+---
+
+# **03.10.24**
+
+### Serie 2
+
+| **A** | **B** | **!A et !B** |
+| ----------- | ----------- | ------------------ |
+| 0           | 0           | 1                  |
+| 0           | 1           | 0                  |
+| 1           | 0           | 0                  |
+| 1           | 1           | 0                  |
+
+| **A** | **B** | **!A et !B** |
+| ----------- | ----------- | ------------------ |
+| 0           | 0           | 1                  |
+| 0           | 1           | 0                  |
+| 1           | 0           | 0                  |
+| 1           | 1           | 0                  |
+
+| **A** | **B** | **!A ou B** |
+| ----------- | ----------- | ----------------- |
+| 0           | 0           | 1                 |
+| 0           | 1           | 1                 |
+| 1           | 0           | 0                 |
+| 1           | 1           | 1                 |
+
+| **A** | **B** | **!A ou B** |
+| ----------- | ----------- | ----------------- |
+| 0           | 0           | 1                 |
+| 0           | 1           | 1                 |
+| 1           | 0           | 0                 |
+| 1           | 1           | 1                 |
