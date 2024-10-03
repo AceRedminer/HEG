@@ -189,7 +189,7 @@ Vous êtes informaticien au sein de la banque CASH SA. Le métier de base de cet
 
 **Progiciels :** outil spécifique pour un métier donné
 
-**ERP**  **(E**ntreprise** R**essources** P**lanner**) :** ensemble de programme non spécifique au métier
+**ERP**  **(E**ntreprise **R**essources **P**lanner **) :** ensemble de programme non spécifique au métier
 
 * Employés
 * Stocks

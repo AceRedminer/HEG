@@ -56,3 +56,30 @@ Dans l’objectif de réduire les cout et améliorer compétitivité dans le mon
 * **Biais discriminatoire :** à l’image de ceux qui la font, discrimination de genre et physique
 
 **Mots-clés : Prompt, Biais, Ethique, Durabilité, Protection des données, Hallucination**
+
+---
+
+# **03.10.24**
+
+**Equations de base :**
+
+* (24)b * (42)b = (1401)b : b = 7
+* (2b + 4) * (4b + 2) = b^3 + 4b^2 + 1
+* (120,112)3 = 1 * 3^2 + 2 * 3 + 0 + 1 * 3^-1 + 1 * 3^-2 + 2 * 3^-3** **
+
+**Serie 3 :**
+
+1. (1011.01101)2 -> 1 * 2^3 + 0 + 1 * 2 + 1 + 0 + 1 * 2^-1 + 1 * 2^-2 + 0 + 1 * 2^-3 = (11,875)10
+
+   Les autres c’est la meme chose on remplace juste 2 par la base donnée
+2. (0.15) -> 0 reste 0.6 -> 2 reste 0.4 -> 1 reste 0.6**  **= 0.21…
+
+**Conversion de la partie décimale :**
+
+* (0.4368)10 = (0.2043)5
+  * 0.4368 * 5 -> **2** reste 0.184
+  * 0.184 * 5 -> **0** reste 0.92
+  * 0.92 * 5 -> **4** reste 0.6
+  * 0.6 * 5 -> **3** reste 0** **
+
+**Pour base d’une base x a une base x^n on peut prendre n chiffre et convertir**
