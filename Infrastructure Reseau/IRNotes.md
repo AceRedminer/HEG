@@ -71,3 +71,68 @@
 4. write
 
 **La commande ***write***permet de sauvegarder la configuration effectué**
+
+---
+
+# **04.10.24**
+
+**Backbone** : installation propre du fournisseur
+
+**Types de RJ45 :**
+
+* T568A
+* T568B
+
+**Connectique RJ45 A :**
+
+1. **TD+**
+2. **TD-**
+3. **RD+**
+4. **Not used by 10BASE-T**
+5. **Not used by 10BASE-T**
+6. **RD-**
+7. **Not used by 10BASE-T**
+8. **Not used by 10BASE-T**
+
+**Connectique RJ45 B :**
+
+1. **RD+**
+2. **RD-**
+3. **TD+**
+4. **Not used by 10BASE-T**
+5. **Not used by 10BASE-T**
+6. **TD-**
+7. **Not used by 10BASE-T**
+8. **Not used by 10BASE-T**
+
+**Interfaces :**
+
+* **UTP**
+* **MDI :** broches 1 et 2 pour la transmission, 3 et 6 pour la réception
+* **MDIX :** MDI croisé
+
+**Quand est-ce qu’on utilise croisé ou droit :**
+
+* **Droit :**
+  * Switch à ordi
+  * Switch à routeur
+* **Croisé :**
+  * Switch a switch
+  * Routeur a routeur
+  * Routeur a ordi
+
+**Exercice :**
+
+* Switch :
+  * 10.136.72.92
+  * 255.255.255.192
+  * 10.136.72.65
+  * Mot de passe sur line console et line vey 0 15, *class*
+  * Ping Ordi OK
+* Ordi :
+  * 10.136.72.93
+  * 255.255.255.192
+  * 10.136.72.65
+  * 10.136.232.245
+  * 10.136.232.250
+  * Ping Switch OK

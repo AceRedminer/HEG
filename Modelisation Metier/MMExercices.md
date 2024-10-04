@@ -73,3 +73,80 @@ Assuré -> ( Demande de dédommagement ) -> Agent d’assurance / Assureur
 
 2a. L’agent refuse declaration
 2a1. Fin use case
+
+---
+
+# **03.10.24**
+
+Champ d’étude est toujours en interne
+
+**BUC Gestion des approvisionnement**
+
+Département**  **-> Demande de matériel -> Fournisseurs, Magasin, Service financiers
+
+**En-tete:**
+
+Nom : Demande de matériel
+
+Déclencheur : Département
+
+Acteur principal (bénéficiaire) : Service d’achat
+
+Acteur secondaire : Fournisseurs, Magasin, Service financiers, Service d’achat** **
+
+**Flot de base :**
+
+1. S.A. Reçois la demande d’achat
+2. S.A. Demande de prix au fournisseurs
+3. S.A. Reçois l’offre des fournisseurs
+4. S.A. Choisi l’offre
+5. S.A. Etablir un bon de commande
+6. S.A. Remettre une copie au magasin
+7. S.A. Remettre copie au services financier
+8. S.A. Reçois la validation de la part du magasinier quant au matériel reçu
+9. S.A. Reçois la facture du magasin
+10. S.A. Envoi la facture au service financier
+
+**Flot alternatif :**
+
+1. **4**
+   1. S.A. Refus d’une offre fournisseur
+   2. S.A. Retour en 2
+2. **8**
+   1. S.A. Reçois le refus de la marché
+   2. S.A. Contact les fournisseurs pour verifier la validité de la commande / Retour en 2
+
+**BUC Gestion de commande**
+
+Client -> Gestion de commande
+
+**En-tete:**
+
+Nom : Gestion de commandes
+
+Déclencheur : Client effectue une demande
+
+Acteur principal (bénéficiaire) : Client
+
+Acteur secondaire : Vendeur, Caissier
+
+**Flot de base :**
+
+1. V. Reçois la demande du client
+2. V. Verification de la disponibilité
+3. V. Emission de la facture
+4. V. Remise de la facture au client
+5. V. Va chercher le produit dans le stock
+6. C. Encaisser le paiement
+7. V. Remise du produit au client
+
+**Flot alternatif :**
+
+1. **2**
+   1. V. Informe le client de l’absence du produit
+   2. FIN UC
+2. **5**
+   1. C. Refus de paiement en cas de refus de carte
+   2. C. Reprise de la facture du client
+   3. V. Replacement du produit dans le depot en fin de journée
+   4. FIN UC
