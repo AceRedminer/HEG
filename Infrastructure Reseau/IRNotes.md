@@ -29,6 +29,14 @@
 2. write erase
 3. reload
 
+**Ajouter description pour l'interface :**
+
+1. enable
+2. config
+3. description blablabla
+4. ip address 192.168.1.6 255.255.255.0
+5. no shutdown
+
 **Commandes de configuration Switch :**
 
 * **Hostname :**
