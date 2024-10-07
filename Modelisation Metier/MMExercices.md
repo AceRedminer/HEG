@@ -150,3 +150,33 @@ Acteur secondaire : Vendeur, Caissier
    2. C. Reprise de la facture du client
    3. V. Replacement du produit dans le depot en fin de journée
    4. FIN UC
+
+---
+
+# 07.10.24
+
+**Exercice 1 :**
+
+Passager -> Controle de billet -> Police
+
+**En-tete :**
+
+Nom : Contrôle de billet
+Déclencheur : Passager
+Acteur principal : Passager
+Acteurs secondaire : policier, contrôleur
+
+**Flow de base**
+
+1. C. Demande le billet
+2. C. controle billet
+3. C. valide billet
+4. C. remercie le passager et lui rends son billet
+
+**Flow Alternatif**
+
+1a. C. encaisse le billet
+1a1. C. demande au passager sa carte d’identité
+1a2. C. enregistre les données du passager
+1a3. C. envoi une amende
+1a4. C. appelle la police

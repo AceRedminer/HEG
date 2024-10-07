@@ -235,3 +235,25 @@ Vous êtes informaticien au sein de la banque CASH SA. Le métier de base de cet
 * Avast : gratuit
 
 **Business analyse :** lien entre client et dev
+
+---
+
+# **07.10.24**
+
+**BUC :** buisness use case, comprendre le fonctionnement de l’entreprise, mettre en evidence les redondances
+
+**BAD :** business activity diagramme, séparer colonne par acteurs, cf. Mini-Cas 2
+
+**Redondances :** recrutement RH et Service Informatique
+
+**Goulot d’entrainement :** processus a petite cadence qui bloque le parallélisme
+
+**Diagramme d’activité :** état, activité, flux, point de décision : barre de synchronisant d’entrée été parallélisme de sortie, fusion puis division
+
+**Acteurs externes :** pas d’acitivités, seulement acteur principal
+
+**Flow de base :** tout se déroule sans problème
+
+**Flow alternatif :** les si, tout ne se déroule pas comme prévu
+
+**Déclencheur : toujours client externe**
