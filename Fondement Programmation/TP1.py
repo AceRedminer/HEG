@@ -2,7 +2,7 @@
 # que pour m'assurer que j'utilisais bien les normes imposé a l'école, la logique les if else 
 # et tout le reste ont été réalisé a la mano par mes soins 
 
-# Conversion d'unité d'énergie
+   # Conversion d'unité d'énergie
 
 print("Conversion d'unité d'énergie")
 
@@ -39,7 +39,7 @@ elif (unit == "ev") :
     print(f"{cal} cal")
 else : # Mokey proof case
     print("Vous avez séléctionné une unité inexistante, veuillez redémarrer le programme et respecter la syntaxe unitaire.")
-    
+ 
 # ----------------------------   
 
 # Distributeur de boissons    

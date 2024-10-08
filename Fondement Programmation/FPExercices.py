@@ -1,5 +1,5 @@
 # 17.09.24
-
+'''
 # Heure en aout
 nb_heure_aout: int = 31 * 24
 print(nb_heure_aout)
@@ -178,7 +178,11 @@ def bancomat(name: str, mdp: str, montant: float):
 
 bancomat("Costi", "123", 500)
 
-def find_number(guess: int, answer: int):
+
+has_found: bool = False
+
+def find_number(guess: int, answer: int, has_found: bool):
+    has_found
     if(guess < answer) :
         print("La réponse est plus grande")
     elif(guess > answer) :
@@ -190,14 +194,17 @@ def find_number(guess: int, answer: int):
 MIN_VAL: int = 0
 MAX_VAL: int = 100
 answer: int = random.randint(MIN_VAL, MAX_VAL)
-has_found: bool = False
 
-while not has_found:
+while has_found != False:
     guess: int = int(input("Veuillez rentrer un nombre : "))
-    answer = 45
-    find_number(guess, answer)
+    if (has_found == False):
+        find_number(guess, answer, has_found)
+    else:
+        break
     
 # Serie 4
+
+'''
 '''
 Exercices : 
 - Pseudo-Code : 
@@ -207,6 +214,7 @@ Exercices :
     - Appliquer une taxe de 8.1%
     - Affiche le prix total final
     - FIN
+'''
 '''
 
 # Serie 5
@@ -249,6 +257,78 @@ def f_c_c():
     
     print(f"User = {choix_type}")
     print(f"Ordi = {ordi_type}")
+
+# Serie 6
+
+# Exercice 1
+
+ESCALADE: int = 1602
+proposition: int = int(input("Essayez de deviner l'année de l'Escalade : "))
+
+while(proposition != ESCALADE):
+    print("C'est faux ! Reesayez")
+    proposition = int(input("Essayez de deviner l'année de l'Escalade : "))
+
+print("Bravo !")
+
+# Exercice 2
+
+i: int = 0
+
+while(i != 10):
+    i += 1
+    print(i)
+
+print("")
+# Exercice 3
+
+j: int = 101
+
+while(j != 50):
+    j -= 1
+    print(j)
+    
+# Exercice 4
+
+debut: int = int(input("Valeure initiale : "))
+fin: int = int(input("Valeure finale : "))
+
+if(debut < fin):
+    while(debut <= fin):
+        print(debut)
+        debut += 1
+elif(debut > fin):
+    while(debut >= fin):
+        print(debut)
+        debut -= 1
+
+
+# Exerice 5
+
+n: int = int(input("Rentrez un nombre pour calculer la suite arithmétique n : "))
+i: int = 0
+sommme: int = 0
+while i < n:
+    i += 1
+    sommme += i
+print(f"Pour {n} la somme arithémtique vaut {sommme}")
+'''
+
+# Exerice 6
+
+debut: int = int(input("Valeure initiale : "))
+fin: int = int(input("Valeure finale : "))
+somme: int = 0
+while(debut < fin):
+    if(debut % 2 == True):
+        debut += 1
+        somme += debut
+    else:
+        debut += 1
+            
+print(somme)
+
+    
 
     
 
