@@ -78,7 +78,7 @@
 3. ip default-gateway 10.136.75.161
 4. write
 
-**La commande ***write***permet de sauvegarder la configuration effectué**
+**La commande** write **permet de sauvegarder la configuration effectué**
 
 ---
 
