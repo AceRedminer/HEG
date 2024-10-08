@@ -328,6 +328,8 @@ while(debut < fin):
             
 print(somme)
 
+
+
     
 
     
