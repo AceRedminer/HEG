@@ -3,7 +3,7 @@
 # et tout le reste ont été réalisé a la mano par mes soins 
 
    # Conversion d'unité d'énergie
-
+'''
 print("Conversion d'unité d'énergie")
 
 val: float = float(input("Veuillez rentrer la valeur que vous souhaitez convertir : "))
@@ -163,4 +163,24 @@ if 1 <= mois <= 12 and 1 <= jour <= jours_par_mois[mois - 1]:
     print(f"La date {jour}/{mois}/{annee} est valide.")
 else:
     print(f"La date {jour}/{mois}/{annee} est invalide.")
+'''
+# ------------------------------
+# TP1_Bis
 
+# Exercice 2
+
+email: str = input("Veuillez rentrer une adresse email valide : ")
+is_valid: bool = False
+message: str = "Email pas valide"
+
+if '@' in email and '.' in email:
+    is_valid = True
+else:
+    is_valid = False
+    
+if '@' not in email:
+    message = ", il vous manque un @"
+elif '.' not in email:
+    message = ", il vous manque un ."
+    
+print("Adresse valide") if is_valid else print("Adresse invalide", message)
