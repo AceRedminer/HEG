@@ -1,0 +1,14 @@
+rien tri_fusion(entier taille, entier tab[taille])
+    entier tab_tmp[taille];
+    entier nb_etapes = log_2(taille) + 1;
+    pour etape de 0 a nb_etapes - 1:
+        entier gauche = 0;
+        entier t_tranche = 2**etape;
+        tant que (gauche < taille):
+            fusion(
+             tab[gauche..gauche+t_tranche-1],
+             tab[gauche+t_tranche..gauche+2*t_tranche-1],
+             tab_tmp[gauche..gauche+2*t_tranche-1]);
+    #bornes incluses
+            gauche += 2*t_tranche;
+        echanger(tab, tab_tmp);
