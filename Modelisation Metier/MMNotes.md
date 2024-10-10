@@ -257,3 +257,58 @@ Vous êtes informaticien au sein de la banque CASH SA. Le métier de base de cet
 **Flow alternatif :** les si, tout ne se déroule pas comme prévu
 
 **Déclencheur : toujours client externe**
+
+---
+
+# **09.10.24**
+
+**Buisness Analyse :**
+
+* Définir les besoins
+* Proposer des solutions conformes
+* Maitrise du budget
+* Adaptabilité
+* Plus de perf. moins de cout
+* Faciliter la collaboration entre partie prenantes
+
+**BPM (Business Process Management) :** Vue d’ensemble des processus métier
+
+1. Interview avec les parties prenantes
+2. Representation (modèles) schématique des processus
+3. Tester les modèles
+4. Etablir des indices de performance (KPI)
+5. Optimisation du processus
+
+**Design Thinking :** implique les usagers dans un processus de co-créativité
+
+1. Empathie
+   1. Interroger les
+   2. personnes
+   3. concernées pour
+   4. comprendre ce qu’il
+   5. fait, pense, ressent:
+      1. De quoi a-t-il besoin?
+      2. Pour quelles raisons?
+      3. Ses ressources & contraintes?
+      4. Ses objectifs et priorités?
+2. Définition
+   1. Trouver, synthétiser et cadrer le problème:
+      1. Pourquoi innover?
+      2. Quels sont les objectifs?
+      3. Quels sont les résultats attendus?
+3. Imagination
+   1. Générer des idées/solutions (Brainstorming)
+   2. Oublier les contraintes
+   3. Trouver les « pires idées »
+   4. Multiplier les pistes
+   5. Quels sont les souhaits dans un monde idéal?
+4. Prototyper
+   1. Faire converger les pistes:
+      1. Prototyper et expérimenter différentes possibilités
+      2. Créer des « storytelling »
+5. Tester
+   1. Faire un retour aux personnes concernées:
+   2. Valider la compréhension du problème initial
+      1. • Est-ce que de nouveaux problèmes en ressortes?
+   3. Meilleure piste à suivre?
+6. Recommencer
