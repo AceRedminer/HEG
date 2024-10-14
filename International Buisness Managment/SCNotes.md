@@ -40,10 +40,10 @@ Sustainable Supply are not cheap
 **Calculations method :** Direct measurements, life-cycle assessments, and process-based models
 
 1. **Example 1 :**
-   1. Activity Data : A company uses 10’000 litres of diesel fuel in its delivery trucks
-   2. Emission Factor : 2.68 Co2e per litre
-   3. Calculation : 10’000 litres * 2.68 CO2e = 26’800 kg CO2e
-   4. Result : 26.8 metric tons of CO2e
+   1. **Activity Data :** A company uses 10’000 litres of diesel fuel in its delivery trucks
+   2. **Emission Factor :** 2.68 Co2e per litre
+   3. **Calculation :** 10’000 litres * 2.68 CO2e = 26’800 kg CO2e
+   4. **Result :** 26.8 metric tons of CO2e
 
 **GHG protocol :**
 
