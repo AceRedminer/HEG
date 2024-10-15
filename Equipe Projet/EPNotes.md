@@ -234,7 +234,6 @@ Si on fais une fois c’est un projet, si c’est des taches répétées c’est
 
 Bonne chance pour ton QCM ! Si tu as d'autres questions, n'hésite pas !
 
-
 **La méthode en V** est un modèle de gestion de projet principalement utilisé dans le développement de logiciels ou systèmes complexes. Voici les 10 points clés à retenir :
 
 1. **Approche séquentielle** : Contrairement à la méthode en spirale, la méthode en V est un modèle séquentiel, qui progresse en forme de "V", avec une phase descendante (développement) suivie d'une phase ascendante (validation).
@@ -257,7 +256,6 @@ Bonne chance pour ton QCM ! Si tu as d'autres questions, n'hésite pas !
     - Les erreurs dans les premières phases (spécifications) peuvent être coûteuses à corriger.
 
 Si tu veux approfondir ou clarifier certains points, je suis là pour t’aider !
-
 
 **La méthode en cascade** (ou "waterfall") est un modèle traditionnel de gestion de projet, souvent utilisé dans le développement logiciel. Voici les 10 points clés à retenir :
 
@@ -399,3 +397,44 @@ Cette comparaison te permet d'avoir une vue d'ensemble des forces et faiblesses 
 * Livraison : résultat du projet
 * Recette : accord du maitre d’ouvrage
 * Terminus : libération de l’équipe
+
+---
+
+# **15.10.24**
+
+**SCRUM**
+
+**Méthode Agile**
+
+**Cadre de travail itératif visant a livré des produits les plus complets possible**
+
+**Sprints :**
+
+**Debut :** Planification des taches et estimation du temps
+
+**Fin :** Demonstration des taches accomplies
+
+* Avant de démarrer un nouveau sprint l’équipe fais un retrospective le but étant d’améliorer la productivité, voir ce qui allais ce qui allait pas et évaluer le ressenti de chacun
+* Le flux de travail est facilité par l’indépendance/auto-gestion de chacun
+
+**Domaines d’utilisation principaux du SCRUM :** Développement, Aéronautique, Bâtiment
+
+**Methode empirique reposant sur 3 piliers :** Suit les principes de la culture agile
+
+1. Transparence
+2. Inspection
+3. Adaptation
+
+**SCRUM opposé au V**
+
+**Conception dans les années 90 dans le cadre du développement des logiciels**
+
+**Planification**
+
+**Rapprochement sur la phase de planification**
+
+**Creation du PPTX**
+
+**Réalisation du sommaire**
+
+**Se rappeler de ce qu’on a fait**

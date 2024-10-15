@@ -187,3 +187,15 @@ x.isnumeric() : retourne vrai si c’est un nombre ou faux si ce n’en ai pas, 
 | 0           | 1           | 1                 |
 | 1           | 0           | 0                 |
 | 1           | 1           | 1                 |
+
+---
+
+# **15.10.24**
+
+**Boucles  *for* :** système « pour tous les »
+
+**list_x** = [1, 2, 3]
+
+**for x in list/tab**
+
+**for x in range(start, stop, step)**
