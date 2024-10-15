@@ -1,0 +1,9 @@
+Je vais t'envoyer 3 textes a synthétiser et a fusionner de sortes a enlever les redondances et corriger les fautes d'orthographe
+
+4 textes enfaite
+
+[copié-collé des fichiers OneNote]
+
+Rajoute le nom des auteur soit : Costantino Volta, Ruslan Annamammedov, Tuba Demirkiran,  Bayarjavkhlan Dugarmaa, fais un sommaire interactif et genere du markdown
+
+a l'aide du fichier markdown genere un pdf
