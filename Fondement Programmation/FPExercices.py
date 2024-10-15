@@ -333,7 +333,12 @@ print(somme)
 # Exercice FOR
 
 for chiffre in [1, 2, 3, 4, 5]:
-    print(chiffre, chiffre * 2, "pair" if chiffre % 2 == 0 else "    ", "pair" if (chiffre * 2) % 2 == 0 else " ")
+    print(chiffre, chiffre * 2, "pair" if chiffre % 2 == 0 else "impair", "pair" if (chiffre * 2) % 2 == 0 else "impair")
+    
+print("-----------------------------")
+
+for chiffre in range(1, 101, 1):
+    print(chiffre, chiffre * 2, "pair" if chiffre % 2 == 0 else "impair", "pair" if (chiffre * 2) % 2 == 0 else "impair")
     
 
 
