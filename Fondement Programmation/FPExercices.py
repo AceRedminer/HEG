@@ -312,7 +312,7 @@ while i < n:
     i += 1
     sommme += i
 print(f"Pour {n} la somme arithémtique vaut {sommme}")
-'''
+
 
 # Exerice 6
 
@@ -327,6 +327,14 @@ while(debut < fin):
         debut += 1
             
 print(somme)
+
+'''
+
+# Exercice FOR
+
+for chiffre in [1, 2, 3, 4, 5]:
+    print(chiffre, chiffre * 2, "pair" if chiffre % 2 == 0 else "    ", "pair" if (chiffre * 2) % 2 == 0 else " ")
+    
 
 
 
