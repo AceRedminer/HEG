@@ -1,8 +1,8 @@
-# **08.10.24**
+# **Mangement Integré 08.10.24**
 
 **Gestion des achats :**
 
-* Définir stratégie achat : sélectionner fournisseurs, gérer la relation fournisseur, piloter performance d’achat
+* **Définir stratégie achat :** sélectionner fournisseurs, gérer la relation fournisseur, piloter performance d’achat
 
 **Indicateurs de performance :**
 

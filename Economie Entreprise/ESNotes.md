@@ -1,4 +1,4 @@
-# **10.09.24 Economie et société**
+# **Economie et société 10.09.24**
 
 **Offre de travail individuelle**
 
