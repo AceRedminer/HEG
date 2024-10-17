@@ -312,3 +312,69 @@ Vous êtes informaticien au sein de la banque CASH SA. Le métier de base de cet
       1. • Est-ce que de nouveaux problèmes en ressortes?
    3. Meilleure piste à suivre?
 6. Recommencer
+
+---
+
+# **16.09.24**
+
+**Business Analyst**
+
+**Design Thinking**
+
+**Business Management Process**
+
+**UX Design, 7 règles**
+
+**UX Design : questions à se poser**
+
+* Qui ? Pietons, Velos
+* Quand ? Selon Météo
+* Quoi ? Chemin a prendre
+* Pourquoi ? Plus pratique
+* Ou ? Ou il y a une barriere
+* Comment ? En passant a cote a force on crée un passage
+
+**Adéquation aux taches de l’utilisateur :** Adapter le logiciel aux taches que l’utilisateur souhaite accomplir
+
+* Indiquer a l’utilisateur s’il est adapté pour lui
+* Priorité aux besoins plutôt qu’a la technologie
+* Indique a l’utilisateur ce qui lui est nécessaire pour aller à l’étape suivante
+* Propose des valeurs par défaut pertinente
+
+**Caractère auto descriptif :** L’utilisateur sait sans ambiguïté a quelle étape de l’interaction ils se situent, quelles actions peuvent être réalisées et de quelle manière elles peuvent être realisées
+
+* Documentation accessible à tous
+* Localiser et mettre en evidence l’information
+* Indications visuelles et vocabulaire familier
+* Indique l’avancement d’un traitement et quand l’utilisateur doit intervenir
+
+**Conformité aux attentes de l’utilisateur :** Comportement du logiciel prévisible en fonction du contexte d’utilisation et des conventions
+
+* Etapes cohérentes et adaptées (accessibilité) pour accomplir une tache
+* Retour d’information sur les actions
+* Coherent ou different selon les fonctionnalités
+* S’adapte aux besoins de l’utilisateur
+
+**Facilité d’apprentissage :** Réduit le besoin d’apprentissage et fourni une assistance quand c’est nécessaire
+
+* Facilite la découverte d’information
+* Faciliter l’exploration
+* Retour aux utilisateurs
+
+**Contrôle utilisateur :** L’utilisateur garde le contrôle de l’interface utilisateur et des interactions
+
+* Interrompre ou reprendre une tache
+* Flexibilité - pouvoir choisir l’ordre les moyens et le rythme des interactions
+* Personnaliser ou non l interface
+
+**Robustesse face aux erreurs d’utilisation :** Aider l’utilisateur à éviter les erreurs, les traiter ou aider à corriger
+
+* Prévenir les erreurs
+* Tolérer les erreurs de l’utilisateur
+* Corriger les erreurs
+
+**Engagement utilisateur :** presenter les fonctions et informations de manière engageantes et motivante pour favoriser l amelioration du logiciel
+
+* Motiver l’utilisateur
+* Fiabilité du système
+* Impliquer l’utilisateur
