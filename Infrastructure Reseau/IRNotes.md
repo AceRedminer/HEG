@@ -135,7 +135,7 @@
   * 10.136.72.92
   * 255.255.255.192
   * 10.136.72.65
-  * Mot de passe sur line console et line vey 0 15, *class*
+  * Mot de passe sur line console et line vty 0 15, *class*
   * Ping Ordi OK
 * Ordi :
   * 10.136.72.93
