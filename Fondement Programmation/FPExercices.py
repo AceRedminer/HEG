@@ -328,8 +328,6 @@ while(debut < fin):
             
 print(somme)
 
-'''
-
 # Exercice FOR
 
 for chiffre in [1, 2, 3, 4, 5]:
@@ -341,11 +339,58 @@ for chiffre in range(1, 101, 1):
     print(chiffre, chiffre * 2, "pair" if chiffre % 2 == 0 else "impair", "pair" if (chiffre * 2) % 2 == 0 else "impair")
     
 
+nb_plats: int  = int(input("Combien de plats voulez-vous ajouter par catégorie de plats ? "))
 
+entree: str = ""
+plats: str = ""
+dessert: str = ""
+digestif: str = ""
 
+print("\n== Entrée ==")
+for i in range(nb_plats):
+    a: int = i+1
+    entree += input(f"Plat {a} catégorie Entrée : ") + '\n'
+print("\n== Plats ==")
+for i in range(nb_plats):
+    a: int = i+1
+    plats += input(f"Plat {a} catégorie Plats : ") + '\n'
+print("\n== Desserts ==")
+for i in range(nb_plats):
+    a: int = i+1
+    dessert += input(f"Plat {a} catégorie Dessert : ") + '\n'
+print("\n== Digestif ==")
+for i in range(nb_plats):
+    a: int = i+1
+    digestif += input(f"Plat {a} catégorie Digestif : ") + '\n'
+
+print("\n== Entrée ==")
+print(entree)
+
+print("== Plats ==")
+print(plats)
+
+print("== Dessert ==")
+print(dessert)
+
+print("== Digestif ==")
+print(digestif)
     
+veux_un_cafe: bool = bool(input("Voulez-vous un café (0 pour oui, 1 pour non) ? : "))
 
+if veux_un_cafe == 1:
+    print("Prends ton cafe batard")
+else:
+    print("Vas y je le boit moi")
+'''
+   
+import math  
+   
+nb: int = 9
     
-
-
-
+for line in range(nb):
+    for column in range(nb):
+        if line == column or line + column == nb-1 or math.ceil(line == nb/2) or math.ceil(column == nb/2):
+            print("X", end="")
+        else:
+            print(".", end="")
+    print("")
