@@ -438,3 +438,74 @@ Cette comparaison te permet d'avoir une vue d'ensemble des forces et faiblesses 
 **Réalisation du sommaire**
 
 **Se rappeler de ce qu’on a fait**
+
+---
+
+# **30.10.24**
+
+**Méthode DAD**
+
+**Présentation orale :**
+
+**Définition :**
+
+**Le Disciplined Agile Delivery a été conçu pour compléter les méthodes agiles, notamment le Scrum, qui se concentrent majoritairement sur le développement et peu sur la livraison.**
+
+**Les principes clés :**
+
+* **Permet aux équipes de simplifier les processus de solutions**
+* **L'équipe choisit sa façon de travailler**
+* **On s'adapte au contexte du projet**
+* **On améliore continuellement les pratiques**
+* **On livre régulièrement des résultats**
+
+**Avantages :**
+
+* **(Structure adaptée aux grandes organisations)**
+* **Gestion du cycle de vie complet**
+* Contrairement à d'autres méthodes agiles qui se concentrent surtout sur le développement
+* **La pratique DAD équilibre efficacité et rigueur, sans surcharger l’équipe**
+
+**Inconvénients :**
+
+* **Complexité accrue** : DAD intègre plusieurs pratiques de méthodes agiles, ce qui le rend plus complexe à mettre en œuvre.
+* **Courbe d'apprentissage élevée** : Les équipes doivent investir du temps et de l'effort pour maîtriser les nombreux concepts et pratiques de DAD.
+* **Rigidité par rapport à d'autres méthodes agiles** : DAD impose des phases structurées qui peuvent limiter l'adaptabilité dans des environnements très changeants.
+* **Nécessité de gestion de projet et gouvernance renforcée** : DAD exige un niveau de gouvernance et de gestion plus élevé, ce qui peut ralentir l'exécution
+* **Coût potentiel de formation et de mise en œuvre** : La mise en œuvre de DAD nécessite souvent des formations, ce qui peut engendrer des coûts additionnels pour les entreprises.
+
+**Dans la pratique :**
+
+* **Les équipes peuvent choisir leurs outils**
+* **Les rôles sont plus flexibles**
+* **La communication est importante**
+* **On documente ce qui est nécessaire (ni trop, ni trop peu)**
+
+**C'est une méthode particulièrement utile pour :**
+
+* **(Les grandes organisations)**
+* **Les projets complexes**
+* **Les équipes qui veulent plus de flexibilité**
+* **Les environnements qui demandent de l'adaptation**
+
+**Acteurs :**
+
+* **Stakeholder**
+
+  Notes : Someone who is materially impacted by the outcome of the solution. More than just an end-user or customer, this is anyone potentially affected by the development and deployment of a software project.
+
+* **Product owner**
+
+  Notes : The person on the team who speaks as the "one voice of the customer", representing the needs of the stakeholder community to the agile delivery team.
+
+* **Team member**
+
+  Notes : The team members focus on producing the actual solution for stakeholders, including but not limited to testing, analysis, architecture, design, programming, planning, and estimation. They will have a subset of the overall needed skills, and they will strive to gain more to become generalizing specialists.
+
+* **Team lead**
+
+  Notes : The team lead is a host leader and also the agile coach, responsible for facilitating communication, empowering them to choose their way of working, and ensuring the team has the resources it needs and is free of obstacles.
+
+* **Architecture owner**
+
+  Notes : Owns the architecture decisions for the team and facilitates the creation and evolution of the overall solution design.

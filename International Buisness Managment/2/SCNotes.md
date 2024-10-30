@@ -90,3 +90,16 @@ Sustainable Supply are not cheap
 * **Scope 1, 2, 3**
 * **EU Regulations**
 * **Sustainable Sourcing**
+
+---
+
+# Week 7 28.10.24
+
+* **Supply Chain Dynamics :** Time delay between order and reception, demand variability, and inventory levels (buffer)
+* **Bullwhip effect :** Demand fluctuation amplified form the retailer to the raw material supplier
+* **Typical causes for the Bullwhip effect :** Lack of supply chain integration and collaboration
+* **Strategies for reducing the bullwhip effect :**
+  * Reducing long lead times
+  * Avoid « aggressive » promotions
+  * Avoid placing large and infrequent orders
+  * Support and initiate collaborative planning and information-sharing initiatives
