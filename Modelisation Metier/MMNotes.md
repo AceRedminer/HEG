@@ -378,3 +378,62 @@ Vous êtes informaticien au sein de la banque CASH SA. Le métier de base de cet
 * Motiver l’utilisateur
 * Fiabilité du système
 * Impliquer l’utilisateur
+* 
+
+**30.10.24**
+
+**Prototype**
+
+**Types de prototypes :**
+
+* **Horizontal**
+  * Correspond à la couche de surface du logiciel homme-machine,** **
+  * Affichage des elements mais rien de fonctionnel
+  * Démontre l’usabilité
+  * **Wireframe :** squelette du programme sans contenu, démontre globalement le produit
+* **Vertical**
+  * Correspond à la mise en oeuvre d’un ensemble cohérent de fonctionnalités
+  * Déroule complètement une tache significative du logiciel
+  * Permet de tester un scenario ou une fonction
+* **Evolutif**
+  * Peut-être utilisé plusieurs fois
+  * Peut-être utilisé dans le produit final
+  * Opposé au prototype « jetable »
+* **Proof of concept**
+  * « Preuve de concept »
+  * Permet d’évaluer la faisabilité d’un projet
+  * Version qui permet de se faire une idée du produit, pas destiné à être commercialisé
+* **Minimum Viable Product**
+  * Produit minimum viable
+  * Permet de démontrer la viabilité d’un projet
+  * Versions du produit destinée à être commercialisée pour être testée par le client fina
+
+---
+
+# **30.10.24**
+
+**Prototype**
+
+**Types de prototypes :**
+
+* **Horizontal**
+  * Correspond à la couche de surface du logiciel homme-machine,
+  * Affichage des elements mais rien de fonctionnel
+  * Démontre l’usabilité
+  * **Wireframe :** squelette du programme sans contenu, démontre globalement le produit
+* **Vertical**
+  * Correspond à la mise en oeuvre d’un ensemble cohérent de fonctionnalités
+  * Déroule complètement une tache significative du logiciel
+  * Permet de tester un scenario ou une fonction
+* **Evolutif**
+  * Peut-être utilisé plusieurs fois
+  * Peut-être utilisé dans le produit final
+  * Opposé au prototype « jetable »
+* **Proof of concept**
+  * « Preuve de concept »
+  * Permet d’évaluer la faisabilité d’un projet
+  * Version qui permet de se faire une idée du produit, pas destiné à être commercialisé
+* **Minimum Viable Product**
+  * Produit minimum viable
+  * Permet de démontrer la viabilité d’un projet
+  * Versions du produit destinée à être commercialisée pour être testée par le client final
