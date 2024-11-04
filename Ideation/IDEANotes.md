@@ -79,3 +79,84 @@ The wish needed to be specific, I got fucked by marketing shiiiiiiit
 From top to bottom
 
 **Products tangible, Services intangible**
+
+---
+
+# **01.11.24**
+
+**Need :** Something essential
+
+**Wants :** Something you chose
+
+**Demands :** Something specific
+
+**Market offerings :** Products (tangible), Service & Experiences (intangible items)
+
+**Market is about communicating your needs, wants and demands and receive value in exchange of something**
+
+**Customer Value and Customer Satisfaction :**
+
+* **Definition Customer Value :**
+  * Creating customer value require understanding customer’s wants, need, expectations and values, along with market landscape
+  * Your product should offer a cleat benefit that exceeds your customer’s investment
+  * Positive value exchange, leads to greater satisfaction
+  * **The convenience is a big factor alongs money**
+* **Benefits**
+  * **Functional benefits**
+  * **Self expressive benefits**
+  * **Emotional benefits**
+* Customer Value :
+  * **Perception of Value**
+    * If you look just at cost it won’t last long and it’s cheap manufacture and stuff
+    * Value is linked very strongly to perception
+  * Relative Value
+  * Value Changes Over Time
+    * When it’s new it’s expensive
+  * **Best Value is compromise**
+* Satisfaction :
+  * **Meet customer expectations**
+  * **Exceed customer experience**
+  * **Delight your customers**
+  * **Amaze your customer**
+* **Balancing costs and benefits :** Balancing between Positives/Benefits and Negatives or Cost, Customer value and satisfaction form the foundation of strong customer relationships
+* **Expectations :**
+  * As customers, we usually face a large selection of products that can meet a specific need
+  * We develop expectations about the quality and degree of satisfaction these products can offer
+  * These expectations influence our decisions leading us toward the product we believe will provide the most value and satisfaction
+
+**Exchange and Relationship :**
+
+* **Definitions :**
+  * **Exchange :** The process of obtaining a desired item by offering something in return
+  * **Relationship :** Relationships involve efforts to convert one-time or occasional buyers into loyal customers by establishing, maintaining, and enhancing positive relationships with target audiences for products, services or ideas
+  * **Markets :** Markets consist of existing and potential buyers who share a specific need or want that can be fulfilled through exchange relationship
+
+**Summary : Modern marketing is not about influencing sales, it is about influencing values in customer’s live, It is about building relationships that last beyond a single sale, creating loyalty**
+
+**Rhetoric :**
+
+* **Logos :** Appeal to logic
+  * **Logic :** presents a tangible issue that need solving
+* **Ethos :** Appeal to credibility
+  * **Credibility :** Adds brand trust and reliability
+* **Pathos :** Appeal to emotions
+  * **Emotions :** Stirs the audience emotionally with a cleat and authentic message
+* **When combines, these appeals create impactful, memorable ads that resonate deeply with audiences**
+
+**Summary :**
+
+* The job of a marketer is not to sell products; it is to alter behavior to influence values
+* Value is when you perceive something that is good for you
+
+**4P :**
+
+* Product
+* Price
+* Place
+* Promotion
+
+**Types :**
+
+* Good
+* Idea
+* Experience

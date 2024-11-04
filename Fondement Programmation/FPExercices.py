@@ -381,7 +381,6 @@ if veux_un_cafe == 1:
     print("Prends ton cafe batard")
 else:
     print("Vas y je le boit moi")
-'''
    
 import math  
    
@@ -394,3 +393,18 @@ for line in range(nb):
         else:
             print(".", end="")
     print("")
+
+mot: str = input("Veuillez saisir un mot : ")
+lettre: str = input("Veuillez saisir une lettre : ")
+compteur_maj: int = 0
+compteur_min: int = 0
+
+
+for l in mot:
+    if l == lettre.lower():
+        compteur_min += 1
+    elif l == lettre.upper():
+        compteur_maj += 1
+        
+print(f"Nombre de fois ou {lettre} apparait : en maj {compteur_maj}, en min {compteur_min}")
+'''
