@@ -1,8 +1,8 @@
 # **23.09.24**
 
-**Classes :**
+**Classes :** 
 
-* **A :** /8, 255.0.0.0, 10.x.x.x
+* **A **:**** /8, 255.0.0.0, 10.x.x.x
 * **B :** /16, 255.255.0.0, 172.16.0.x0 -> 172.31.255.255
 * **C :** /24 255.255.255.0, 192.168.x.x
 * **D :** 224.x.x.x
@@ -21,21 +21,13 @@
 **Formules :**
 
 * 2^n
-* 2^n - 2
+* 2^n^ - 2
 
 **Commandes Switch pour reset config :**
 
 1. enable
 2. write erase
 3. reload
-
-**Ajouter description pour l'interface :**
-
-1. enable
-2. config
-3. description blablabla
-4. ip address 192.168.1.6 255.255.255.0
-5. no shutdown
 
 **Commandes de configuration Switch :**
 
@@ -63,13 +55,23 @@
 2. config
 3. enable secret *class*
 
+---
+
+**Définir les protocoles de connexions a distance accepté par la machine**
+
+1. enable
+2. config
+3. line vty 0 4
+4. transport input all
+
 **Mettre une adresse IP a une interface :**
 
 1. enable
 2. config
-3. int vlan 1
+3. int vlan 1 (int fastEthernet 0/1/0 : Router)
 4. ip address 10.136.75.161 255.255.255.224
 5. no shutdown
+6. (no IP address) en cas de mauvaise manip
 
 **Mettre une adresse de passerelle par défaut :**
 
@@ -78,7 +80,19 @@
 3. ip default-gateway 10.136.75.161
 4. write
 
-**La commande** write **permet de sauvegarder la configuration effectué**
+**Configurer 2 sous-réseaux lors de l’accès vers le réseau cantonal**
+
+1. config
+2. router eigrp 65200
+3. network 172.16.0.0
+4. network 192.168.0.0
+5. no auto-summary
+6. Redistribute static
+
+**IP Route :**
+
+1. conf t
+2. ip route 0.0.0.0 0.0.0.0 [addresse gateway]
 
 ---
 
