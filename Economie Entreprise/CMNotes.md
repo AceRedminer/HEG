@@ -82,3 +82,45 @@
 * **Fierté :** lorsque j’arrive a répondre a des questions dans des cours ou je ne suis « pas censé » connaitre les réponses
 * **Sens :** aller dans d’autre cours pour donner un sens a ma journée
 * **Plénitude :** rentrer a la maison et cuisiner après une longue journée
+
+**Négociation**
+
+**Trouver un terrain d’entente, intérêts commun**
+
+**Définition :**
+
+* Action de négocier de discuter les affaires communes entre parties en vue d’un accord
+* Centrée sur des intérêts ou des enjeux quantifiables
+* Durée limitée
+* Pas de règles de négociation uniquement des techniques
+* 90% du travail se fait avec la négociation
+
+**Anchoring :** Fait d établir un point de reference (anchor) qui servira de base a la négociation
+
+**Vision :** Ce que l on va faire, notion d avenir, intention sur le long terme, vers des objectifs clairs
+
+**Mission :** Ce que l on fait, actions pour réaliser la vision, nature actuelle de l’entreprise
+
+**Valeurs :** Croyances, ensemble de normes régissant les comportements, socialisation
+
+**Avant d’aborder la question salariale :**
+
+* Mettre en avant ses competences cles
+* Faire des parallèles avec les recherches effectuées sur l’entreprise
+* Gérer son comportement non verbal
+* Demande « au bon moment » des precisions sur les prestations annexes (formation, véhicule de fonction, prime aux résultats)
+
+**La 1ere impression est essentielle :**
+
+* Avoir le look de l’emploi recherché : tenue, manière de saluer, regard, sourire sympathie
+* Etre a l écoute de son interlocuteur et prendre des notes
+* Adopter un langage précis, synthétique et positif
+* Montrer sa motivation et ses intérêts pour le poste et l’entreprise
+* Etre force de proposition
+
+**Mener une négociation :**
+
+* Aborder la question salariale
+* Proposer une fourchette de salaire
+* Utiliser la technique de l’ancrage « anchoring »
+* Mentionner son ancien salaire et demander une hausse

@@ -407,4 +407,18 @@ for l in mot:
         compteur_maj += 1
         
 print(f"Nombre de fois ou {lettre} apparait : en maj {compteur_maj}, en min {compteur_min}")
+
+# Serie Fonction et Procédures
 '''
+import modules_perso
+'''
+# EX 1
+modules_perso.afficher_message("Alice", "Bonne journée !")
+
+# EX 2
+modules_perso.afficher_somme(4, 2)
+'''
+# EX 3
+modules_perso.verifier_signe(100)
+
+
