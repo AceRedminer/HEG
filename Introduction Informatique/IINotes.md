@@ -244,3 +244,94 @@ Dans l’objectif de réduire les cout et améliorer compétitivité dans le mon
 * **Service de communication**
 
 **Mutualiser = être plusieurs sur le serveur**
+
+---
+
+# **08.11.24**
+
+**Masterclass Metaverse**
+
+**Definition des termes :**
+
+* **Sphères privées :** Art. 13 de la Constituion, Toute personnes a droit au respect de sa vie privée et familiale, de son domicile, de sa correspondance et des relations qu’elle établit par la poste et les télécommunications
+* **Metaverse :** Snow Crash, Neal Stephenson (Livre) première apparition du terme Metaverse, coexistence d’un monde réel et un monde virtuel, melange entre réalité virtuelle et réalité encore plus immersive, Monde parallèle ou l’on peut se créer une existence nécessitant une interface.
+
+  Un ensemble virtuel dans lequel peut avoir une existence personnelle et personnalisée grace a un alter ego numérique** **
+
+**Indentifier les enjeux :**
+
+* **Protection des données :** 20 minutes dans le réalité virtuelle fournissait plus de deux millions d’enregistrements, étude réalisé a Stanford
+* **Cyber risques :**
+  * Usurpation d’identité
+  * Transposition des risques du monde réel
+
+**Identifier une personne :** Il faut pouvoir traquer qui fait quoi afin que des répercutions sur des actions « illégale » soit punie
+
+**Réglementations de notre « Spère privée virtuelle »**
+
+**Tryptique de lutte de cybersécurité :**
+
+* **Analyse**
+* **Enquete**
+* **Forensique**
+
+**Stratégie 2030+ :**
+
+* **La formation**
+  * **Formation de base**
+  * **Formation continue**
+  * **Formation spécialisée**
+* **La prevention**
+  * **Projet MetaPOL :**
+    * **Poste de Police virtuel**
+    * **Information au public**
+    * **Musée de la Police**
+    * **Aula**
+  * **Événements de prevention au public**
+  * **Formations internes et externes**
+* **Prise de plaintes**
+* **Forensique**
+  * **Elements de preuve**
+    * **Blockchain**
+    * **Crypto**
+    * **NFTs**
+    * **VR/XR**
+  * **End-points**
+    * **Casques VR**
+    * **Modules supplémentaires**
+    * **Haptics**
+
+**PTSD virtuel qui se répercute dans la vraie vie, risque de générer des nouveaux problème dans la société**
+
+**Les débuts du Métavers :**
+
+1. **1992, première citation du mot Metaverse**
+2. **1982, Tron concept de monde virtuel**
+3. **1999, The Matrix, monde parallèle**
+4. **2003, Jeux Second Life**
+5. **2011, Ready Player One Livre**
+6. **2021, Meta annonce son engagement pour un métaverse**
+
+**Aggression d’Avatar : **Femme violée agressé en bande dans le Metaverse
+
+**Questions :**
+
+**Selon la definition qu’elle est la difference entre metaverse et un mmorpg classique ?**
+
+**Est-ce que dans 10 ans on signera tout comme on le fait aujourd’hui : je pense que oui parce que depuis la nuit des temps les gens font ce que leur dit et rares sont les personnes qui ont remis le système en question et souvent ils se sont retrouvé pendu ou brulé donc**
+
+**Comment la police va faire dans le metaverse : avec des modérateurs comme on les connais aujourd’hui sur des grands forum qui sont une sorte de metaverse intellectuel avec des règles défini qui font office de loi en quelque sortes**
+
+**Est-ce qu’on a un reel intérêt a avoir des véhicules pleinement autonome ?**
+
+**Est-ce que vous voyez la police du future avoir une brigade dans le metaverse et en quoi la police « réelle » aurait la legitimité a intervenir dans un monde qui ne leur « appartient » pas, faudrait-il élire démocratiquement les personnes en charges de la sécurité ou faut-il imposé la police comme on la connait, EX : la police dans GTA RP fait régner l’ordre selon les règles, loi imposé par les créateurs du serveurs et sont soumis a une evaluation par des personnes en charge souvent les proprio du serv pour s’assurer que ces personnes sont les bonnes pour ce role, pas forcement des policier dans la vraie vie !**
+
+**En quoi Interpol, selon la meme logique, a la legitimité d’intervenir dans un univers qu’ils n’ont pas crée eux memes, et si ils le font, serait-il chargé d’assurer la protection d’un point de vue scam phishing et tout et/ou le comportement general des utilisateurs, pas sur que les gens qui vont dans le monde virtuel apprécie l’intervention de la police, ne faudrait-il pas plutôt faire une evaluation psychologique avant de donner accès au metaverse en question afin de mettre tout les détraqués entre eux et tout le gens civilisé entre eux, EX : mon monde parfait est composé non pas de pays mais de zone avec des lois différentes afin que tout le monde puisse vivre dans des règles qui lui corresponde et qu’on puisse séparer les gens civilisé et les autres, passage d’une zone a l’autre avec des visas etc**
+
+Delaissé la responsabilité a l’IA de modérer le monde virtuel selon des règles établie par la communauté afin de ne pas dépenser des ressources humaines et monétaires
+
+Quel est le but d’avoir un avatar 1:1 dans un monde virtuel ? Le but n’est-il pas de fuir la société dans laquelle on ne se reconnait plus ?
+
+Consommation de stupéfiant dans le monde virtuel ? Est-ce que le concept meme serait interdit sachant que cela n’a aucune répercussion directe sur la personne et le monde réel ou est-ce que cette « habutide » risque de couler sur la réalité
+
+Concept de Cherub, utilisé des enfants innocent pour infiltrer des réseaux bizarres de façon plus efficaces
