@@ -417,8 +417,15 @@ modules_perso.afficher_message("Alice", "Bonne journée !")
 
 # EX 2
 modules_perso.afficher_somme(4, 2)
-'''
+
 # EX 3
 modules_perso.verifier_signe(100)
+'''
+
+# Serie Fonctions et Procedures II
+
+# EX 1
+
+
 
 
