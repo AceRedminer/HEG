@@ -515,3 +515,26 @@ Cette comparaison te permet d'avoir une vue d'ensemble des forces et faiblesses 
 * **Hard skills :** Competences techniques
 * **Soft skills :** Competences sociales
 * **Mad skills :** Competences loisir
+
+---
+
+# **13.11.24**
+
+"Merci de me considérer pour le rôle de chef de projet IT. En tant qu’ENTJ, je m’épanouis dans les environnements exigeants et je suis reconnu pour ma capacité à planifier, organiser et mener des projets complexes vers le succès. Je sais identifier les besoins à court et long terme d’un projet et coordonner les efforts de l’équipe pour atteindre ces objectifs efficacement. Mon esprit de décision et mon assurance me permettent de maintenir les projets sur la bonne voie et d’anticiper les défis avant qu’ils ne deviennent des obstacles.
+
+Avec mes compétences en communication, je peux assurer une excellente coordination entre les équipes techniques et les parties prenantes, en alignant tout le monde sur la vision et les délais. Je suis déterminé à fournir des résultats exceptionnels, et je suis certain d’apporter le leadership et la structure nécessaires pour faire de ce projet une réussite. Allons-y ensemble."
+
+Le document présente le **Team Management System** (TMS), une méthode d’analyse des rôles et préférences des membres d’une équipe pour optimiser leur collaboration. Voici un résumé en dix points clés :
+
+1. **Objectif du TMS** : Identifier les préférences de travail et les compétences pour constituer des équipes équilibrées.
+2. **Huit rôles** : La méthode propose huit rôles distincts dans une équipe, chacun ayant des forces spécifiques.
+3. **Informateurs-Conseillers** : Récupèrent et diffusent des informations avec patience, favorisant une prise de décision informée.
+4. **Créateurs-Innovateurs** : Proposent de nouvelles idées et remettent en question les méthodes établies, utiles en R&D.
+5. **Explorateurs-Promoteurs** : Identifient et partagent des opportunités avec enthousiasme, excellents pour mobiliser des ressources.
+6. **Évaluateurs-Développeurs** : Transforme les idées en projets concrets, avec des prototypes et des tests de faisabilité.
+7. **Propulseurs-Organisateurs** : Fixent les objectifs, les budgets et s’assurent que les délais sont respectés.
+8. **Finalisateurs-Producteurs** : Exécutent le travail avec régularité et précision, assurant la qualité et la constance.
+9. **Contrôleurs-Inspecteurs** : Vérifient les détails minutieusement, contribuant à la qualité, très utiles dans la finance et le contrôle qualité.
+10. **Coordination** : La fonction de coordination est centrale pour assurer la cohésion de l’équipe, souvent assurée par le leader.
+
+Ce système aide à construire des équipes complémentaires, en exploitant au mieux les préférences et compétences de chaque membre pour atteindre des performances optimales.
