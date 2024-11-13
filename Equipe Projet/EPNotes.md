@@ -203,7 +203,7 @@ Si on fais une fois c’est un projet, si c’est des taches répétées c’est
 
 ---
 
-## Préparation QCM 02.10.24
+# Préparation QCM 02.10.24
 
 **La méthode en spirale** est un modèle de gestion de projet qui se concentre sur l'évaluation et la réduction des risques tout au long du cycle de développement. Voici les 10 points clés à retenir :
 
@@ -493,19 +493,25 @@ Cette comparaison te permet d'avoir une vue d'ensemble des forces et faiblesses 
 * **Stakeholder**
 
   Notes : Someone who is materially impacted by the outcome of the solution. More than just an end-user or customer, this is anyone potentially affected by the development and deployment of a software project.
-
 * **Product owner**
 
   Notes : The person on the team who speaks as the "one voice of the customer", representing the needs of the stakeholder community to the agile delivery team.
-
 * **Team member**
 
   Notes : The team members focus on producing the actual solution for stakeholders, including but not limited to testing, analysis, architecture, design, programming, planning, and estimation. They will have a subset of the overall needed skills, and they will strive to gain more to become generalizing specialists.
-
 * **Team lead**
 
   Notes : The team lead is a host leader and also the agile coach, responsible for facilitating communication, empowering them to choose their way of working, and ensuring the team has the resources it needs and is free of obstacles.
-
 * **Architecture owner**
 
   Notes : Owns the architecture decisions for the team and facilitates the creation and evolution of the overall solution design.
+
+---
+
+# **12.11.24**
+
+**L’individu :**
+
+* **Hard skills :** Competences techniques
+* **Soft skills :** Competences sociales
+* **Mad skills :** Competences loisir
