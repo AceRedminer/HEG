@@ -335,3 +335,7 @@ Quel est le but d’avoir un avatar 1:1 dans un monde virtuel ? Le but n’est-i
 Consommation de stupéfiant dans le monde virtuel ? Est-ce que le concept meme serait interdit sachant que cela n’a aucune répercussion directe sur la personne et le monde réel ou est-ce que cette « habutide » risque de couler sur la réalité
 
 Concept de Cherub, utilisé des enfants innocent pour infiltrer des réseaux bizarres de façon plus efficaces
+
+---
+
+# 14.11.24

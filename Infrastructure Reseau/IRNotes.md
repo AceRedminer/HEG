@@ -1,6 +1,6 @@
 # **23.09.24**
 
-**Classes :** 
+**Classes :**
 
 * **A **:**** /8, 255.0.0.0, 10.x.x.x
 * **B :** /16, 255.255.0.0, 172.16.0.x0 -> 172.31.255.255
@@ -29,7 +29,7 @@
 2. write erase
 3. reload
 
-**Commandes de configuration Switch :**
+**Commandes de configuration :**
 
 * **Hostname :**
   1. enable
@@ -39,7 +39,7 @@
 * **Password :**
   1. show running-config
   2. configure terminal
-  3. line console 0 (line vty 0 15)
+  3. line console 0 (line vty 0 15, line aux 0)
   4. password *cisco*
   5. login
 
@@ -54,8 +54,6 @@
 1. enable
 2. config
 3. enable secret *class*
-
----
 
 **Définir les protocoles de connexions a distance accepté par la machine**
 
@@ -73,26 +71,34 @@
 5. no shutdown
 6. (no IP address) en cas de mauvaise manip
 
-**Mettre une adresse de passerelle par défaut :**
+**Mettre une adresse de passerelle par défaut (Switch) :**
 
 1. enable
 2. config
 3. ip default-gateway 10.136.75.161
 4. write
 
-**Configurer 2 sous-réseaux lors de l’accès vers le réseau cantonal**
+**Configurer 2 sous-réseaux lors de l’accès vers le réseau cantonal :**
 
 1. config
 2. router eigrp 65200
 3. network 172.16.0.0
 4. network 192.168.0.0
 5. no auto-summary
-6. Redistribute static
+6. redistribute static (uniquement celui qui fait le pont entre static et eigrp)
 
-**IP Route :**
+**IP Route (quand pas EIGRP, tout resesaux distant a X) :**
 
 1. conf t
 2. ip route 0.0.0.0 0.0.0.0 [addresse gateway]
+
+**Loopback :**
+
+1. enable
+2. conf t
+3. int loopback 1
+4. ip address [adresse router du sous-reseaux supplementaire pour routeur]
+5. no shutdown
 
 ---
 
