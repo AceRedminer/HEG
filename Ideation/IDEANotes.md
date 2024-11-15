@@ -2,9 +2,9 @@
 
 **Principles :**
 
-* Understanding the **principles of marketing**
-* Understanding the **marketing process**
-* Allow you to integrate a project team and face **marketing considerations**
+* Understanding the**principles of marketing**
+* Understanding the**marketing process**
+* Allow you to integrate a project team and face**marketing considerations**
 
 **BFA in Pasadena !!!!!!!!!**
 
@@ -29,7 +29,7 @@
 
 Don’t use the things for their specific usage : iPhone
 
- **Henry Ford :** « If I had asked people what they wanted, they would have said fast horses »
+**Henry Ford :** « If I had asked people what they wanted, they would have said fast horses »
 
 ---
 
@@ -160,3 +160,55 @@ From top to bottom
 * Good
 * Idea
 * Experience
+
+---
+
+# 15.11.24
+
+Customer Value = (Perceived Customer Benefits - Total Customer Cost)
+
+**The main phases of the marketing process**
+
+The marketing preocess is about creating value for customers to meet their needs. It includes three key phases :
+
+* **Research** : Understanding the market, customers, and business environment
+* **Planning** : Setting goals, analyzing factors, and developing a product plan
+* **Implementation** : Executing the plan and tracking progress to reach goals
+
+**Breakdown of the Three Phases of the Marketing Process**
+
+* Research (Market Research) :
+
+  1. Mission : Goals and Objectives
+
+     * The first step is to identify and understand the mission, goals and objectives of your
+       organization
+       A mission statement is a short, clear explanation of why the organization exists and how
+       it benefits consumers
+       It's ideally customer-focused, not just about profit and dividends
+       If your organization does not have a mission statement , sit down with marketing leaders and stakeholders to define
+       your business's mission, goals and objectives
+       You should also map out your goals and objectives
+       As you're planning these elements, remember, your goals should follow the S-M-A-R-T criteria
+  2. Situation Analysis
+
+  * Using 5C's : Company, Customers, Competitors, Collaborators, Climate (Context)
+    SWOT : Opportunities and Threats are external factors, Strenghts and Weaknesses are internal factors
+* Plan (Strategy) :
+  3. Marketing Strategy
+  4. Marketing Mix (4 P)
+* **Implementation (Operations) :**
+  5. Implementation and Control
+
+  **KPI :** Key Performance Indicators, What is going to be the Indicators of my success
+  or my failure
+
+Vague plans and poorly defined strategies can lead to confusion and misunderstandings
+
+The importance of goals and objectives
+
+Setting goals without measurable objectives will likely lead to goals that never get accomplished
+
+Objectives without goals lack purpose/meaning
+
+Goals can seem impossible or overwhelming unless broken into specific, measurable tasks
