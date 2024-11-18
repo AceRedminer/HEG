@@ -104,7 +104,7 @@ Vous êtes informaticien au sein de la banque CASH SA. Le métier de base de cet
 **Les acteurs intervenants dans une demande de crédit hypothécaire sont :**
 
 **Le client**
-	Remplit une demande de crédit, soit en ligne, soit sur un formulaire qu'il envoie ou apporte à son gérant à la banque.
+Remplit une demande de crédit, soit en ligne, soit sur un formulaire qu'il envoie ou apporte à son gérant à la banque.
 
 **Le gérant**
 
@@ -133,15 +133,17 @@ Vous êtes informaticien au sein de la banque CASH SA. Le métier de base de cet
 **Réaliser le Business Use Case du cas décrit**
 
 **Quel type de logiciel client proposez-vous pour les personnes suivantes? Justifiez votre réponse !**
- 	- Le demandeur du crédit
-	- Le personnel de CASH SA
+- Le demandeur du crédit
+- Le personnel de CASH SA
 
 **Pour vos réponses en a) et en b), les critères suivants sont-ils favorisés (oui, non et pourquoi) ?**
 
-    - La performance
-	- La portabilité
-	- La maintenance
-	- La sécurité
+```
+- La performance
+- La portabilité
+- La maintenance
+- La sécurité
+```
 
 # **25.09.24**
 
@@ -378,7 +380,7 @@ Vous êtes informaticien au sein de la banque CASH SA. Le métier de base de cet
 * Motiver l’utilisateur
 * Fiabilité du système
 * Impliquer l’utilisateur
-* 
+*
 
 **30.10.24**
 
@@ -437,3 +439,9 @@ Vous êtes informaticien au sein de la banque CASH SA. Le métier de base de cet
   * Produit minimum viable
   * Permet de démontrer la viabilité d’un projet
   * Versions du produit destinée à être commercialisée pour être testée par le client final
+
+---
+
+# **18.11.24**
+
+**Mutiplicité :** * (Aucune ou plusieurs), 0..1 (Aucune ou une instance), 1 (Une instance exactement), 1..* (Une ou plusieurs instances, au moins une)
