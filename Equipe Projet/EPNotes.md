@@ -161,7 +161,7 @@ Si on fais une fois c’est un projet, si c’est des taches répétées c’est
   * **Participants :** conjoints, enfants
 * **Décomposition :**
   * **Initialisation :** définir l’objectifobjectif = organiser la prochaine sortie, on se met d’accord sur qui fais quoi, établir l’organisation du projet
-  * **Planification** **:** définir une date, définir un activité/lieu, établir une liste d’invitée, établir une feuille de route, contacter les partis prenants (fournisseur, propriétaire du lieu), définir un budget, validation du budget, **identifier les étapes** et définir les dépendances temporels, planifier les ressources
+  * **Planification****:** définir une date, définir un activité/lieu, établir une liste d’invitée, établir une feuille de route, contacter les partis prenants (fournisseur, propriétaire du lieu), définir un budget, validation du budget,**identifier les étapes** et définir les dépendances temporels, planifier les ressources
   * **Execution :** réserver le lieu, commander la bouffe et matériel pour les activités, envoyer un rappel, s’assurer de la bonne mise en place du lieu et des activité
 
 **De manière optimale on va planifier peu et travailler beaucoup**
@@ -174,15 +174,15 @@ Si on fais une fois c’est un projet, si c’est des taches répétées c’est
 
 **Dépendances :** ordre dans les taches a réaliser
 
-* Fin, Fin : **A** et **B** doivent se finir en meme temps en mode parallèle
-* Debut, Debut : **A** et **B** doivent commencer au meme temps
-* Fin, Debut : **B **dépend de **A** ,** dépendance directe**
+* Fin, Fin :**A** et**B** doivent se finir en meme temps en mode parallèle
+* Debut, Debut :**A** et**B** doivent commencer au meme temps
+* Fin, Debut :**B **dépend de **A** ,** dépendance directe**
 
 **Indépendantes :** aucune tache ne découle de celle-ci
 
 **Ressources humaines :** certaine tache s’améliore avec plus de personne et donc du budget
 
- **Ressources matériels :** (à lire dans le doc)
+**Ressources matériels :** (à lire dans le doc)
 
 **PERT :** **P**rogram **E**valuation and **R**eview **T**echnic, règle et normes de nomenclature a respecter, différentes représentation
 
@@ -365,15 +365,15 @@ Cette comparaison te permet d'avoir une vue d'ensemble des forces et faiblesses 
 **Diagramme de Farmer :**
 
 * **Rouge :** intolérable
-* **Jaune** **:** à maîtriser
-* **Vert** **:** c’est calme
+* **Jaune****:** à maîtriser
+* **Vert****:** c’est calme
 * **Elements :**
   * Description
   * **Impact (axe X)**
   * **Probabilité (axe Y)**
   * Action preventive
   * Action corrective
-* **Evaluation des risques en équipe** **:** dépendant de l’expérience de chacun
+* **Evaluation des risques en équipe****:** dépendant de l’expérience de chacun
 
 **En deux temps**
 
@@ -538,3 +538,56 @@ Le document présente le **Team Management System** (TMS), une méthode d’anal
 10. **Coordination** : La fonction de coordination est centrale pour assurer la cohésion de l’équipe, souvent assurée par le leader.
 
 Ce système aide à construire des équipes complémentaires, en exploitant au mieux les préférences et compétences de chaque membre pour atteindre des performances optimales.
+
+# **19.11.24**
+
+**Product Owner :** S'assure que les besoins du client soit totalement retranscrit et fait le product backlog
+**SCRUM Master :** S'assure que la methode SCRUM est bien respecté et s'assure que l'équipe a toutes les informations nécessaire
+**SCRUM Team :** Réalise les user story et calcul l'effort necessaire pour chacune d'entre elle
+
+**Product Owner :** Priseur et Promoteur et Organisateur
+**SCRUM Master** Coordinateur et Organisateur et Soutien et Propulseur
+**SCRUM Team :** Perfectionneur et Coordinateur et Expert
+
+**JL :** Product Owner, Coordinateur
+**Drini :** SCRUM Team, Expert
+**Gentritt :** SCRUM Master, Priseur
+**Costi :** SCRUM Master, Propulseur
+
+**Matrice de compéténces :**
+
+| Competences / Nom | Attendu               | JL | Gentrit | Costi | Drini |
+| ----------------- | --------------------- | -- | ------- | ----- | ----- |
+| Motivation        | 2 très, 1 motivé    | 0  | 1       | 2     | 2     |
+| Rigeur            | 1 très, 1 rigoureuse | 1  | 0       | 1     | 2     |
+| SCRUM             | 3 très, 1 connait    | 1  | 1       | 2     | 1     |
+| HTML              | 2 très, 1 connait    | 2  | 1       | 2     | 0     |
+| CSS               | 1 très, 1 connait    | 2  | 1       | 2     | 0     |
+| JS                | 3 très, 2 connait    | 2  | 1       | 2     | 1     |
+| PHP               | 1 très, 2 connait    | 2  | 0       | 2     | 0     |
+| SQL               | 1 très, 1 connait    | 2  | 0       | 2     | 0     |
+| Trello            | 3 très, 1 connait    | 1  | 2       | 2     | 2     |
+| Figma             | 1 très, 1 connait    | 0  | 0       | 2     | 1     |
+
+## Projet fictif :
+
+**Nom de société :** InTrue IT
+
+**Fonctionnalités :**
+
+1. Création de compte
+2. Suivi du colis
+3. Contacter l'agence
+4. Plannifier un envoi
+5. Telecharger des docs
+6. Gestion du compte
+7. Solution de payement
+8. Changer la langue
+9. Changer la devise
+
+**Acteurs :**
+
+* Les clients (de 16 ans a plus), 1, 2, 3, 4, 5, 6, 7, 8, 9
+* L'administrateurs 5, 6
+* Les visiteurs, 2, 3, 5§
+* Service client, modérateur 2, 3, 5, 6
