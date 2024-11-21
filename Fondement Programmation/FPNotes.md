@@ -37,32 +37,32 @@ des propositions.
 1. Janvier a 31 jours.
 
 **
-    Non**
+Non**
 
 2. De combien de lettres est constitué l’alphabet ?
 
 **
-    Non**
+Non**
 
 3. La proposition que vous êtes en train de lire est fausse.
 
 **
-    Oui**
+Oui**
 
 4. Mettez vos chaussures !
 
 **
-    Non**
+Non**
 
 5. Jean et Charles sont frères et Alice et Emma sont cousines.
 
 **
-    Oui**
+Oui**
 
 6. 4 est le carré de ±2.
 
 **
-    Non**
+Non**
 
 **Exercice 2 :**
 
@@ -199,3 +199,11 @@ x.isnumeric() : retourne vrai si c’est un nombre ou faux si ce n’en ai pas, 
 **for x in list/tab**
 
 **for x in range(start, stop, step)**
+
+---
+
+# 21.11.14
+
+**Forme disjonctive normale :** unique
+
+**Forme disjonctive reduite :** composé du moins d'éléments possible, non unique

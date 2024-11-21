@@ -77,10 +77,10 @@ Dans l’objectif de réduire les cout et améliorer compétitivité dans le mon
 **Conversion de la partie décimale :**
 
 * (0.4368)10 = (0.2043)5
-  * 0.4368 * 5 -> **2** reste 0.184
-  * 0.184 * 5 -> **0** reste 0.92
-  * 0.92 * 5 -> **4** reste 0.6
-  * 0.6 * 5 -> **3** reste 0** **
+  * 0.4368 * 5 ->**2** reste 0.184
+  * 0.184 * 5 ->**0** reste 0.92
+  * 0.92 * 5 ->**4** reste 0.6
+  * 0.6 * 5 ->**3** reste 0** **
 
 **Pour base d’une base x a une base x^n on peut prendre n chiffre et convertir**
 
@@ -170,7 +170,7 @@ Dans l’objectif de réduire les cout et améliorer compétitivité dans le mon
 
 * **Cloud Based : On bouge complètement dans le cloud, plus rien chez nous, valable pour une partie ou toute l’entreprise**
 * **Cloud Privé : Toute la puissance, la prestation d’un Cloud Based mais en local chez nous, meme Cloud qu’on accède a distance mais c’est privé**
-* **Cloud Hybride :** **Une partie des ressources chez nous dans notre Data Center avec nos techniciens, avec notre personnel. Et une autre partie dans le Cloud, les deux doivent communiquer**
+* **Cloud Hybride :****Une partie des ressources chez nous dans notre Data Center avec nos techniciens, avec notre personnel. Et une autre partie dans le Cloud, les deux doivent communiquer**
 
 **Connexion internet nécessaire**
 
@@ -338,4 +338,36 @@ Concept de Cherub, utilisé des enfants innocent pour infiltrer des réseaux biz
 
 ---
 
-# 14.11.24
+# 21.11.24
+
+**Permissions**
+
+```
+r : lecture
+w : ecriture
+x : executions : execution sous le nom de celui qui le possede
+t : indique que le programme doit etre conservé en mémoire
+```
+
+Posseseur, Groupe, Reste du monde : rwxrwx-x
+
+```
+ls -ld [dir] : Permet de voir les permissions du [dir]
+umask : permet de spécifier les droits que l'on ne veut PAS avoir EX. : umask 022
+```
+
+**RegEx**
+
+```
+Exemple : "ex-équo, ex-equo, ex-aequo", "ex-(a?e|é)quo"
+? : 0 ou une fois la/les lettres figurant avant le ?
++ : 1 ou plusieurs occurences
+* : nombre indéterminé d'occurences
+^ : debut de la ligne
+$ : a la fin de la ligne
+- : intervalle
+\d : répresente tout les chiffres dans le differentes langues
+grep : expressions régulières normales
+egrep : expressions régulières étendues
+fgrep : n'utilise pas les expressions régulières
+```
