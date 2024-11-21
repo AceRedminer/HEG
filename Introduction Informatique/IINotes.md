@@ -371,3 +371,9 @@ grep : expressions régulières normales
 egrep : expressions régulières étendues
 fgrep : n'utilise pas les expressions régulières
 ```
+
+**SHELL**
+
+```
+echo : permet d'afficher un element dans le terminal, equivalent du print
+```
