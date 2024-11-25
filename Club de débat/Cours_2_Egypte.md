@@ -1,6 +1,31 @@
-# Ingenierie et Construction
+# Mathématiques et Sciences Appliqueé
 
-# Ingénierie, Techniques et Architecture des Pyramides, Temples et Tombeaux en Égypte Antique
+### 1. **Techniques de Levage et Transport**
+- **Usage des rampes** : Les Égyptiens concevaient des rampes en terre, en brique ou en pierre pour soulever les blocs massifs. Ces rampes pouvaient être droites, courbes ou internes selon la hauteur et l’espace disponible.  
+- **Principe des leviers** : Les leviers étaient utilisés pour ajuster les blocs avec précision. Cette technique rudimentaire, mais efficace, s’appuyait sur des calculs pour équilibrer la force et le poids des pierres.  
+- **Lubrification des traîneaux** : Pour faciliter le transport des pierres, des traîneaux en bois étaient utilisés sur du sable humidifié, réduisant ainsi la friction et nécessitant moins de force pour déplacer les blocs.
+
+### 2. **Planification et Mesures**
+- **Systèmes de mesures avancés** : Les Égyptiens utilisaient des unités de mesure précises comme la coudée royale (environ 52,3 cm) pour concevoir des bâtiments monumentaux avec exactitude.  
+- **Connaissances géométriques** : La géométrie était essentielle pour tracer des lignes droites, des angles droits et des proportions parfaites, notamment dans l’alignement des pyramides et des temples avec les points cardinaux.  
+- **Organisation logistique** : Les projets nécessitaient une planification sur plusieurs décennies, intégrant des estimations sur les quantités de matériaux, la main-d'œuvre, et le temps requis.
+
+### 3. **Architecture et Symétrie**
+- **Mathématiques appliquées à l'architecture** : Les principes mathématiques étaient utilisés pour garantir la symétrie parfaite des structures. Par exemple, les pyramides reposaient sur des bases carrées précises, et les temples respectaient des rapports géométriques harmonieux.  
+- **Alignements astronomiques** : Les constructions étaient souvent orientées en fonction des astres, comme le lever de Sirius ou le soleil, ce qui nécessitait des calculs astronomiques avancés.  
+- **Techniques de nivellement** : Les Égyptiens utilisaient des outils comme des niveaux à eau pour assurer des surfaces planes et des alignements corrects.
+
+### 4. **Sculpture et Taille de la Pierre**
+- **Précision dans la sculpture** : Les sculpteurs maîtrisaient l’utilisation d’outils en cuivre, en bronze ou en pierre pour créer des détails précis sur des statues ou des murs, comme les hiéroglyphes et les bas-reliefs.  
+- **Techniques de dégrossissage** : Les blocs de pierre étaient dégrossis avec des percuteurs en pierre dure, puis polis avec des abrasifs comme le sable.  
+- **Calculs de proportion** : Les sculpteurs utilisaient des grilles mathématiques pour respecter les proportions idéales dans les représentations humaines et divines.
+
+### 5. **Sciences et Astrologie**
+- **Calculs liés au calendrier** : Les Égyptiens utilisaient des observations astronomiques pour élaborer un calendrier précis basé sur le cycle de Sirius et la crue du Nil. Ce calendrier était crucial pour la planification agricole et la construction.  
+- **Observation des cycles stellaires** : Les outils comme le merkhet (instrument de visée) étaient utilisés pour observer les étoiles et mesurer le temps, influençant l'orientation des bâtiments.  
+- **Utilisation de mathématiques pratiques** : Des tables de calcul dans les papyrus, comme le **Papyrus Rhind**, montrent que les Égyptiens utilisaient des fractions, des multiplications et des divisions pour résoudre des problèmes d’arpentage, essentiels à l’urbanisme et aux constructions.
+
+# Ingenierie et Construction
 
 ### 1. **Conception Architecturale Précise**
 - **Formes géométriques et symétrie** : Les pyramides, temples et tombeaux étaient conçus avec une symétrie parfaite, utilisant des principes géométriques avancés. La pyramide, avec sa base carrée et ses faces triangulaires, symbolisait la stabilité et l’immortalité. Les temples, quant à eux, suivaient des proportions strictes, alignées avec les mouvements solaires et stellaires.  
@@ -30,8 +55,6 @@
 ---
 
 # Geometrie
-
-## Application de la Géométrie dans l'Égypte Antique
 
 L'Égypte antique est célèbre pour ses réalisations architecturales et artistiques, qui témoignent d'une maîtrise avancée de la géométrie. Un exemple frappant de cette application est **la conception et la construction des pyramides**, notamment la Grande Pyramide de Gizeh.
 
