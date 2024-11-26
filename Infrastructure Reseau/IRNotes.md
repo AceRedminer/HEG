@@ -100,6 +100,34 @@
 4. ip address [adresse router du sous-reseaux supplementaire pour routeur]
 5. no shutdown
 
+**Creation de VLAN :**
+
+1. conf t
+2. vlan x
+3. name xxx
+4. end
+
+**Affecter des ports a un VLAN :**
+
+1. conf t
+2. interface fa x/x
+3. switchport mode access
+4. switchport access vlan x
+5. end
+
+**Configurer une sous-interface VLAN :**
+
+- Interface
+  - config
+  - interface 0/0
+  - no shutdown
+- Sous-interface
+  - conf t
+  - interface 0/0.1
+  - descritpion VLAN_1 natif
+  - encapsulation dot1q 1 native
+  - ip addresse x.x.x.x x.x.x.x
+
 ---
 
 # **04.10.24**
