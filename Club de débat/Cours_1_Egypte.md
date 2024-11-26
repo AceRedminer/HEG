@@ -4,13 +4,19 @@
 
 - [Cours : Religion et Philosophie dans l'Égypte Antique](#cours--religion-et-philosophie-dans-légypte-antique)
   - [Table des matières](#table-des-matières)
+  - [Définitions importantes](#définitions-importantes)
+    - [Polythéisme](#polythéisme)
+    - [Maat](#maat)
+    - [Pharaon](#pharaon)
+    - [Jugement d'Osiris](#jugement-dosiris)
+    - [Momification](#momification)
   - [1. **Introduction**](#1-introduction)
   - [2. **Religion et Philosophie**](#2-religion-et-philosophie)
     - [**Polythéisme égyptien**](#polythéisme-égyptien)
     - [**Le rôle du pharaon**](#le-rôle-du-pharaon)
     - [**Maat et l’équilibre cosmique**](#maat-et-léquilibre-cosmique)
   - [3. **Vie après la mort et Croyances funéraires**](#3-vie-après-la-mort-et-croyances-funéraires)
-    - [**Jugement d'Osiris**](#jugement-dosiris)
+    - [**Jugement d'Osiris**](#jugement-dosiris-1)
     - [**Rituels funéraires et le Livre des Morts**](#rituels-funéraires-et-le-livre-des-morts)
     - [**Le Livre des Pyramides**](#le-livre-des-pyramides)
   - [4. **Pharaons célèbres et symboles clés**](#4-pharaons-célèbres-et-symboles-clés)
@@ -18,6 +24,25 @@
     - [**Akhenaton et le culte d’Aton**](#akhenaton-et-le-culte-daton)
     - [**Toutankhamon**](#toutankhamon)
   - [5. **Conclusion**](#5-conclusion)
+
+---
+
+## Définitions importantes
+
+### Polythéisme
+- **Polythéisme** : Système de croyance dans lequel plusieurs dieux sont vénérés. En Égypte antique, chaque dieu avait des attributs et des fonctions spécifiques, et les Égyptiens croyaient que ces dieux influençaient tous les aspects de la vie, de la nature à la société.
+
+### Maat
+- **Maat** : Concept fondamental dans la religion égyptienne, représentant l'ordre, la vérité, la justice et l'équilibre cosmique. Maat est la déesse qui incarne ces principes, et chaque pharaon devait s'assurer que Maat était respectée pour garantir la prospérité et l'harmonie dans le royaume.
+
+### Pharaon
+- **Pharaon** : Titre donné aux rois de l'Égypte antique, considérés non seulement comme des souverains politiques mais aussi comme des divinités vivantes, incarnations des dieux sur Terre. Ils étaient responsables de maintenir l'ordre cosmique et la justice, représentée par Maat.
+
+### Jugement d'Osiris
+- **Jugement d'Osiris** : Croyance égyptienne selon laquelle après la mort, l'âme du défunt était jugée par Osiris, dieu des morts, qui pesait son cœur contre la plume de Maat pour déterminer si l'âme était pure et méritait de vivre dans l'au-delà.
+
+### Momification
+- **Momification** : Processus de préservation du corps humain après la mort. En Égypte antique, ce rituel visait à préparer le défunt pour l’au-delà, afin que l’âme puisse reconnaître son corps et y résider éternellement. Il incluait des étapes telles que l'embaumement et l'enroulement du corps dans des bandelettes de lin.
 
 ---
 
