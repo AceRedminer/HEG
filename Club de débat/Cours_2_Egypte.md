@@ -1,6 +1,27 @@
 # Table des Matières
 
 - [Table des Matières](#table-des-matières)
+- [Définitions](#définitions)
+    - [1. **Rampes** :](#1-rampes-)
+    - [2. **Leviers** :](#2-leviers-)
+    - [3. **Coudée royale** :](#3-coudée-royale-)
+    - [4. **Merkhet** :](#4-merkhet-)
+    - [5. **Akhet** :](#5-akhet-)
+    - [6. **Peret** :](#6-peret-)
+    - [7. **Shemu** :](#7-shemu-)
+    - [8. **Kemèt** :](#8-kemèt-)
+    - [9. **Nilomètre** :](#9-nilomètre-)
+    - [10. **Corvée** :](#10-corvée-)
+    - [11. **Scribes** :](#11-scribes-)
+    - [12. **Vizir** :](#12-vizir-)
+    - [13. **Greniers royaux** :](#13-greniers-royaux-)
+    - [14. **Papyrus Rhind** :](#14-papyrus-rhind-)
+    - [15. **Papyrus médical** :](#15-papyrus-médical-)
+    - [16. **Hâpy** :](#16-hâpy-)
+    - [17. **Nombre d'or (phi)** :](#17-nombre-dor-phi-)
+    - [18. **Voûtes à encorbellement** :](#18-voûtes-à-encorbellement-)
+    - [19. **Corde à 12 nœuds** :](#19-corde-à-12-nœuds-)
+    - [20. **Théorème de Pythagore** :](#20-théorème-de-pythagore-)
 - [Mathématiques et Sciences Appliqueé](#mathématiques-et-sciences-appliqueé)
     - [1. **Techniques de Levage et Transport**](#1-techniques-de-levage-et-transport)
     - [2. **Planification et Mesures**](#2-planification-et-mesures)
@@ -47,6 +68,69 @@
   - [Astronomie](#astronomie)
     - [4. **Astronomie et Agriculture**](#4-astronomie-et-agriculture)
     - [5. **Astronomie et Monuments**](#5-astronomie-et-monuments)
+
+# Définitions
+
+### 1. **Rampes** :
+Des structures utilisées par les Égyptiens pour soulever les blocs massifs nécessaires à la construction des pyramides et autres monuments. Elles pouvaient être droites, courbes ou internes, selon la conception et la hauteur des structures.
+
+### 2. **Leviers** :
+Des outils simples utilisés pour soulever et ajuster les pierres lors de la construction. Ils étaient basés sur des principes de mécanique permettant d'équilibrer les forces pour manipuler des poids lourds avec efficacité.
+
+### 3. **Coudée royale** :
+Unité de mesure utilisée dans l'architecture égyptienne, équivalente à environ 52,3 cm. Elle permettait d’assurer la précision des dimensions dans la construction des monuments.
+
+### 4. **Merkhet** :
+Un instrument de visée utilisé pour les observations astronomiques. Il permettait de repérer les étoiles et d'orienter les bâtiments selon des alignements célestes.
+
+### 5. **Akhet** :
+La première saison dans le calendrier agricole égyptien, correspondant à l’inondation du Nil, qui avait lieu chaque année et apportait de la terre fertile aux champs.
+
+### 6. **Peret** :
+La deuxième saison dans le calendrier agricole, consacrée à la germination et à la plantation des cultures après que les eaux du Nil se soient retirées.
+
+### 7. **Shemu** :
+La troisième saison dans le calendrier agricole, dédiée à la récolte des cultures.
+
+### 8. **Kemèt** :
+Terme signifiant "terre noire", désignant la terre fertile laissée par les crues du Nil, idéale pour l’agriculture.
+
+### 9. **Nilomètre** :
+Un dispositif utilisé pour mesurer les niveaux du Nil pendant la crue. Les informations obtenues étaient utilisées pour ajuster la collecte des impôts, en fonction de la quantité de terre fertile disponible.
+
+### 10. **Corvée** :
+Travail forcé ou obligatoire imposé à la population pour réaliser des travaux publics, comme la construction de monuments, de canaux, ou d’infrastructures pour le compte de l’État.
+
+### 11. **Scribes** :
+Fonctionnaires responsables de l’enregistrement des données administratives, fiscales et de la gestion des ressources dans l’Égypte antique. Ils tenaient des registres précis concernant les récoltes, les impôts et les stocks.
+
+### 12. **Vizir** :
+Haute fonction administrative dans l’Égypte antique, chargé de superviser les affaires de l’État, notamment la gestion des finances et de l’administration.
+
+### 13. **Greniers royaux** :
+Des entrepôts gérés par l'État où étaient stockées les récoltes et autres produits collectés par l’administration fiscale, destinés à être redistribués ou à être utilisés pour des projets publics.
+
+### 14. **Papyrus Rhind** :
+Un ancien document mathématique égyptien, qui montre l'utilisation de fractions et de calculs pour résoudre des problèmes d’arpentage et d’urbanisme. Il est une source majeure sur les connaissances mathématiques des Égyptiens.
+
+### 15. **Papyrus médical** :
+Des rouleaux de papyrus contenant des connaissances sur la médecine, les traitements médicaux et les maladies, rédigés par des scribes et des médecins dans l’Égypte antique.
+
+### 16. **Hâpy** :
+Le dieu égyptien du Nil, associé aux crues annuelles du fleuve, qui apportait la fertilité et la prospérité aux terres agricoles.
+
+### 17. **Nombre d'or (phi)** :
+Un ratio mathématique qui exprime une proportion esthétique, souvent représentée par la lettre grecque phi (ϕ). Certains chercheurs pensent que les proportions de la Grande Pyramide de Khéops étaient basées sur ce nombre.
+
+### 18. **Voûtes à encorbellement** :
+Techniques architecturales utilisées pour créer des ouvertures ou des passages sans utiliser de pierres arrondies. Cette méthode permet de supporter de lourdes charges en utilisant une superposition de pierres.
+
+### 19. **Corde à 12 nœuds** :
+Un instrument géométrique simple utilisé pour tracer des angles droits et garantir des lignes de construction parfaites. Les nœuds étaient espacés régulièrement sur la corde pour aider à mesurer des distances et tracer des angles.
+
+### 20. **Théorème de Pythagore** :
+Un principe de la géométrie qui établit que, dans un triangle rectangle, le carré de l’hypoténuse (le côté le plus long) est égal à la somme des carrés des deux autres côtés. Les Égyptiens utilisaient des méthodes basées sur ce théorème bien avant sa formalisation par Pythagore.
+
 
 # Mathématiques et Sciences Appliqueé
 
