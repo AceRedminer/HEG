@@ -589,5 +589,27 @@ Ce système aide à construire des équipes complémentaires, en exploitant au m
 
 * Les clients (de 16 ans a plus), 1, 2, 3, 4, 5, 6, 7, 8, 9
 * L'administrateurs 5, 6
-* Les visiteurs, 2, 3, 5§
+* Les visiteurs, 2, 3, 5
 * Service client, modérateur 2, 3, 5, 6
+
+# **26.11.24**
+
+**Les cerveaux :**
+
+- Cerveau reptilien, instict
+- Cerveau limbique, emotions
+- Cortex, rationnel
+
+**Charte du comportement (Nom de groupe Les Super Dévéloppeurs):**
+
+1. Tout idée est une idée
+2. Tout jugement est contre productif
+3. Il faut s'écouter entre nous
+4. Il faut se respecter personnellement et laisser les jugements personnel en dehors du processus
+5. On ne se coupe pas la parole
+6. Ne pas rabaisser ses camarades
+7. Il faut se soutenir
+8. Chaque personne doit pouvoir s'exprimer
+9. Faire preuve d'ouverture d'esprit
+10. Il faut faire preuve de calme et comprehension
+11. Connaitre le sujet de discussions
