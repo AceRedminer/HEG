@@ -24,7 +24,7 @@ def affichage_liste_colonne(_liste_nb: list) -> None:
 def multiple_liste(_liste_nb: int, _chiffre: int) -> None:
         idx: int = 0
         for i in _liste_nb:
-             _liste_nb[idx] = i * 3
+             _liste_nb[idx] = i * _chiffre
              idx += 1
         affichage_liste_none(_liste_nb)
 
@@ -39,3 +39,49 @@ def somme_impair(_liste_nb: list) -> None:
             somme_nb += i
     print(str(somme_nb))
 
+def moyenne_liste(_liste_nb: list) -> int:
+    moyenne: int = 0
+    for i in _liste_nb:
+        moyenne += i
+    moyenne /= _liste_nb.count()
+    return moyenne
+
+def incrementer_liste(_liste_nb: list, _chiffre: int) -> None:
+        idx: int = 0
+        for i in _liste_nb:
+             _liste_nb[idx] = i + _chiffre
+             idx += 1
+        affichage_liste_none(_liste_nb)
+
+def supprimer_valeur(_liste_nb: list, _chiffre: int) -> None:
+        idx: int = 0
+        for i in _liste_nb:
+             _liste_nb[idx] = i - _chiffre
+             idx += 1
+        affichage_liste_none(_liste_nb)
+
+def indices_valeur(_liste_nb: list, _chiffre: int) -> list:
+    idx: int = 0
+    idx_val: list = [[]]
+    for i in _liste_nb:
+        idx_val[idx][0] = i
+        idx_val[idx][1] = idx
+        idx += 1
+    return idx_val
+
+def supprimer_doublons(_liste_nb: list) -> list:
+    idx: int = 0
+    unique_nb: list = []
+    while idx < len(_liste_nb):
+        if _liste_nb[idx] not in unique_nb:
+            unique_nb.append(_liste_nb[idx])
+        idx += 1
+    return unique_nb
+
+
+def compter_occurrences(_liste_nb: list, _chiffre: int) -> int:
+    count: int = 0
+    for i in _liste_nb:
+        if i == _chiffre:
+            count += 1
+    return count
