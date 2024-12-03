@@ -76,12 +76,13 @@
 1. enable
 2. config
 3. ip default-gateway 10.136.75.161
-4. write
+4. exit
+5. write
 
 **Configurer 2 sous-réseaux lors de l’accès vers le réseau cantonal :**
 
 1. config
-2. router eigrp 65200
+2. router eigrp 65200 (172.16) 65100 (10.136)
 3. network 172.16.0.0
 4. network 192.168.0.0
 5. no auto-summary
@@ -127,6 +128,11 @@
   - descritpion VLAN_1 natif
   - encapsulation dot1q 1 native
   - ip addresse x.x.x.x x.x.x.x
+
+**DHCP :**
+- conf t
+- interface gigabitEthernet 0/x
+- ip helper-address *addresse réseaux cantonal*      
 
 ---
 

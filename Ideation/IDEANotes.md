@@ -212,3 +212,38 @@ Setting goals without measurable objectives will likely lead to goals that never
 Objectives without goals lack purpose/meaning
 
 Goals can seem impossible or overwhelming unless broken into specific, measurable tasks
+
+---
+
+**29.11.24**
+
+**Market :** physical or online location
+
+**Market size :** total potential buyers
+
+* Estimating Potential Profit
+* Adapting Marketing Strategies
+* TAM (Total Available Market)
+* SAM (Served Available Market)
+* SOM (Serviceable Obtainable Market)
+
+**Marketplace :** focuses on customer characteristics abd how your business meets their needs
+
+**Market Share :** percentage of total purchases for a product or services that goes to your company
+
+**Competitors :**
+
+* Identify competitors
+* Determine their market share
+* Analyze their strategies
+* Type of competitors :
+  * Direct competition
+  * Indirect competition
+  * Substite competition
+
+Segmentation :
+
+- Geographic Segmentation
+- Demographic Segmentation
+- Psychographic Segmentation
+- Behavioral Segmentation
