@@ -33,7 +33,7 @@
 
 * **Hostname :**
   1. enable
-  2. configure terminal
+  2. configure termina
   3. hostname *Sw_1_CV*
   4. exit
 * **Password :**

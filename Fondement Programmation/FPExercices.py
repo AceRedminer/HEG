@@ -420,7 +420,41 @@ modules_perso.afficher_somme(4, 2)
 
 # EX 3
 modules_perso.verifier_signe(100)
+
+#EX Matrices
+
+mat_1: list = [[4, 6, 3], [5, 8, 9], [1, 2, 7]]
+mat_2: list =[[0, 1, 2], [3, 4, 5], [6, 7, 8]]
+
+idx_1 = 0
+idx_2 = 0
+for i in mat_1:
+    for j in i:
+        mat_2[idx_1][idx_2] = j * 2
+        idx_2 += 1
+    idx_1 += 1
+    idx_2 = 0
+
+for i in mat_1:
+    for j in i:
+        print(j, end=" ")
+    print()
+
+print()
+
+for i in mat_2:
+    for j in i:
+        print(j, end=" ")
+    print()
 '''
+import datetime
 
+# EX Dictionnaires
 
+personnes: list = [
+    {'nom' : 'Volta', 'prenom' : 'Costantino', 'annee' : 2002},
+    {'nom' : 'Pleaseance', 'prenom' : 'Alice', 'annee' : 1865},
+    ]
 
+for i in personnes:
+    print(i['nom'], i['prenom'], ":" , datetime.date.today().year - i['annee'])
