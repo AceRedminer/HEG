@@ -31,15 +31,31 @@
 
 ### **1. Religio pragmatica et ritus**  
 #### **Respect des rites**  
-Les Romains accordaient une importance capitale à l'exactitude des rites religieux, considérés comme essentiels pour maintenir la *pax deorum* (paix des dieux) et éviter la colère divine. Ces rituels, souvent supervisés par les pontifes ou les augures, se déroulaient dans des lieux sacrés comme le temple de Jupiter Capitolin à Rome ou le sanctuaire de Vesta, et nécessitaient une exécution parfaite sous peine de tout recommencer. Par exemple, lors des *Ludi Romani* (jeux romains) instaurés en 366 av. J.-C., des sacrifices et des prières précises accompagnaient les festivités pour honorer Jupiter et protéger la cité. Dans la sphère privée, les cultes domestiques dédiés aux Lares et Pénates structuraient la vie quotidienne des familles romaines, assurant leur prospérité et leur sécurité spirituelle. Un rituel mal exécuté, tel qu’un sacrifice incorrect, pouvait être tenu responsable de catastrophes comme la défaite de la bataille d'Allia en 390 av. J.-C., où les dieux semblaient avoir abandonné Rome en raison de pratiques cultuelles négligées.
+Les Romains accordaient une importance capitale à l'exactitude des rites religieux, considérés comme essentiels pour maintenir la *pax deorum* 
+(paix des dieux) et éviter la colère divine. Ces rituels, souvent supervisés par les pontifes ou les augures, se déroulaient dans des lieux sacrés 
+comme le temple de Jupiter Capitolin à Rome ou le sanctuaire de Vesta, et nécessitaient une exécution parfaite sous peine de tout recommencer. 
+Par exemple, lors des *Ludi Romani* (jeux romains) instaurés en 366 av. J.-C., des sacrifices et des prières précises accompagnaient les festivités 
+pour honorer Jupiter et protéger la cité. Dans la sphère privée, les cultes domestiques dédiés aux Lares et Pénates structuraient la vie quotidienne
+ des familles romaines, assurant leur prospérité et leur sécurité spirituelle. Un rituel mal exécuté, tel qu’un sacrifice incorrect, pouvait être 
+ tenu responsable de catastrophes comme la défaite de la bataille d'Allia en 390 av. J.-C., où les dieux semblaient avoir abandonné Rome 
+ en raison de pratiques cultuelles négligées.
   
 
 #### **Pax Deorum**  
-La *pax deorum* représentait l’harmonie entre les humains et les dieux, considérée comme essentielle pour la prospérité et la stabilité de Rome, notamment dans des périodes critiques comme les guerres ou les famines. Les magistrats religieux, tels que les pontifes et les augures, veillaient rigoureusement à son maintien en supervisant les rites publics, comme ceux célébrés lors des *Feriae Latinae*, une fête en l'honneur de Jupiter Latial organisée dès le VIe siècle av. J.-C. sous la monarchie romaine. Les calamités, qu'il s'agisse de désastres naturels comme l'éruption du Vésuve en 79 apr. J.-C. ou de défaites militaires comme à Cannes en 216 av. J.-C., étaient souvent attribuées à des déséquilibres dans les relations avec les divinités, nécessitant des cérémonies expiatoires ou des sacrifices pour apaiser les dieux. Un exemple notable est la dédicace du Temple de la Concorde en 367 av. J.-C. pour marquer le rétablissement de l'ordre social après des tensions entre patriciens et plébéiens, un acte symbolisant le retour à la *pax deorum*. Les empereurs eux-mêmes, comme Auguste, se positionnaient comme garants de cette paix divine, renforçant leur légitimité en tant qu'intermédiaires entre les hommes et les dieux
+La *pax deorum* représentait l’harmonie entre les humains et les dieux, considérée comme essentielle pour la prospérité et la stabilité de Rome, 
+notamment dans des périodes critiques comme les guerres ou les famines. Les magistrats religieux, tels que les pontifes et les augures, veillaient 
+rigoureusement à son maintien en supervisant les rites publics, comme ceux célébrés lors des *Feriae Latinae*, une fête en l'honneur de 
+Jupiter Latial organisée dès le VIe siècle av. J.-C. sous la monarchie romaine. Les calamités, qu'il s'agisse de désastres naturels comme l'éruption 
+du Vésuve en 79 apr. J.-C. ou de défaites militaires comme à Cannes en 216 av. J.-C., étaient souvent attribuées à des déséquilibres dans 
+les relations avec les divinités, nécessitant des cérémonies expiatoires ou des sacrifices pour apaiser les dieux. Un exemple notable est la 
+dédicace du Temple de la Concorde en 367 av. J.-C. pour marquer le rétablissement de l'ordre social après des tensions entre patriciens 
+et plébéiens, un acte symbolisant le retour à la *pax deorum*. Les empereurs eux-mêmes, comme Auguste, se positionnaient comme garants de 
+cette paix divine, renforçant leur légitimité en tant qu'intermédiaires entre les hommes et les dieux
  
 
 #### **Ludi et fêtes religieuses**  
-Les *Ludi*, fêtes religieuses publiques, mêlaient rituels et divertissements. Ces célébrations rassemblaient la population pour honorer les dieux. Les jeux gladiatoriaux, courses de chars et pièces de théâtre étaient souvent liés aux temples.  
+Les *Ludi*, fêtes religieuses publiques, mêlaient rituels et divertissements. Ces célébrations rassemblaient la population pour honorer les dieux. 
+Les jeux gladiatoriaux, courses de chars et pièces de théâtre étaient souvent liés aux temples.  
 
 ---
 
