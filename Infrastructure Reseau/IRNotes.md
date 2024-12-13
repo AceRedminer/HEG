@@ -134,6 +134,13 @@
 - interface gigabitEthernet 0/x
 - ip helper-address *addresse réseaux cantonal*      
 
+**VTP :**
+- Server :
+  - conf t
+  - vtp domain exempledomaine
+  - vtp mode server / client / transparent
+  - exit
+  - show vtp status
 ---
 
 # **04.10.24**
@@ -200,3 +207,6 @@
   * Ping Switch OK
 
 ---
+
+# 13.12.2024
+## VTP
