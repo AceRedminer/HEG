@@ -215,7 +215,7 @@ Goals can seem impossible or overwhelming unless broken into specific, measurabl
 
 ---
 
-**29.11.24**
+# 29.11.24
 
 **Market :** physical or online location
 
@@ -241,9 +241,30 @@ Goals can seem impossible or overwhelming unless broken into specific, measurabl
   * Indirect competition
   * Substite competition
 
-Segmentation :
-
+Segmentation : Make sens of the market
 - Geographic Segmentation
 - Demographic Segmentation
 - Psychographic Segmentation
 - Behavioral Segmentation
+
+Targeting : Choose which customer to serve
+Positioning : 
+
+# 13.12.24
+
+**Marketing mix :** 
+- **Promotion :** Sales Promotion, Advertising, Public Relations, Direct marketing
+- **Product :** Features, Quality, Branding, Packagning, Services, Warranties
+- **Place :** Channels, Market Coverage, Assortment, Location, Inventory, Transport
+- **Price :** Price strategy, Pricing, Allowances, Discounts, Payement terms
+4 controllable variables, can be adapted to the specific customer needs, interconnected
+
+**Features vs Benefits :**
+- Features : The specific characteristics of a product or service
+- Benefits : How these features provide value to the customer by solving their problems or improving their experience
+- Features tell, benefit sell
+
+**Three levels of a Product :**
+- The Core Benefit : The basic need or problem the product solves
+- The Actual Product : The tangible features of the product : design, brand, quality and packaging
+- The Augmented Product : The additional, intangible elements : warranties, customer service and after-sales support
