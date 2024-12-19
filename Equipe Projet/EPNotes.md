@@ -613,3 +613,28 @@ Ce système aide à construire des équipes complémentaires, en exploitant au m
 9. Faire preuve d'ouverture d'esprit
 10. Il faut faire preuve de calme et comprehension
 11. Connaitre le sujet de discussions
+
+# 18.12.24
+**Analyse transactionelle :**
+- 1958 par le psy Eric Berne
+- Les etats du moi :
+  - Parent :
+    - Nominatif
+    - Nourricier / protecteur
+    - Critique
+  - Adulte
+  - Enfant
+    - Spontané
+    - Soumis
+    - Rebelle
+  - Les transactions :
+    - Les transactions parallèles ou complémentaires
+    - Les transactions croisées ou angulaire
+    - Les transactions cachées
+  - Parent + CNV
+
+**La fenetre de Johari :**
+- Zone publique : Pour bien communiquer en équipe, lien de confiance
+- Zone aveugle
+- Zone cachée
+- Zone inconnue

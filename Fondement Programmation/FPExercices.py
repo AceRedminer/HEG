@@ -446,7 +446,7 @@ for i in mat_2:
     for j in i:
         print(j, end=" ")
     print()
-'''
+
 import datetime
 
 # EX Dictionnaires
@@ -458,3 +458,18 @@ personnes: list = [
 
 for i in personnes:
     print(i['nom'], i['prenom'], ":" , datetime.date.today().year - i['annee'])
+'''
+
+animaux = open("animaux.txt", 'r')
+
+
+##for i in animaux:
+##    print(i, end="")
+##to_print = animaux.readline()
+##while to_print != "":
+##    print(to_print, end="")
+##    to_print = animaux.readline()
+##print()
+with open("animaux.txt", 'a') as fichierA, open("animaux.txt", 'r') as fichierR:
+    fichierA.write("koala")
+    print(fichierR.read())
