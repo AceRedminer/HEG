@@ -22,7 +22,6 @@ def traitement_fichier(path: str, ignore: list) -> list:
         mots = contenu.split()
 
         return mots
-        return mots
     except FileNotFoundError:
         print(f"Erreur : Le fichier '{path}' est introuvable.")
         return []
@@ -30,7 +29,27 @@ def traitement_fichier(path: str, ignore: list) -> list:
         print(f"Erreur : Une erreur s'est produite lors de la lecture du fichier : {e}")
         return []
 
+def traitement_donnees(path: str, ignore: list) -> dict:
+    dico: dict = {}
+    for mot in traitement_fichier(path, ignore):
+        dico = ajouter_au_dico(dico, mot)
+    return dico
+
+def ajouter_au_dico(dico: dict, mot: str) -> dict:
+    if mot in dico:
+        dico[mot] += 1
+    else:
+        dico[mot] = 1
+    return dico
+    
+def frequence_un_mot(dico: dict, mot: str):
+    frequence: int = dico.get(mot, "n'apparait pas dans la liste")
+    print(f"Frequence de \"{mot}\" : {frequence}")
 
 if __name__ == '__main__':
     path_texte = "Ressources/texte.txt"
     ignore: list = ["(", ")", ",", " ", ".", ":", "«", "»", ";", "/", "\\", "?", "!"]
+    dico: int = traitement_donnees(path_texte, ignore)
+    print(dico)
+    mot: str = input("Quel mot souhaitez vous tester ? : ")
+    frequence_un_mot(dico, mot)
