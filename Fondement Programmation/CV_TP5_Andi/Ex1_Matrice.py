@@ -26,7 +26,7 @@ def afficher_matrices(matrice_initiale: list, matrice_finale: list) -> None:
         print(li)
     print("\nMatrice modifiée:")
     for li in matrice_finale:
-        print(row)
+        print(li)
 
 if __name__ == '__main__':
     matrice: list = creer_matrice(5, 5)
