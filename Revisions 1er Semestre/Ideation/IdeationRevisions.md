@@ -54,17 +54,56 @@
 - Companies create satisfied and loyal customers by delivering exxceptional customer value, over time they buy more
 
 ## Conclusion on "What is Marketing ?"
-
 Marketing is about understading people's needs and frustrations. By making customers feel understood, businesses can position their product or service as the solution to their problems. 
 
 It's about communicationg the value of your solution to generate sales, gain market share, and increase profits
 
-Marketing encompasses a set of strategies and actions aimed at understanding, attracting, engaging, and retaining customers by delivering exceptional value. By integrating various approaches such as traditional, digital, event, social, and promotional marketing, it seeks to meet consumer needs, desires, and expectations while maximizing business profitability.
+Marketing is about making people interested in your products or services.
 
-Tools like the marketing mix (Product, Price, Place, Promotion) enable the analysis and fulfillment of customer needs, building strong and lasting relationships. Businesses, by studying consumer behavior, create customer-driven strategies to deliver enriching experiences. This leads to a dual creation of value: for the customer, by meeting their expectations, and for the business, by generating profits and fostering loyalty.
+This happens by understanding your ideal customer through market research and analysis
 
-In essence, marketing aims to make selling unnecessary by fully anticipating and satisfying customer expectations, thereby capturing value in the form of market share, sales, and profits.
+Marketing influences every part of your business : product development, distribution, sales and advertising
 
+It is not always the best product or service that wins, in fact, it rearely is
+
+The winner is usually the product or service with the most effective marketing
+
+
+---
+
+# Core Concepts 
+- Creating value for customers in order to capture value in return
+- Everything that touches the customer is marketing : From product design to pricing, packaging, selling and promotion, every activity is part of marketing
+- A product or service is only a tool to solve a consumer problem
+
+## Needs, Wants and Demands
+**In marketing, understanding the difference between needs, wants and demands is essential for engaging with customers**
+- Needs : Basic requirements for survival or maintaining a certain quality of life, basic items required for survival and functionning
+  - Physical Needs : Food, Water, Shelter and Clothing
+  - Social Needs : Relationship, Friendships, Community Involvement
+  - Individual Needs : Education, Hobbies, Personal Development Activities
+  - Abraham Maslow's Hierarchy of Needs (bottom to top), lower-level needs must be satisfied before higher-level needs are addressed :
+    - Physiological Needs : Air, Water, Food, Shelter, Clothing, Reproduction
+    - Safety Needs : Personal Security, Employement, Ressources, Health, Property
+    - Love and Belonging : Friendship, Intimacy, Family, Sense of Connection
+    - Esteem : Respect, Self-Esteem, Status, Recognition, Strength, Freedom
+    - Self-Actualization : Desire to become the that one can be
+- Wants : Desires for specific items that can satisfy needs, How we interpret ou Needs, Influenced by Knowledge, Culture, Society and individual personnality
+- Demands : Wants backed by the ability to pay for them, Demands = Specific desires + ability abd willingness to pay
+- Exemple :
+  - You Need food for lunch
+  - You Want a burger with a soft drink
+  - You Demand a Double Whooper with a fried and a Coke
+
+## Market Offerings
+- Products : Tangible items that are made available for purchase, use or attention, easy to evaluate based on visible features
+  - Products are easy to assess because they are quantifiable and visible
+- Services : Intangible items, resulting drom the actions of one or more  individuals, don't result in ownership of physical item
+  - Services are harder to evaluate since quality is only clear after delivery. Online reviews and before-and-after inmages provide some insight, but service quality is best judged after it's experienced
+
+**Consumers' needs and Wants arte fullfilled through market offerings**
+
+---
 
 
 
