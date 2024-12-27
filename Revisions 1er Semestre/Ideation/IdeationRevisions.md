@@ -177,5 +177,44 @@ The winner is usually the product or service with the most effective marketing
 
 ## The Marketing Process
 1. **Research :** Understanding the market, customers and business environment
+   1. Mission
+      - The first step is to identify and uderstand the mission. goals and objectives of your organization
+        - **SMART :**
+          - **Specific :** Your goal should be crystal clear, leaving no room for confusion. Answer the who, what, when, where and why to define what's expected
+          - **Measurable :** Ensure your goal is measurable so you can track progress. Define the "how" by identifying what you'll measure to know if you've achieved your goal
+          - **Attainable :** Mke sur the goal is realistic and achiebale, considering the resources available and your ability to work toward it
+          - **Relevant/Realistic :** To be effective, your goal should be realistic and align with your values, dreams and broader ambitions. It should make sense within the bigger picture of your goals
+          - **Time-Bound :** Set a target date for completion. A deadline creates a sense of urgency and motivation to achieve your goal within a defined timeframe
+          - **SMART objectives common mistakes :**
+            - **Focusing on the end result only :** The "how" is as important as the "what". If you concentrate exclusively on the outcome, you may overlook the methods to achieve your goal, turning it into a wish
+            - **Making assumptions withour validation :** Avoud relying on assumptions, instead, trust only what you know and validate your information. Assumptions can lead to misleading conclusions in your planning
+            - **Overlook the process :** The process is as valuable as the outcome itself. Clarifying your ideas and concentrating on each step will make your journey more effective
+          - **Goals :** Set a broad vision and direction. Whitout measurable objectives will likely lead to goals that never get accomplished
+          - **Objectives :** Specific achiveable steaps that make the goal actionable. Whitout goal lack purpose/meaning
+          - **Track progress :** Monitoring objectives is essential for measuring progress toward the larger goal
+      - A mission statement is a short clear explanation of why the organization exist and how it benefits consumers
+      - It's ideally customer-focused, not just abour profit and dividends
+      - **Key questions to consider :** 
+        - Why is your organization in business ?
+        - What is your organization's purpose
+        - How do you want the public to perceive your business ?
+        - What are your main business objectives ?
+   2. Situation Analysis
+      - **5 C's Analysis :** Examines your Company, Competitors, Customers, Collaborators and Climate
+        - Highlight the most critical factors influencing your business
+      - **SWOT Analysis :** Identifies Strengths, Weaknesses, Opportunities and Threats for a clear picture of your current position
+        - Strategic planning technique used to evaluate a company's competitive position
+        - **External factors :** Opportunities and Threats
+        - **Internal factors :**
+          - **Strengths :** Location, Shopfront or website appeal, Operating hours, Industry experience, Follow-up service
+          - **Weakness :** Unclear strategic direction, Outdateed facilities, Low profitability, Weak market image, Weak distribution network, Financial constraints
+      - **PESTLE Analysis :** Explores Political, Economic, Social, Technological, Legal and Environnmental factors that shape the business environment
+      - **Understanding the Marketplace : Together, they help answer the key question "Where are we now ?"**
+        - Researching the unique aspects of the market
+        - Identifying customer needs and preferences
+        - Considering internal and external factors that impact the business 
 2. **Planning :** Setting goals, analyzing factors and developping a product plan
+   1. Marketing Strategy
+   2. Marketing Mix
 3. **Implementation :** Executing the plan and tracking progress to reach your goals
+   1. Implementation and Control 
