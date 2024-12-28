@@ -204,11 +204,46 @@ The winner is usually the product or service with the most effective marketing
         - Highlight the most critical factors influencing your business
       - **SWOT Analysis :** Identifies Strengths, Weaknesses, Opportunities and Threats for a clear picture of your current position
         - Strategic planning technique used to evaluate a company's competitive position
-        - **External factors :** Opportunities and Threats
+        - **External factors :**
+          - **Opportunities :** Market expansion, Technological advancements, Strategic partenership, Consumer trends, Regulatory changes, Economic growth, Competitor vulnerabilities, Innovation
+          - **Threats :** Competitive pressure, Substitution threat, Market saturation, Economic fluctuations, Regulatory challenges, Evolving customer needs, Demographic shifts
         - **Internal factors :**
           - **Strengths :** Location, Shopfront or website appeal, Operating hours, Industry experience, Follow-up service
           - **Weakness :** Unclear strategic direction, Outdateed facilities, Low profitability, Weak market image, Weak distribution network, Financial constraints
-      - **PESTLE Analysis :** Explores Political, Economic, Social, Technological, Legal and Environnmental factors that shape the business environment
+      - **PESTLE Analysis :** 
+        - **Political :** Include governement regulations and legal issues that define the rules for businesses
+          - Tax policy
+          - Laws and regulations
+          - Trade restrictions, agreements and tariffs
+          - Political stability
+        - **Economic :** Influence customers' purchasing power and the company's financial health
+          - Economic growth
+          - Interest rates
+          - Infaltion rate
+          - Exchange rates
+        - **Social :** Reflect the cultural and demographic aspects that influence a market
+          - Population growth rate
+          - Age distribution
+          - Health consciousness
+          - Eco-awareness & safety
+          - Etc.
+        - **Technological :** Techonological changes impact how businesses operate and produce goods
+          - Innovative production
+          - Emerging technologies
+          - Automation
+          - Industry standards
+        - **Legal :** Involve regulations businesses must follow to ensure compliance and avoid issues
+          - Employment laws
+          - Health and safety regulations
+          - Environmental laws
+          - Privacy laws
+          - Intellectual property laws
+        - **Environmental factors :** Assess a company's impact on the natural environment, which can be positive or negative
+          - Natural ressources
+          - Waste management
+          - Carbon footprint
+          - Environmental regulations
+          - Community impact
       - **Understanding the Marketplace : Together, they help answer the key question "Where are we now ?"**
         - Researching the unique aspects of the market
         - Identifying customer needs and preferences
