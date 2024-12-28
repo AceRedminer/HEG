@@ -252,4 +252,51 @@ The winner is usually the product or service with the most effective marketing
    1. Marketing Strategy
    2. Marketing Mix
 3. **Implementation :** Executing the plan and tracking progress to reach your goals
-   1. Implementation and Control 
+   1. Implementation and Control
+
+## Marketing Strategy
+
+**Market :** Any location, physical or online, where buyers and seller exchange goods
+**Market Size :** Total potential buyers in a market and the revenue their purchases could generate
+**Marketplace :** Focuses on customer characteristics and how your busness meets their needs
+**Market Share :** The percentage of total purchases for a product or service that goes to your company
+
+## Competitors
+
+**Identify your competitors :** Who elese offers similar products or services ?
+**Determine their market share :** How much of the market do they control ?
+**Analyze their strategies :** What are they doing to grow their buasiness ?
+
+**Defining your competition :**
+   - **Direct competition :** Businesses offering the same need in a different way
+   - **Indirect competition :** Businesses that fulfill the same need in a different way
+   - **Substitute competition :** Alternatives that customers may choose instead of your product or service
+
+## Market and its Size : Key to Business Planning
+
+**Estimating Potential Profit :** Market size helps predict potential revenue and assess of a business idea is worth investing in
+**Adapting Marketing Strategies :** Knowing your market's size and demographics enables tailored strategies to meet your audience's needs and maximiza efficiency
+
+**Market sizing :**
+- **TAM (Total Adressable Market or Total Available Market) :** The total market demand for your product or service
+- **SAM (Served Available Market) :** The portion or segment of the total market that you are able to potentially serve with your product or service
+- **SOM (Serviceable Obtainable Market) :** The of SAM that you can capture
+
+## Market share : Your Piece of the Industry Pie
+
+**Formula :** Market Share (%) = (Company's Sales / Total Market Sales) * 100
+
+## Market Understanding Summary
+
+The marketing process begins with research to analyze the mission, market, and environment using tools like SMART goals, SWOT, and PESTLE analysis. 
+
+Planning follows, with strategies targeting market size, customer needs, and competitive positioning. 
+
+Execution focuses on delivering value while monitoring progress. Market size (TAM, SAM, SOM) and share are vital for estimating potential profits and tailoring strategies to meet customer demands effectively.
+
+---
+
+# Segmentation, Targeting, Positioning
+
+## Defining Your Target Audience
+
