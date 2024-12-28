@@ -590,13 +590,13 @@ Identify your ideal customers and prioritize them
    - Allows marketers to address specific needs effectively
    - Helps craft tailored marketing messages
 
-    **Four basic segmentation criteria :**
+   - **Four basic segmentation criteria :**
       - **Demographic, The Who :** Focus on certain traits they share
       - **Psychographic, The Why :** Focus on personalities, interests and lifestyle
       - **Geographic, The Where :** Physical location
       - **Behavioral, The How :** Focus on actions and habits
 
-    **DAMP, for segmentation to be effective all segments must be :**
+   - **DAMP, for segmentation to be effective all segments must be :**
       - **Distinct :** Each segment must be clearly different from other segments, requiring different marketing mix
       - **Accessible :** Buyers must be reachable via appropriate channels and promotional activities
       - **Mesurable :** The segment must be easy to identify and quantify
