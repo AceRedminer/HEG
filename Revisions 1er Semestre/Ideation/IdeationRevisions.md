@@ -586,5 +586,25 @@ Identify your ideal customers and prioritize them
 ## STP Marketing Model
 
 **Market Segmentation :** Divide the market into groups of customers with shared needs or characteristics
+   - Identifies groups with shared characteristics
+   - Allows marketers to address specific needs effectively
+   - Helps craft tailored marketing messages
+
+    **Four basic segmentation criteria :**
+      - **Demographic, The Who :** Focus on certain traits they share
+      - **Psychographic, The Why :** Focus on personalities, interests and lifestyle
+      - **Geographic, The Where :** Physical location
+      - **Behavioral, The How :** Focus on actions and habits
+
+    **DAMP, for segmentation to be effective all segments must be :**
+      - **Distinct :** Each segment must be clearly different from other segments, requiring different marketing mix
+      - **Accessible :** Buyers must be reachable via appropriate channels and promotional activities
+      - **Mesurable :** The segment must be easy to identify and quantify
+      - **Profitable :** The segment must be large enough to generate a stream of constant future revenues and growth
+
 **Market Targeting :** Identify the best segment(s) to focus on
+   - **Market Size and Growth Potential :** Evaluate the segment's current size and its capacity for future growth.  
+   - **Profitability :** Assess the segment's ability to generate sustainable profits over time.  
+   - **Ease of Reach :** Determine how efficiently the segment can be accessed and served with marketing efforts.  
+
 **Product Positioning :** Craft a message and value proposition to appeal to the selected segment(s) while standing out from competitors
