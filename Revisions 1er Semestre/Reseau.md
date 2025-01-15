@@ -441,5 +441,170 @@ Les réseaux jouent un rôle central dans nos vies, permettant une connectivité
 ### **Conclusion**
 Les réseaux sont essentiels pour la communication moderne, mais nécessitent une gestion rigoureuse de la sécurité, de la performance et de l'évolutivité. Les tendances comme le BYOD, le cloud computing et les maisons intelligentes continuent de transformer notre façon de vivre et de travailler.
 
+---
 
+## 2.4
+
+**Configuration de base :**
+- **Hostname :** conf t, hostname R1
+- **Mot de passe de la ligne console :** conf t, line con 0, password cisco, login, end
+- **Mot de passe privilégié :** conf t, enable secret class, exit
+- **Mot de passe de la ligne VTY :** conf t, line vty 0 15, password cisco, login, end
+- **Chiffrer les mots de passe :** conf t, service password-encryption
+- **Message de bannière :** conf t, banner motd #Authorized Access Only#
+- **Afficher configuration :** show running-config
+
+---
+
+## 2.6
+
+### 2.6.1
+
+**Adresses IP :**
+L'utilisation d'**adresses IP** est essentielle pour permettre aux périphériques de se localiser et de communiquer sur Internet. Chaque périphérique final d'un réseau doit être configuré avec une adresse IP. Voici un résumé des points clés :
+
+**Périphériques finaux utilisant des adresses IP**
+- **Ordinateurs** : Stations de travail, ordinateurs portables, serveurs de fichiers, serveurs web.
+- **Imprimantes réseau**.
+- **Téléphones VoIP**.
+- **Caméras de surveillance**.
+- **Smartphones**.
+- **Périphériques portables mobiles** : Par exemple, lecteurs de codes à barres sans fil.
+
+**Structure des adresses IPv4**
+- Les adresses IPv4 sont représentées en **notation décimale à point**, composée de quatre nombres décimaux compris entre 0 et 255 (exemple : `192.168.1.1`).
+- Chaque adresse IPv4 est unique et attribuée à un périphérique spécifique sur un réseau.
+
+**Masque de sous-réseau**
+- Un **masque de sous-réseau** est une valeur 32 bits qui distingue la partie réseau de la partie hôte d'une adresse IP.
+- Associé à l'adresse IPv4, le masque de sous-réseau détermine à quel sous-réseau le périphérique appartient (exemple : `255.255.255.0`).
+
+**Versions d'IP**
+- **IPv4** : La version la plus couramment utilisée, mais limitée en nombre d'adresses disponibles.
+- **IPv6** : La version la plus récente, conçue pour remplacer IPv4 en offrant un espace d'adressage beaucoup plus large.
+
+**Remarque**
+- Dans ce contexte, le terme **IP** fait référence à la fois aux protocoles IPv4 et IPv6, bien qu'IPv6 soit la version la plus récente et la plus avancée.
+
+En résumé, les adresses IP (IPv4 et IPv6) et les masques de sous-réseau sont des éléments fondamentaux pour l'identification des périphériques et la gestion des communications sur les réseaux.
+
+Les adresses IPv6 ont une longueur de 128 bits et sont notées sous forme de chaînes de valeurs hexadécimales. Tous les groupes de 4 bits sont représentés par un caractère hexadécimal unique, pour un total de 32 valeurs hexadécimales. Les groupes de quatre chiffres hexadécimaux sont séparés par un deux-points (:). Les adresses IPv6 ne sont pas sensibles à la casse et peuvent être notées en minuscules ou en majuscules.
+
+---
+
+### 2.6.2
+
+**Interfaces et ports :**
+Les **communications réseau** reposent sur trois éléments clés : les **interfaces des périphériques utilisateur final**, les **interfaces des périphériques réseau** et les **câbles de connexion**. Chaque interface est définie par des **normes physiques** spécifiques, et le câble de connexion doit être compatible avec ces normes. Voici un résumé des principaux supports de transmission :
+
+**Supports de transmission**
+1. **Câbles en cuivre à paires torsadées** :
+   - Couramment utilisés dans les réseaux LAN.
+   - Composés de fils de cuivre torsadés pour réduire les interférences.
+   - Exemples : Cat5e, Cat6, Cat7.
+
+2. **Câbles à fibres optiques** :
+   - Utilisent des fibres de verre ou de plastique pour transmettre des signaux lumineux.
+   - Idéaux pour les longues distances et les environnements à haut débit.
+   - Exemples : Fibre monomode, fibre multimode.
+
+3. **Câbles coaxiaux** :
+   - Composés d'un conducteur central entouré d'un blindage.
+   - Souvent utilisés pour les connexions Internet par câble et les réseaux télévisés.
+   - Exemple : Câble RG-6.
+
+4. **Liaisons sans fil** :
+   - Utilisent des ondes radio pour transmettre des données.
+   - Flexibles et adaptés aux environnements mobiles.
+   - Exemples : Wi-Fi, Bluetooth, liaisons cellulaires.
+
+**Importance des normes**
+- Les **interfaces** des périphériques (comme les ports Ethernet ou les interfaces Wi-Fi) doivent respecter des normes spécifiques pour garantir une compatibilité et une performance optimales.
+- Les **câbles de connexion** doivent correspondre aux caractéristiques physiques de l'interface (par exemple, un câble Ethernet Cat6 pour un port Ethernet Gigabit).
+
+En résumé, les communications réseau dépendent de la compatibilité entre les interfaces des périphériques et les supports de transmission. Que ce soit via des câbles en cuivre, des fibres optiques, des câbles coaxiaux ou des liaisons sans fil, chaque support a ses avantages et ses applications spécifiques.
+
+Voici une version plus concise :
+
+**Supports réseau**
+- **Types** : Cuivre (paires torsadées), fibre optique, coaxial, sans fil.
+- **Caractéristiques** : Distance, environnement, débit, coût.
+- **Utilisation** : Chaque support est adapté à des besoins spécifiques (ex : fibre pour longues distances, cuivre pour les LAN).
+
+**Technologies réseau**
+- **Ethernet** : Technologie LAN dominante, utilise des ports physiques pour connecter des périphériques.
+
+**Commutateurs de couche 2**
+- **Ports physiques** : Connectent les périphériques.
+- **Interface SVI (VLAN1)** : Interface virtuelle pour la gestion à distance via IPv4/IPv6.
+- **Remarque** : Pas besoin d'adresse IP pour la commutation, mais nécessaire pour la gestion à distance.
+
+En résumé, les supports et technologies varient selon les besoins, et les commutateurs utilisent des interfaces virtuelles pour une gestion simplifiée.
+
+---
+
+## 2.7
+
+### 2.7.2
+Le **protocole DHCP (Dynamic Host Configuration Protocol)** est largement utilisé pour configurer automatiquement les adresses IPv4 sur les réseaux. 
+
+**Avantages du DHCP**
+- **Configuration automatique** : Attribue une adresse IPv4, un masque de sous-réseau, une passerelle par défaut et un serveur DNS aux périphériques finaux.
+- **Gain de temps** : Évite la configuration manuelle, surtout dans les grands réseaux avec de nombreux utilisateurs et périphériques.
+- **Réduction des erreurs** : Minimise les risques de duplication d'adresses IP ou de mauvaise configuration.
+
+**Utilisation du DHCP**
+- Sur un PC Windows, il suffit de sélectionner **Obtain an IP address automatically** et **Obtain DNS server address automatically** pour activer le DHCP.
+- Le périphérique contacte alors un serveur DHCP pour obtenir les paramètres réseau nécessaires.
+
+**Remarque**
+- Pour IPv6, deux méthodes sont utilisées : **DHCPv6** et **SLAAC (Stateless Address Autoconfiguration)** pour l'allocation dynamique d'adresses.
+
+En résumé, le DHCP simplifie la gestion des adresses IP et est essentiel pour les réseaux modernes.
+
+---
+
+### 2.7.4
+
+**Configuration de l'interface de commutateur virtuelle :** conf t, int vlan 1, ip address 192.168.1.20 255.255.255.0, no shutdown, exit, ip default-gateway 192.168.1.1
+
+---
+
+## Résumé Chapitre 2
+### **Systèmes d'exploitation et interfaces de commande**
+- Tous les périphériques réseau et finaux nécessitent un **système d'exploitation (SE)**.
+- L'interaction avec le SE se fait via une **interface de ligne de commande (CLI)**, permettant d'exécuter des commandes textuelles et d'afficher les résultats.
+
+### **Modes de commande Cisco**
+- **Mode d'exécution utilisateur** : Accès limité aux commandes de base.
+- **Mode d'exécution privilégié** : Accès complet aux commandes de gestion et de configuration.
+- **Mode de configuration globale** : Permet d'accéder à des sous-modes de configuration spécifiques, comme :
+  - **Mode de configuration de ligne** : Pour configurer les lignes de console ou d'accès distant.
+  - **Mode de configuration d'interface** : Pour configurer les interfaces réseau.
+
+### **Syntaxe des commandes**
+- Chaque commande Cisco a une syntaxe spécifique et ne peut être exécutée que dans le mode approprié.
+
+### **Configuration de base**
+- **Nom de l'appareil** : La première commande de configuration doit attribuer un nom unique (nom d'hôte).
+- **Mots de passe** : Configurer des mots de passe hiérarchiques pour limiter l'accès administratif.
+- **Bannière** : Ajouter une bannière pour avertir que l'accès est réservé au personnel autorisé.
+
+### **Fichiers de configuration**
+- **running-config** : Configuration active en mémoire, modifiable mais non sauvegardée.
+- **startup-config** : Configuration sauvegardée, chargée au démarrage.
+- Les configurations peuvent être archivées dans un document texte.
+
+### **Adresses IP et DHCP**
+- **Adresses IPv4** : Configurées manuellement ou automatiquement via **DHCP**.
+- **DHCP** : Simplifie la configuration réseau en attribuant automatiquement les adresses IP, masques de sous-réseau, passerelles par défaut et serveurs DNS.
+- **Interface SVI** : Sur les commutateurs, une adresse IP est configurée sur l'interface virtuelle (VLAN 1) pour la gestion à distance.
+
+### **Commandes de vérification**
+- **show ip interface brief** : Vérifie l'état des interfaces sur les commutateurs et routeurs.
+- **ping** : Teste la connectivité vers d'autres périphériques ou sites web.
+
+En résumé, la gestion des périphériques réseau via Cisco IOS implique l'utilisation de modes de commande spécifiques, la configuration de base (nom, mots de passe, bannière), et l'utilisation de commandes pour vérifier et tester la connectivité. Le DHCP simplifie la configuration des adresses IP, tandis que les fichiers de configuration permettent de sauvegarder et archiver les paramètres réseau.
+
+---
 
