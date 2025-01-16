@@ -608,3 +608,703 @@ En résumé, la gestion des périphériques réseau via Cisco IOS implique l'uti
 
 ---
 
+## 3.1
+
+### 3.1.2
+
+**Notions de base sur les communications :**
+En résumé, pour que la communication fonctionne, trois éléments sont essentiels :  
+1. **Source du message (expéditeur)** : Celui qui envoie le message.  
+2. **Destination du message (destinataire)** : Celui qui reçoit et interprète le message.  
+3. **Canal** : Le support (filaire ou sans fil) qui transporte le message.  
+
+Cependant, la simple connexion physique ne suffit pas. Les appareils doivent également suivre des règles communes (protocoles) pour savoir comment communiquer efficacement.
+
+---
+
+### 3.1.3
+
+**Protocoles de communication :**
+L'envoi d'un message, que ce soit dans une communication en face à face ou sur un réseau, est régi par des **protocoles**. Ces règles varient selon le type de méthode de communication utilisée. Par exemple, les règles pour un appel téléphonique diffèrent de celles pour l'envoi d'une lettre.  
+
+Le processus d'envoi d'une lettre est comparable à la communication dans les réseaux informatiques : il nécessite une **source** (expéditeur), une **destination** (destinataire), un **canal** (support de transmission) et des **protocoles** (règles de communication) spécifiques pour assurer une transmission efficace.
+
+---
+
+### 3.1.4
+
+**Définition des règles :**
+Les protocoles doivent tenir compte des exigences suivantes pour transmettre avec succès un message compris par le destinataire:
+- L'identification de l'expéditeur et du destinataire ;
+- L'utilisation d'une langue et d'une syntaxe communes ;
+- La vitesse et le rythme d'élocution ;
+- La demande de confirmation ou d'accusé de réception.
+
+---
+
+### 3.1.5
+
+**Exigences relatives au protocole de réseau :**
+Les protocoles utilisés dans les communications réseau partagent des caractéristiques fondamentales pour assurer une transmission efficace des messages. En plus d'identifier la source et la destination, ces protocoles définissent des règles précises pour la communication. Voici les exigences communes des protocoles informatiques :
+1. **Codage des messages** : Les données sont encodées dans un format spécifique pour être interprétées correctement par la source et la destination.  
+2. **Format et encapsulation des messages** : Les messages sont structurés et encapsulés avec des en-têtes et des informations supplémentaires pour garantir leur bon acheminement.  
+3. **Taille du message** : Les protocoles définissent des limites de taille pour les messages, souvent en les divisant en paquets plus petits si nécessaire.  
+4. **Synchronisation des messages** : Les protocoles gèrent le timing de l'envoi et de la réception des messages pour éviter les collisions ou les pertes de données.  
+5. **Options de remise des messages** : Ils incluent des mécanismes pour garantir la livraison des messages, comme les accusés de réception ou la retransmission en cas d'échec.  
+
+Ces règles permettent une communication fiable et organisée entre les appareils sur un réseau.
+
+---
+
+### 3.1.6
+
+**Codage des messages :**
+Pour envoyer un message, il faut tout d'abord le coder. Le codage est le processus de conversion des informations vers un autre format acceptable, à des fins de transmission. Le décodage inverse ce processus pour interpréter l'information.
+
+---
+
+### 3.1.7
+
+**Format et encapsulation des messages :**
+Lorsqu'un message est envoyé de la source à la destination, il doit suivre un **format ou une structure spécifique**. Ce format dépend à la fois du **type de message** (texte, vidéo, fichier, etc.) et du **type de canal** utilisé (filaire, sans fil, fibre optique, etc.). 
+
+Par exemple :
+- Un email utilise un format structuré avec des en-têtes (expéditeur, destinataire, sujet) et un corps de message.
+- Un paquet de données sur un réseau suit un format d'encapsulation avec des en-têtes et des informations de contrôle pour garantir sa livraison.
+
+Ces formats permettent une communication efficace et une interprétation correcte du message par la destination.
+
+---
+
+### 3.1.8
+
+**Taille des messages :**
+La **taille des messages** est une règle clé dans les communications réseau. Elle influence l'efficacité et la fiabilité de la transmission. Voici les points essentiels :
+1. **Limites des réseaux** : Les réseaux ont des capacités limitées (bande passante, MTU). Les messages trop grands peuvent saturer le réseau, tandis que les messages trop petits peuvent entraîner une surcharge due aux en-têtes.
+2. **Fragmentation** : Si un message dépasse la taille maximale autorisée (MTU), il est divisé en paquets plus petits, puis réassemblé à la destination.
+3. **Optimisation** : Une taille de message bien adaptée améliore les performances, réduit la latence et utilise efficacement la bande passante.
+
+En résumé, la taille des messages doit être adaptée aux contraintes du réseau pour garantir une communication fluide et fiable.
+
+---
+
+### 3.1.9
+
+**Synchronisation des messages :**
+La **synchronisation des messages** est un aspect crucial des communications réseau, car elle garantit que les données sont transmises et reçues de manière ordonnée et efficace. Elle comprend trois éléments principaux :
+
+**Contrôle de flux :**
+- **Définition** : Le contrôle de flux gère la vitesse de transmission des données entre la source et la destination.
+- **Objectif** : Éviter la saturation du destinataire en ajustant la quantité et la vitesse des données envoyées.
+- **Exemple** : Si un serveur envoie des données trop rapidement à un client, ce dernier peut être submergé. Les protocoles comme **TCP** utilisent des mécanismes de contrôle de flux pour éviter cela.
+
+**Délai de réponse :**
+- **Définition** : Le délai de réponse est le temps maximum qu'un appareil attend avant de considérer qu'une réponse n'arrivera pas.
+- **Objectif** : Gérer les retards et les pertes de données en réagissant de manière appropriée (par exemple, retransmission du message).
+- **Exemple** : Si un appareil ne reçoit pas d'accusé de réception dans un délai donné, il peut renvoyer le message ou signaler une erreur.
+
+**Méthode d'accès :**
+- **Définition** : La méthode d'accès détermine quand un appareil peut envoyer des données sur le réseau.
+- **Objectif** : Éviter les collisions (quand plusieurs appareils envoient des données en même temps) et optimiser l'utilisation du canal.
+- **Exemples** :
+  - **Ethernet** utilise CSMA/CD (Carrier Sense Multiple Access with Collision Detection) pour détecter et résoudre les collisions.
+  - **Wi-Fi** utilise CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance) pour éviter les collisions sur les réseaux sans fil.
+
+**En résumé**
+La synchronisation des messages est essentielle pour assurer une communication fluide et fiable. Elle inclut :
+- Le **contrôle de flux** pour gérer la vitesse de transmission.
+- Le **délai de réponse** pour gérer les retards et les pertes.
+- La **méthode d'accès** pour éviter les collisions et optimiser l'utilisation du réseau.
+
+Ces mécanismes permettent aux appareils de communiquer efficacement, même dans des environnements complexes ou encombrés.
+
+---
+
+### 3.1.10
+
+**Mode de transmission des messages :**
+La transmission d'un message dans un réseau peut se faire de **différentes manières**, en fonction des besoins de communication, des protocoles utilisés et des caractéristiques du réseau. Voici une explication approfondie des méthodes de transmission :
+
+**Transmission unicast**
+- **Définition** : Un message est envoyé d'une **source unique** à une **destination unique**.
+- **Utilisation** : Communication point à point, comme un email envoyé à une seule personne ou une requête HTTP entre un client et un serveur.
+- **Avantages** : Simple et direct, avec une transmission efficace pour des communications individuelles.
+- **Exemple** : Envoyer un fichier à un collègue via un réseau local.
+
+**Transmission multicast**
+- **Définition** : Un message est envoyé d'une **source unique** à **plusieurs destinations** sélectionnées.
+- **Utilisation** : Diffusion de contenu à un groupe spécifique, comme la diffusion en streaming ou les mises à jour logicielles à plusieurs appareils.
+- **Avantages** : Économise la bande passante en évitant d'envoyer le même message plusieurs fois.
+- **Exemple** : Diffusion d'une vidéo en direct à plusieurs utilisateurs simultanément.
+
+**Transmission broadcast**
+- **Définition** : Un message est envoyé d'une **source unique** à **tous les appareils** sur le réseau.
+- **Utilisation** : Annonces réseau, comme la diffusion d'adresses IP (protocole ARP) ou des messages système.
+- **Avantages** : Utile pour les communications générales où tous les appareils doivent recevoir le message.
+- **Exemple** : Un routeur envoie un message à tous les appareils pour annoncer sa présence.
+
+**Transmission anycast**
+- **Définition** : Un message est envoyé à **l'appareil le plus proche** ou le plus approprié dans un groupe de destinations possibles.
+- **Utilisation** : Services distribués, comme les serveurs DNS ou les réseaux de distribution de contenu (CDN).
+- **Avantages** : Améliore la performance en réduisant la latence et en répartissant la charge.
+- **Exemple** : Un utilisateur se connecte au serveur DNS le plus proche pour résoudre un nom de domaine.
+
+**Transmission point à point (P2P)**
+- **Définition** : Une communication directe entre deux appareils sans intermédiaire.
+- **Utilisation** : Partage de fichiers, communications privées, ou réseaux pair-à-pair.
+- **Avantages** : Décentralisé, évolutif et résilient.
+- **Exemple** : Le partage de fichiers via des réseaux P2P comme BitTorrent.
+
+**Transmission en mode connecté vs non connecté**
+- **Mode connecté** : Une connexion est établie avant l'envoi des données (exemple : **TCP**). Garantit la fiabilité et l'ordre des messages.
+- **Mode non connecté** : Aucune connexion préalable n'est établie (exemple : **UDP**). Plus rapide, mais moins fiable.
+
+**Transmission synchrone vs asynchrone**
+- **Synchrone** : Les appareils communiquent en temps réel, avec une coordination étroite (exemple : appels téléphoniques).
+- **Asynchrone** : Les messages sont envoyés et reçus à des moments différents (exemple : emails).
+
+**En résumé**
+La transmission des messages peut varier en fonction des besoins :
+- **Unicast** pour une communication point à point.
+- **Multicast** pour un groupe spécifique.
+- **Broadcast** pour tous les appareils.
+- **Anycast** pour la destination la plus proche.
+- **P2P** pour des communications directes.
+
+Chaque méthode a ses avantages et ses cas d'utilisation spécifiques, permettant une communication flexible et adaptée aux besoins du réseau.
+
+---
+
+## 3.2
+
+### 3.2.1
+
+**Protocoles de Communications de Réseaux**
+- **Rôle** : Permettent la communication entre périphériques sur un ou plusieurs réseaux.
+- **Exemples** : IP, TCP, HTTP.
+- **Fonction** : Gèrent l'échange de données entre appareils.
+
+**Protocoles de Sécurité des Réseaux**
+- **Rôle** : Sécurisent les données par authentification, intégrité et cryptage.
+- **Exemples** : SSH, SSL, TLS.
+- **Fonction** : Protègent les communications contre les accès non autorisés.
+
+**Protocoles de Routage**
+- **Rôle** : Aident les routeurs à choisir le meilleur chemin pour acheminer les données.
+- **Exemples** : OSPF, BGP.
+- **Fonction** : Optimisent le trafic réseau en sélectionnant des routes efficaces.
+
+**Protocoles de Découverte de Services**
+- **Rôle** : Permettent la détection automatique des appareils et services sur un réseau.
+- **Exemples** : DHCP (attribution d'adresses IP), DNS (traduction de noms en adresses IP).
+- **Fonction** : Simplifient la configuration et l'accès aux ressources réseau.
+
+**En résumé**
+- **Communication** : IP, TCP, HTTP pour l'échange de données.
+- **Sécurité** : SSH, SSL, TLS pour protéger les informations.
+- **Routage** : OSPF, BGP pour optimiser les chemins de données.
+- **Découverte** : DHCP, DNS pour faciliter la gestion des appareils et services.
+
+Ces protocoles travaillent ensemble pour assurer des communications réseau fluides, sécurisées et efficaces.
+
+---
+
+### 3.2.2
+
+**Fonctions du protocole de réseau :**
+
+**Adressage**
+- **Rôle** : Identifie l'expéditeur et le destinataire du message.
+- **Exemples** : Ethernet, IPv4, IPv6.
+
+**Fiabilité**
+- **Rôle** : Garantit la livraison des messages, même en cas de perte ou de corruption.
+- **Exemple** : TCP.
+
+**Contrôle de flux**
+- **Rôle** : Régule le débit des données entre les appareils pour éviter la saturation.
+- **Exemple** : TCP.
+
+**Séquencement**
+- **Rôle** : Identifie et réorganise les segments de données pour une reconstitution correcte.
+- **Exemple** : TCP.
+
+**Détection des erreurs**
+- **Rôle** : Vérifie si les données ont été endommagées pendant la transmission.
+- **Exemples** : Ethernet, IPv4, IPv6, TCP.
+
+**Interface de l'Application**
+- **Rôle** : Facilite la communication entre les processus d'applications réseau.
+- **Exemples** : HTTP, HTTPS.
+
+**En résumé**
+- **Adressage** : Identifie les appareils (Ethernet, IPv4, IPv6).
+- **Fiabilité** : Assure la livraison des messages (TCP).
+- **Contrôle de flux** : Régule le débit des données (TCP).
+- **Séquencement** : Réorganise les segments de données (TCP).
+- **Détection des erreurs** : Vérifie l'intégrité des données (Ethernet, IPv4, IPv6, TCP).
+- **Interface de l'Application** : Communication entre applications (HTTP, HTTPS).
+
+Ces fonctions travaillent ensemble pour assurer des communications réseau fiables, efficaces et sécurisées.
+
+---
+
+### 3.2.3
+
+**HTTP (Hypertext Transfer Protocol)**
+- **Rôle** : Gère l'interaction entre un serveur web et un client web.
+- **Fonction** : Décrit le format des requêtes et des réponses échangées.
+- **Dépendances** : S'appuie sur d'autres protocoles (comme TCP) pour le transport des messages.
+
+**TCP (Transmission Control Protocol)**
+- **Rôle** : Gère les conversations individuelles entre appareils.
+- **Fonction** : Assure une livraison fiable des données et gère le contrôle de flux.
+
+**IP (Internet Protocol)**
+- **Rôle** : Responsable de la transmission des messages de l'expéditeur au destinataire.
+- **Fonction** : Utilisé par les routeurs pour transférer les messages à travers plusieurs réseaux.
+
+**Ethernet**
+- **Rôle** : Gère la transmission des messages entre cartes réseau sur un même réseau local (LAN).
+- **Fonction** : Assure la communication directe entre appareils sur un réseau Ethernet.
+
+**En résumé**
+- **HTTP** : Communication client-serveur web.
+- **TCP** : Livraison fiable et contrôle de flux.
+- **IP** : Transmission des messages à travers les réseaux.
+- **Ethernet** : Communication locale entre appareils sur un LAN.
+
+Ces protocoles travaillent ensemble pour permettre des communications réseau fluides et fiables.
+
+---
+
+## 3.3
+
+### 3.3.1
+
+**Suites de protocoles**
+- **Définition** : Une suite de protocoles est un ensemble de protocoles interdépendants qui travaillent ensemble pour permettre une communication réseau complète.
+- **Objectif** : Chaque protocole dans la suite a un rôle spécifique, et leur combinaison permet de répondre à tous les besoins de communication (adressage, transport, sécurité, etc.).
+- **Exemple** : La suite **TCP/IP** est la plus couramment utilisée sur Internet. Elle inclut des protocoles comme **IP**, **TCP**, **UDP**, **HTTP**, **DNS**, etc.
+
+**Pile de protocoles (modèle en couches)**
+- **Concept** : Les protocoles sont organisés en **couches**, chaque couche ayant une fonction spécifique. Les couches inférieures gèrent les aspects physiques et logiques de la transmission, tandis que les couches supérieures se concentrent sur le contenu et les applications.
+- **Avantages** :
+  - **Modularité** : Chaque couche peut être développée et améliorée indépendamment.
+  - **Interopérabilité** : Les protocoles de différentes couches fonctionnent ensemble de manière transparente.
+  - **Simplicité** : Divise les tâches complexes en étapes plus simples.
+
+**Analogie avec la communication en face à face**
+Pour illustrer le modèle en couches, prenons l'exemple d'une conversation entre deux personnes :
+**a. Couche physique**
+- **Rôle** : Transmission physique des données (voix, gestes, etc.).
+- **Exemple** : Les deux personnes parlent à haute voix, utilisant leurs cordes vocales et l'air comme support de transmission.
+**b. Couche de règles**
+- **Rôle** : Définit les règles de communication pour que les deux parties se comprennent.
+- **Exemple** : Les deux personnes doivent parler la **même langue** et respecter des règles de politesse (ne pas interrompre, écouter, etc.).
+**c. Couche de contenu**
+- **Rôle** : Contient le message réel à transmettre.
+- **Exemple** : Les idées, les informations ou les émotions exprimées pendant la conversation.
+
+**Application aux réseaux informatiques**
+Dans les réseaux, le modèle en couches est représenté par des architectures comme le **modèle OSI** (7 couches) ou le **modèle TCP/IP** (4 couches). Voici un aperçu simplifié :
+
+**a. Couches inférieures**
+- **Rôle** : Gèrent la transmission physique et logique des données.
+- **Exemples** :
+  - **Couche physique** : Câbles, signaux radio, etc.
+  - **Couche réseau** : Protocoles comme **IP** pour l'adressage et le routage.
+
+**b. Couches supérieures**
+- **Rôle** : Gèrent le contenu et les applications.
+- **Exemples** :
+  - **Couche transport** : Protocoles comme **TCP** pour une transmission fiable.
+  - **Couche application** : Protocoles comme **HTTP**, **FTP**, **SMTP** pour les services réseau.
+
+**En résumé**
+- Une **suite de protocoles** est un ensemble de protocoles qui travaillent ensemble pour permettre une communication réseau complète.
+- Ces protocoles sont organisés en **couches**, chaque couche ayant un rôle spécifique (transmission physique, règles de communication, contenu du message).
+- Cette organisation en couches permet une communication efficace, modulaire et interopérable, que ce soit dans les réseaux informatiques ou dans les interactions humaines.
+
+---
+
+### 3.3.2
+
+**Internet Protocol Suite (TCP/IP)**
+- **Description** : La suite de protocoles la plus utilisée aujourd'hui, standardisée et ouverte.
+- **Gestion** : Maintenue par l'**Internet Engineering Task Force (IETF)**.
+- **Importance** : Fondamentale pour le fonctionnement d'Internet.
+- **Protocoles clés** : **IP**, **TCP**, **UDP**, **HTTP**, **DNS**, etc.
+- **Caractéristique** : Modèle en 4 couches (ou 5 selon les interprétations).
+
+**Protocoles d'interconnexion de systèmes ouverts (OSI)**
+- **Description** : Une famille de protocoles développée par l'**ISO** et l'**UIT** en 1977.
+- **Modèle** : Modèle de référence OSI à **7 couches** (physique, liaison, réseau, transport, session, présentation, application).
+- **État actuel** : Les protocoles OSI ont été largement remplacés par **TCP/IP**, mais le modèle en couches reste influent pour comprendre les réseaux.
+
+**AppleTalk**
+- **Description** : Une suite de protocoles propriétaire développée par **Apple Inc.** en 1985 pour ses appareils.
+- **Utilisation** : Conçu pour les réseaux locaux (LAN) entre appareils Apple.
+- **Remplacement** : En 1995, Apple a adopté **TCP/IP** pour remplacer AppleTalk.
+- **État actuel** : Obsolète.
+
+**Novell NetWare**
+- **Description** : Une suite de protocoles propriétaire et un système d'exploitation réseau développé par **Novell Inc.** en 1983.
+- **Protocole clé** : **IPX/SPX** (Internetwork Packet Exchange/Sequenced Packet Exchange).
+- **Utilisation** : Populaire dans les années 1980 et 1990 pour les réseaux d'entreprise.
+- **Remplacement** : En 1995, Novell a adopté **TCP/IP** pour remplacer IPX.
+- **État actuel** : Obsolète.
+
+**En résumé**
+- **TCP/IP** : La suite de protocoles dominante aujourd'hui, utilisée pour Internet.
+- **OSI** : Principalement connu pour son modèle en 7 couches, bien que ses protocoles aient été remplacés par TCP/IP.
+- **AppleTalk** : Ancienne suite de protocoles d'Apple, remplacée par TCP/IP en 1995.
+- **Novell NetWare** : Ancienne suite de protocoles de Novell, également remplacée par TCP/IP en 1995.
+
+Ces suites de protocoles illustrent l'évolution des technologies réseau, avec **TCP/IP** devenant la norme universelle pour les communications modernes.
+
+---
+
+### 3.3.3/.4
+
+**La couche application gère les protocoles pour les services utilisateur. Voici les principaux protocoles :**
+**DNS** : Traduit les noms de domaine (ex: `cisco.com`) en adresses IP.
+
+**DHCPv4** : Attribue dynamiquement les adresses IPv4.  
+**DHCPv6** : Similaire à DHCPv4, mais pour IPv6.  
+**SLAAC** : Autoconfiguration des adresses IPv6 sans serveur DHCP.
+
+**SMTP** : Envoi d'emails entre serveurs.  
+**POP3** : Télécharge les emails sur le client.  
+**IMAP** : Gère les emails directement sur le serveur.
+
+**FTP** : Transfert de fichiers fiable et orienté connexion.  
+**SFTP** : Transfert sécurisé via SSH.  
+**TFTP** : Transfert simple et sans connexion.
+
+**HTTP** : Échange de données sur le web.  
+**HTTPS** : Version sécurisée de HTTP.  
+**REST** : Utilise des API pour les interactions entre applications.
+
+La couche application fournit des services comme **DNS** pour la résolution de noms, **DHCP** pour la configuration IP, **SMTP/POP3/IMAP** pour les emails, **FTP/SFTP/TFTP** pour le transfert de fichiers, **HTTP/HTTPS** pour le web, et **REST** pour les API. Ces protocoles permettent une communication efficace et sécurisée.
+
+
+**La couche transport gère la communication entre les processus sur des hôtes distincts. Elle comprend deux protocoles principaux :**
+**TCP (Protocole de Contrôle de Transmission)** : Permet une communication fiable et orientée connexion. Il garantit la livraison des données en confirmant chaque transmission et en gérant le contrôle de flux et le séquencement.
+
+**UDP (Protocole de Datagramme Utilisateur)** : Permet une communication sans connexion, rapide mais non fiable. Il envoie des paquets sans confirmation de livraison, ce qui le rend adapté pour des applications où la vitesse est prioritaire, comme la diffusion en continu ou les jeux en ligne.
+
+
+**La couche internet gère la transmission des données sur le support physique et comprend plusieurs protocoles clés :**
+**Protocole Internet**  
+- **IPv4** : Utilise des adresses 32 bits pour adresser et router les paquets sur un réseau.  
+- **IPv6** : Similaire à IPv4, mais utilise des adresses 128 bits pour un espace d'adressage plus large.  
+- **NAT** : Traduit les adresses IPv4 privées en adresses IPv4 publiques pour permettre la communication sur Internet.
+
+**Envoi de messages**  
+- **ICMPv4** : Fournit des messages de contrôle et d'erreur pour IPv4, comme les erreurs de livraison de paquets.  
+- **ICMPv6** : Fonctionne comme ICMPv4, mais pour IPv6.  
+- **ICMPv6 ND** : Utilisé pour la résolution d'adresses et la détection d'adresses en double dans les réseaux IPv6.
+
+**Protocoles de routage**  
+- **OSPF** : Protocole de routage d'état de liaison hiérarchique, utilisé pour les réseaux internes.  
+- **EIGRP** : Protocole de routage propriétaire de Cisco, utilisant une métrique composite pour déterminer les meilleurs chemins.  
+- **BGP** : Protocole de routage externe utilisé entre les fournisseurs de services Internet (ISPs) et leurs clients pour échanger des informations de routage.  
+
+Ces protocoles assurent l'adressage, le routage et la transmission des données à travers les réseaux.
+
+
+La couche accès réseau gère la transmission des données sur le support physique, en assurant la communication entre les périphériques au niveau local et la résolution des adresses pour une transmission efficace.
+**ARP (Protocole de Résolution des Adresses)** : Mappe dynamiquement les adresses IPv4 aux adresses MAC pour permettre la communication sur un réseau local.  
+**Ethernet** : Définit les normes de câblage et de signalisation pour les réseaux filaires, permettant la transmission de données sur des réseaux locaux (LAN).  
+**WLAN (Réseau local sans fil)** : Définit les règles pour les réseaux sans fil, utilisant des fréquences radio (2,4 GHz et 5 GHz) pour la transmission des données.  
+
+---
+
+## 3.4
+
+### 3.4.1
+
+**Normes ouvertes :**
+Les normes ouvertes dans les réseaux, développées par des organismes internationaux, assurent l'interopérabilité, la concurrence et l'innovation. Par exemple, les routeurs sans fil de différents fabricants utilisent des protocoles standard comme IPv4, IPv6, DHCP et Ethernet, permettant à des systèmes d'exploitation différents (comme Apple OS X et Linux) de communiquer grâce à des normes communes. Les organismes de normalisation, indépendants des fabricants, créent et promeuvent ces normes pour maintenir un internet ouvert et accessible à tous.
+
+---
+
+### 3.4.2
+
+**Normes Internet :**
+
+**SOC (Internet Society)** promeut le développement ouvert et l'évolution de l'utilisation d'Internet à l'échelle mondiale.  
+**IAB (Internet Architecture Board)** gère le développement et les normes globales d'Internet.  
+**IETF (Internet Engineering Task Force)** développe, met à jour et maintient les technologies Internet et TCP/IP, y compris les protocoles via les documents RFC (Request for Comments).  
+**IRTF (Internet Research Task Force)** se concentre sur la recherche à long terme liée à Internet et aux protocoles TCP/IP, avec des groupes comme l'ASRG (Anti-Spam Research Group), le CFRG (Crypto Forum Research Group) et le P2PRG (Peer-to-Peer Research Group).
+**ICANN (Internet Corporation for Assigned Names and Numbers)** : Basée aux États-Unis, elle coordonne l'attribution des adresses IP, la gestion des noms de domaine et d'autres informations utilisées dans les protocoles TCP/IP.  
+**IANA (Internet Assigned Numbers Authority)** : Supervise et gère l'attribution des adresses IP, la gestion des noms de domaine et les identificateurs de protocole pour l'ICANN.
+
+---
+
+### 3.4.3
+
+**Normes éléctronique et de communication :**
+
+**IEEE (Institute of Electrical and Electronics Engineers)** : Organisation dédiée à l'innovation technologique et à la création de normes dans divers domaines, dont les réseaux. Les normes réseau importantes incluent **802.3 Ethernet** et **802.11 WLAN**.  
+**EIA (Electronic Industries Alliance)** : Connue pour ses normes sur le câblage électrique, les connecteurs et les racks de 19 pouces utilisés pour les équipements réseau.  
+**TIA (Telecommunications Industry Association)** : Élabore des normes pour les équipements de communication, comme les tours de téléphonie cellulaire, la VoIP et les câbles Ethernet certifiés (en collaboration avec l'EIA).  
+**UIT-T (Union internationale des télécommunications - Secteur de la normalisation des télécommunications)** : L'une des plus anciennes organisations de normalisation des communications, définissant des normes pour la compression vidéo, la télévision sur IP (IPTV) et les technologies haut débit comme la DSL.  
+
+Ces organismes développent des normes pour la transmission des signaux électroniques, assurant la compatibilité et l'interopérabilité des technologies réseau.
+
+---
+
+## 3.5
+
+### 3.5.1
+
+**Avantage de l'utilisation d'un modèle de couches :**
+Un modèle en couches est utilisé pour simplifier la compréhension des réseaux en décomposant leurs opérations en couches gérables. Cela présente plusieurs avantages :
+
+- **Aide à la conception des protocoles** : Chaque couche a des informations et des interfaces bien définies avec les couches supérieures et inférieures.
+- **Favorise la compatibilité** : Les produits de différents fabricants peuvent fonctionner ensemble.
+- **Isolation des changements** : Les modifications dans une couche n'affectent pas les autres.
+- **Langage commun** : Facilite la description des fonctions et capacités réseau.
+
+Les deux modèles en couches principaux sont :
+- **Modèle OSI** (Interconnexion des systèmes ouverts).
+- **Modèle TCP/IP**.
+
+Ces modèles aident à conceptualiser et à expliquer le fonctionnement des réseaux.
+
+---
+
+### 3.5.2
+
+**Modèle de référence OSI :**
+Le modèle de référence OSI décrit les fonctions et services de chaque couche réseau, en spécifiant ce qui doit être fait à chaque niveau sans imposer la manière de le faire. Il définit également l'interaction entre chaque couche et ses couches adjacentes (supérieure et inférieure). Les protocoles TCP/IP s'alignent sur ce modèle, bien que les détails de chaque couche OSI deviennent plus clairs à mesure que les protocoles sont approfondis. Ce modèle assure la cohérence des protocoles et services réseau.
+
+| Couche | Description |
+|--------|-------------|
+| **7 - Application** | Contient les protocoles utilisés pour les processus de communication. |
+| **6 - Présentation** | Permet une représentation commune des données transférées entre les services de la couche application. |
+| **5 - Session** | Fournit des services pour organiser le dialogue et gérer l'échange de données. |
+| **4 - Transport** | Définit les services pour segmenter, transférer et réassembler les données pour les communications individuelles entre les terminaux. |
+| **3 - Réseau** | Fournit des services pour échanger les éléments de données entre des dispositifs terminaux identifiés. |
+| **2 - Liaison de données** | Décrit les méthodes d'échange de trames de données entre les appareils sur un support commun. |
+| **1 - Physique** | Décrit les moyens mécaniques, électriques, fonctionnels et procéduraux pour activer, maintenir et désactiver les connexions physiques pour la transmission de bits. |
+
+---
+
+### 3.5.3
+
+**Modèle de référence TCP/IP :**
+Le modèle TCP/IP, créé au début des années 1970, est souvent appelé le modèle internet. Il correspond étroitement à la structure de la suite de protocoles TCP/IP et sert à la fois de modèle de protocole et de modèle de référence. Il décrit les fonctions intervenant à chaque couche de la suite TCP/IP. Bien que le tableau présenté détaille les couches du modèle OSI, le modèle TCP/IP est également utilisé pour comprendre et organiser les communications réseau.
+
+| Couche du modèle TCP/IP | Description |
+|-------------------------|-------------|
+| **4 - Application**      | Représente des données pour l'utilisateur, ainsi que du codage et un contrôle du dialogue. |
+| **3 - Transport**        | Prend en charge la communication entre plusieurs périphériques à travers divers réseaux. |
+| **2 - Internet**         | Détermine le meilleur chemin à travers le réseau. |
+| **1 - Accès réseau**     | Contrôle les périphériques matériels et les supports qui constituent le réseau. |
+
+Les normes et protocoles TCP/IP sont définis dans des **RFC (Request for Comments)**, des documents publics rédigés par des ingénieurs réseau et soumis à l'IETF pour examen et commentaires. Ce processus ouvert assure la transparence et l'accessibilité des normes.
+
+---
+
+### 3.5.4
+
+**Comparaison OSI et TCP/IP :**
+| Modèle OSI         | Modèle TCP/IP   |
+|--------------------|-----------------|
+| 7 - Application    | Application     |
+| 6 - Présentation   |                 |
+| 5 - Session        |                 |
+| 4- Transport       | Transport       |
+| 3 - Réseau         | Internet        |
+| 2 - Liaison de données | Accès réseau |
+| 1 - Physique       |                 |
+
+Les protocoles de la suite TCP/IP peuvent être décrits en utilisant le modèle OSI. Dans ce modèle, la **couche d'accès réseau** et la **couche application** du modèle TCP/IP sont détaillées pour expliquer leurs fonctions spécifiques. 
+
+Au niveau de la **couche d'accès réseau**, TCP/IP ne spécifie pas les protocoles pour la transmission physique, mais décrit simplement la remise des données de la couche internet aux protocoles physiques. Les **couches 1 et 2 de l'OSI** gèrent les procédures d'accès aux supports et les méthodes physiques pour envoyer des données sur un réseau.
+
+Les principales similitudes entre les modèles OSI et TCP/IP se trouvent dans les **couches transport et réseau**. Cependant, ils diffèrent dans leur relation avec les couches adjacentes :
+- **Couche OSI 3 (Réseau)** : Correspond à la couche **Internet** de TCP/IP. Elle décrit les protocoles d'adressage et de routage des messages sur un réseau.  
+- **Couche OSI 4 (Transport)** : Correspond à la couche **Transport** de TCP/IP. Elle assure une livraison ordonnée et fiable des données entre les hôtes source et destination.  
+- **Couche Application TCP/IP** : Inclut plusieurs protocoles pour des fonctionnalités spécifiques aux applications utilisateur. Les **couches 5, 6 et 7 de l'OSI** servent de référence pour les développeurs d'applications réseau.  
+- **Couches inférieures** : Le modèle OSI, qui sépare la **couche liaison de données** de la **couche physique**, est souvent utilisé pour décrire les couches inférieures.  
+
+Les deux modèles sont couramment utilisés pour référencer les protocoles réseau, avec l'OSI offrant une granularité plus fine pour les couches inférieures.
+
+---
+
+### 3.5.5
+
+Lors de la transmission sur un réseau, les données sont divisées en parties plus petites, appelées **unités de données de protocole (PDU)**. Chaque PDU est associée à une couche spécifique des modèles TCP/IP et OSI, permettant une transmission et un réassemblage corrects à la destination.
+
+---
+
+## 3.6
+
+### 3.6.1
+
+**Segmentation des messages :**
+Connaître les modèles OSI et TCP/IP est essentiel pour comprendre comment les données sont encapsulées et transmises sur un réseau. Au lieu d'envoyer un flux de données massif en une seule fois, les données sont divisées en segments plus petits et gérables, appelés **paquets**. Cette segmentation offre deux avantages principaux :
+
+1. **Augmente la vitesse** : Les segments permettent à plusieurs communications d'être entrelacées sur le réseau (multiplexage), évitant ainsi de monopoliser une liaison.  
+2. **Améliore l'efficacité** : En cas de défaillance ou de congestion, seul le segment perdu doit être retransmis, et non l'intégralité des données.  
+
+Cette approche est similaire à l'envoi d'une longue lettre sous forme de plusieurs cartes postales individuelles, chaque paquet pouvant emprunter un chemin différent vers la destination.
+
+---
+
+### 3.6.2
+
+**Séquençage :**
+La segmentation et le multiplexage des messages sur un réseau ajoutent de la complexité au processus de transmission. Par exemple, envoyer une lettre de 100 pages nécessiterait 100 enveloppes, chacune contenant une page. Ces enveloppes pourraient arriver en désordre, nécessitant un numéro de séquence pour réassembler les pages correctement. 
+
+Dans les communications réseau, chaque segment de message suit un processus similaire pour garantir qu'il arrive à la bonne destination et peut être réassemblé dans l'ordre correct. **TCP** est responsable du séquençage des segments pour reconstruire le message original.
+
+---
+
+### 3.6.3
+
+**PDU :**
+Lorsque les données d'application descendent la pile de protocoles pour être transmises sur le réseau, elles subissent un processus appelé **encapsulation**. À chaque couche, des informations de protocole sont ajoutées, et la forme que prennent les données à chaque niveau est appelée **unité de données de protocole (PDU)**. Chaque couche encapsule la PDU reçue de la couche supérieure, et la PDU prend un nom différent à chaque étape pour refléter ses nouvelles fonctions. Bien qu'il n'existe pas de convention de dénomination universelle, dans ce cours, les PDU sont nommées selon les protocoles de la suite TCP/IP.
+
+- **Données** : Terme générique pour l'unité de données de protocole (PDU) utilisée à la couche application.  
+- **Segment** : PDU de la couche transport (TCP).  
+- **Datagramme** : PDU de la couche transport (UDP).  
+- **Paquet** : PDU de la couche réseau.  
+- **Trame** : PDU de la couche liaison de données.  
+- **Bits** : PDU de la couche physique, utilisée pour la transmission physique des données sur le support.  
+
+**Remarque** : Si l'en-tête de transport est TCP, la PDU est appelée **segment** ; si c'est UDP, elle est appelée **datagramme**.
+
+---
+
+### 3.6.4
+
+**Encapsulation de données :**
+Voici un exemple d'encapsulation des données à travers les couches du modèle TCP/IP :
+
+**Couche Application**
+- **Données** : L'utilisateur envoie un message, par exemple "Bonjour".  
+  - **PDU** : Données ("Bonjour").
+
+**Couche Transport**
+- **Encapsulation** : Ajout d'un en-tête TCP ou UDP (par exemple, TCP pour une transmission fiable).  
+  - **PDU** : Segment (TCP) ou Datagramme (UDP).  
+  - **Contenu** : En-tête TCP + Données ("Bonjour").
+
+**Couche Internet (Réseau)**
+- **Encapsulation** : Ajout d'un en-tête IP contenant les adresses source et destination.  
+  - **PDU** : Paquet.  
+  - **Contenu** : En-tête IP + Segment TCP + Données ("Bonjour").
+
+**Couche Accès Réseau (Liaison de données)**
+- **Encapsulation** : Ajout d'un en-tête Ethernet (adresses MAC source et destination) et d'un trailer (pour la détection d'erreurs).  
+  - **PDU** : Trame.  
+  - **Contenu** : En-tête Ethernet + Paquet IP + Trailer.
+
+**Couche Physique**
+- **Encapsulation** : Conversion de la trame en signaux électriques, optiques ou radio pour la transmission sur le support physique.  
+  - **PDU** : Bits.  
+  - **Contenu** : Séquence de bits représentant la trame.
+
+**Résumé du processus**
+1. **Données** : "Bonjour" (Couche Application).  
+2. **Segment** : En-tête TCP + "Bonjour" (Couche Transport).  
+3. **Paquet** : En-tête IP + Segment TCP + "Bonjour" (Couche Internet).  
+4. **Trame** : En-tête Ethernet + Paquet IP + Trailer (Couche Accès Réseau).  
+5. **Bits** : Conversion en signaux physiques (Couche Physique).
+
+À la réception, le processus inverse (désencapsulation) a lieu pour reconstruire le message original.
+
+---
+
+## 3.7
+
+### 3.7.1
+
+**Adresses :**
+Les couches réseau et liaison de données sont responsables de la transmission des données de la source à la destination. Chaque couche utilise des adresses source et destination, mais avec des objectifs différents :
+- **Adresses source et destination de la couche réseau** : Gèrent la livraison du paquet IP de la source d'origine à la destination finale, que ce soit sur le même réseau ou sur un réseau distant.  
+- **Adresses source et destination de la couche liaison de données** : Gèrent la transmission de la trame entre les cartes d'interface réseau (NIC) sur le même réseau.  
+
+Ainsi, la couche réseau s'occupe du routage entre réseaux, tandis que la couche liaison de données gère la communication locale entre périphériques sur le même réseau.
+
+---
+
+### 3.7.2
+
+**Adressage logique de la couche 3 :**
+Le paquet IP contient deux adresses IP :  
+- **Adresse IP source** : L'adresse IP de l'appareil d'envoi, qui est la source originale du paquet.  
+- **Adresse IP de destination** : L'adresse IP de l'appareil récepteur, qui est la destination finale du paquet.  
+
+Les adresses IP indiquent la source d'origine et la destination finale, que les appareils soient sur le même réseau ou sur des réseaux différents.  
+
+Une adresse IP est divisée en deux parties :  
+- **Partie réseau (IPv4) ou préfixe (IPv6)** : La partie gauche de l'adresse qui identifie le réseau. Tous les appareils du même réseau partagent cette partie.  
+- **Partie hôte (IPv4) ou ID d'interface (IPv6)** : La partie droite de l'adresse qui identifie un appareil spécifique sur le réseau. Cette partie est unique pour chaque appareil.  
+
+**Remarque** : Le masque de sous-réseau (IPv4) ou la longueur du préfixe (IPv6) est utilisé pour distinguer la partie réseau de la partie hôte dans une adresse IP.
+
+---
+
+### 3.7.3
+
+**Périphériques sur le meme réseau :**
+Dans cet exemple, un ordinateur client (PC1) communique avec un serveur FTP sur le même réseau IP :  
+- **Adresse IPv4 source** : L'adresse de l'appareil émetteur, PC1 : `192.168.1.110`.  
+- **Adresse IPv4 de destination** : L'adresse de l'appareil récepteur, serveur FTP : `192.168.1.9`.  
+
+La partie réseau des adresses IPv4 source et destination est la même (`192.168.1`), ce qui signifie que les deux appareils sont sur le même réseau. Cela permet une communication directe sans nécessiter de routage externe.
+
+---
+
+### 3.7.4
+
+**Rôle des adresses des couches de liaison de données - Même réseau IP :**
+Lorsque l'expéditeur et le récepteur du paquet IP sont sur le même réseau, la trame de liaison de données est envoyée directement au périphérique récepteur. Sur un réseau Ethernet, les adresses de liaison de données sont appelées **adresses MAC (Media Access Control)**. Ces adresses MAC, uniques à chaque carte réseau, permettent d'identifier les périphériques sur le même réseau local et de transmettre les trames directement entre eux.
+
+Les adresses MAC sont physiquement intégrées dans la carte réseau Ethernet :  
+- **Adresse MAC source** : L'adresse MAC de l'appareil émetteur (PC1), qui est `AA-AA-AA-AA-AA-AA` en notation hexadécimale.  
+- **Adresse MAC de destination** : L'adresse MAC de l'appareil récepteur (serveur FTP), qui est `CC-CC-CC-CC-CC-CC` en notation hexadécimale.  
+
+La trame contenant le paquet IP encapsulé peut maintenant être transmise directement de PC1 au serveur FTP, car les deux appareils sont sur le même réseau.
+
+---
+
+### 3.7.6
+
+**Role des adresse de la couche reseau :**
+Lorsque l'expéditeur et le récepteur du paquet IP appartiennent à des réseaux différents, les adresses IP source et destination indiquent des hôtes sur des réseaux distincts. Cela est déterminé par la partie réseau de l'adresse IP de l'hôte de destination.  
+
+- **Adresse IPv4 source** : L'adresse de l'appareil émetteur, PC1 : `192.168.1.110`.  
+- **Adresse IPv4 de destination** : L'adresse de l'appareil récepteur, serveur FTP : `172.16.1.9`.  
+
+Dans cet exemple, les parties réseau des adresses IP (`192.168.1` pour la source et `172.16.1` pour la destination) sont différentes, ce qui signifie que les deux appareils sont sur des réseaux distincts. Cela nécessite un routage pour acheminer le paquet entre les réseaux.
+
+---
+
+### 3.7.7
+
+Lorsque l'expéditeur et le récepteur du paquet IP sont sur des réseaux différents, la trame Ethernet ne peut pas être envoyée directement à l'hôte de destination, car celui-ci n'est pas accessible sur le même réseau local. La trame Ethernet doit donc être envoyée à un routeur ou à une passerelle par défaut. Dans cet exemple, la passerelle par défaut est le routeur **R1**, qui possède une adresse MAC sur le même réseau que PC1.  
+
+- **Adresse MAC source** : L'adresse MAC de l'appareil émetteur, PC1 : `AA-AA-AA-AA-AA-AA`.  
+- **Adresse MAC de destination** : L'adresse MAC de l'interface Ethernet du routeur R1, qui est `11-11-11-11-11-11`.  
+
+PC1 envoie la trame Ethernet contenant le paquet IP encapsulé au routeur R1, qui se chargera de l'acheminer vers le réseau de destination.
+
+La trame Ethernet contenant le paquet IP encapsulé est transmise à **R1**, le routeur ou passerelle par défaut. R1 achemine ensuite le paquet vers la destination finale, qui peut être un autre routeur ou directement le serveur web si celui-ci est connecté à un réseau accessible via R1.  
+
+Il est essentiel que chaque hôte du réseau local ait **l'adresse IP de la passerelle par défaut configurée**. Tous les paquets destinés à des réseaux distants sont envoyés à cette passerelle par défaut. Les adresses MAC Ethernet et le rôle de la passerelle par défaut seront approfondis dans d'autres modules.
+
+---
+
+### 3.7.8
+
+
+
+
+
