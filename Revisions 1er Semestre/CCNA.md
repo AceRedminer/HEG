@@ -224,6 +224,128 @@ Utilisé pour se connecter à un périphérique via le port console, telnet ou S
 - 48 bits, 12 valeurs HEX ou 6 octets
 - Toute les carte réseau Ethernet possède une adresse MAC
 - Les cartes réseaux acceptent uniquement les trames qui ont la meme adresse MAC que lui en destination, diffusion, multi-diffusion
+- Adresse de diffusion : FF:FF:FF:FF:FF:FF
+- Adresse MAC :
+   - **Multidiffusion :** IPv4 utilise `01-00-5E`, IPv6 utilise `33-33`.
+   - **Table CAM :** Les switches utilisent l’adresse MAC pour décider de la transmission des trames. Si l’adresse MAC de destination est inconnue, la trame est envoyée à tous les ports (monodiffusion inconnue).
+- Méthodes de transmission :
+   - **Store and Forward :** Reçoit toute la trame, vérifie le CRC, puis retransmet.
+   - **Cut Through :** Transmet la trame dès que l’adresse MAC de destination est détectée.
+     - **Fast Forward :** Similaire à Cut Through.
+     - **Sans fragment :** Vérifie les premiers octets avant transmission.
+- Mémoire des switches :
+   - **Mémoire axée sur les ports :** Les trames sont stockées dans des files d’attente spécifiques à chaque port.
+   - **Mémoire partagée :** Toutes les trames sont stockées dans un tampon commun, avec allocation dynamique de la mémoire.
+- Paramètres Duplex et Vitesse :
+   - **Duplex :** Full Duplex ou Semi-Duplex.
+   - **Vitesse :** Ethernet, Fast Ethernet, Gigabit Ethernet, 10 Gigabit Ethernet.
+   - **Auto-MDIX :** Fonctionnalité permettant de détecter automatiquement le type de câble (droit ou croisé) à partir de la version 12.2(18)SE de l’IOS Cisco.
+- Points clés :
+  - **Adresse MAC :** Utilisée pour la transmission des trames dans les switches.
+  - **Méthodes de transmission :** Store and Forward (vérification complète) vs Cut Through (transmission rapide).
+  - **Mémoire :** Axée sur les ports ou partagée.
+    - **Duplex et Vitesse :** Paramètres de communication et vitesse de transmission.
+  - **Auto-MDIX :** Simplifie les connexions en détectant automatiquement le type de câble.
 
+## Chapitre 8
+
+### Couche réseau
+**Elle effectue 4 opérations de base :**
+1. Adressage des périphériques finaux
+2. Encapsulation
+3. Routage
+4. Décapsulation
+
+**Encapsulation IP :**
+Le protocole IP est consideré comme :
+- Sans connexion
+- Acheminement au mieux
+- Indépendant vis à vis des supports
+
+**En-tete de paquet IPv4 :**
+- Garantit que le paquet est envoyé vers la meilleure direction (vers la destination)
+- Contient les informations de gestion de couche réseau dans différents Domaines
+- Les informations sont utilisé par tout les périphériques de couche 3 qui gère le paquet
+
+**Limite IPv4 :**
+- Pénurie d'adresse IPv4
+- Manque de connectivité de bout en bout
+- Augmentation de la complexité du réseau (ex. NAT)
+
+**Présentation IPv6 :**
+- Espace d'adressage plus important
+- Traitement plus efficace des paquets
+- Traduction d'adresse réseau inutile
+
+### Décisions relatives aux transmissions des hotes
+
+**Peut envoyer des paquets aux elements suivants :**
+- Lui-meme : 127.0.0.1 (IPv4), ::1 (IPv6)
+- Hotes locaux : meme reseau local
+- Hotes distants : par sur le meme reseau local
+
+Le trafic local est geré par les equipements sources et intermédiaires
+Le trafic distant est directement redirigé a la passerelle par défaut
+
+### Caractéristiques d'une passerelle par défaut
+- Doit avoir une adresse IP dans la meme gamme que le reseau local
+- Peut accepter les données locales et peut les retransmettre en dehors du réseau local
+- Il peut acheminer vers d'autres réseaux
+
+### Table de routage des router
+
+**Trois types de chemin possibles :**
+- Route directement connectée
+- Route distante
+- Route par défaut
+
+## Chapitre 9
+
+**Adresses MAC et IP :**
+  - **Adresse MAC :** Identifie de manière unique un périphérique sur un réseau local (couche 2). Elle est utilisée pour la communication entre appareils sur le même réseau.
+  - **Adresse IP :** Identifie un périphérique sur un réseau (couche 3). Elle permet la communication entre réseaux différents.
+
+**Protocole ARP (Address Resolution Protocol) :**
+  - **Fonction :** ARP permet de résoudre une adresse IP en une adresse MAC sur un réseau local.
+  - **Requête ARP :** Un périphérique envoie une requête ARP pour trouver l’adresse MAC associée à une adresse IP spécifique.
+  - **Réponse ARP :** Le périphérique avec l’adresse IP demandée répond avec son adresse MAC.
+  - **Cache ARP :** Stocke temporairement les correspondances entre adresses IP et MAC pour éviter de répéter les requêtes ARP.
+
+**Inondation de trames par un commutateur :**
+  - Un commutateur inonde tous les ports (sauf celui d’entrée) dans deux cas :
+    - **Adresse de destination inconnue :** Si l’adresse MAC de destination n’est pas dans la table CAM.
+    - **Adresse de diffusion :** Si la trame est destinée à l’adresse de diffusion (broadcast).
+
+**Protocole NDP (Neighbor Discovery Protocol) pour IPv6 :**
+  - **Fonction :** NDP remplace ARP dans IPv6. Il utilise deux types de messages :
+    - **NS (Neighbor Solicitation) :** Pour demander l’adresse MAC associée à une adresse IPv6.
+    - **NA (Neighbor Advertisement) :** Pour répondre avec l’adresse MAC.
+
+**Attaque par usurpation ARP (ARP Spoofing) :**
+  - **But :** Associer de fausses adresses MAC à des adresses IP pour intercepter ou perturber le trafic réseau.
+  - **Impact :** Peut entraîner une interception de données ou une dégradation des performances du réseau.
+
+**Traitement des trames par un commutateur :**
+  - Le commutateur utilise la table CAM pour déterminer où envoyer les trames.
+  - Si l’adresse MAC de destination est inconnue, la trame est inondée sur tous les ports (sauf celui d’entrée).
+  - Si l’adresse MAC est connue, la trame est envoyée uniquement au port correspondant.
+
+**Commande `arp -d` :**
+  - **Fonction :** Vide le cache ARP d’un ordinateur.
+  - **Utilisation :** Utile après des changements de configuration réseau pour forcer une nouvelle résolution ARP.
+
+**Adresse de destination dans une requête ARP :**
+  - **Adresse MAC de destination :** `FFFF.FFFF.FFFF` (adresse de diffusion).
+  - **Adresse IP de destination :** L’adresse IP pour laquelle on cherche l’adresse MAC.
+
+**Réponse ARP :**
+  - La réponse ARP contient l’adresse MAC du périphérique qui possède l’adresse IP demandée.
+
+**Points clés :**
+- **ARP** résout les adresses IP en adresses MAC sur un réseau local.
+- **NDP** est l’équivalent d’ARP pour IPv6.
+- Un commutateur inonde les trames si l’adresse MAC de destination est inconnue ou si c’est une adresse de diffusion.
+- **Cache ARP** stocke les correspondances IP/MAC temporairement.
+- **ARP Spoofing** est une attaque qui falsifie les adresses MAC pour perturber le réseau.
 
 
