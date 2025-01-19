@@ -348,4 +348,168 @@ Le trafic distant est directement redirigé a la passerelle par défaut
 - **Cache ARP** stocke les correspondances IP/MAC temporairement.
 - **ARP Spoofing** est une attaque qui falsifie les adresses MAC pour perturber le réseau.
 
+## Chapitre 10
 
+**Configuration de base :**
+- **Hostname :** conf t, hostname R1
+- **Mot de passe de la ligne console :** conf t, line con 0, password cisco, login, end
+- **Mot de passe privilégié :** conf t, enable secret class, exit
+- **Mot de passe de la ligne VTY :** conf t, line vty 0 15, password cisco, login, end
+- **Chiffrer les mots de passe :** conf t, service password-encryption
+- **Message de bannière :** conf t, banner motd #Authorized Access Only#
+- **Afficher configuration :** show running-config
+- **Configurer Interfaces :** conf t, int fastEthernet 0/1/0 (switch, vlan 1), ip address x.x.x.x (masque) x.x.x.x, no shutdown
+- **Configuration passerelle par défaut sur un switch :** conf t, ip default-gateway x.x.x.x (adresse ip router)
+
+## Chapitre 11
+
+**Structure adresse IP :** partie réseau, partie hote
+- Classe A : (0.0.0.0/8 à 127.0.0.0/8)
+- Classe B : (128.0.0.0 /16 — 191.255.0.0 /16)
+- Classe C (192.0.0.0 /24 — 223.255.255.0 /24)
+- Classe D (224.0.0.0 à 239.0.0.0)
+- Classe E (240.0.0.0 — 255.0.0.0)
+
+**Utilisation du masque :** on fait un ET logique entre l'adresse et le masque pour déterminet la partie réseau
+- 10.0.0.0/8 : 10.0.0.0 - 10.255.255.255
+- 172.16.0.0/12 : 172.16.0.0 - 172.31.255.255
+- 192.168.0.0/16 : 192.168.0.0 - 192.168.255.255
+
+**Segmentation des réseaux :**
+- Domaine de diffusions et ses problèmes :
+  - Sous-réseaux :
+    - Faciliter la segmentation
+    - Faciliter l'application des politiques de sécurité
+    - Limiter le domaine de diffusion
+
+**Nombre d'hotes :** (2ˆ(32-n)) -2
+
+**VLSM :**
+- **Avantages du VLSM :**
+  - Optimisation des adresses IP : Chaque sous-réseau est dimensionné en fonction du nombre d'hôtes nécessaires, évitant le gaspillage d'adresses.
+  - Flexibilité : Permet de créer des sous-réseaux de tailles variées pour répondre aux besoins spécifiques de chaque segment du réseau.
+
+**Conception structurée :**
+**Prendre en consideration :**
+- Des besoins actuels et futurs : Anticiper l'évolution de l'entreprise pour éviter de devoir reconfigurer le réseau.
+- De la politique d'attribution des adresses IP : Attribuer des plages d'adresses spécifiques pour les PC, serveurs, routeurs, etc.
+
+## Chapitre 13
+
+### Protocole ICMP
+*Internet Control Message Protocol*
+
+**Les messages ICMP traitent :**
+- Accesibilité de l'hote
+- Desination ou service innaccessible
+- Délai dépassé
+
+**Codes de destinations ICMPv4 :**
+0 - Réseau inaccessible.
+1 - Hôte inaccessible.
+2 - Protocole inaccessible.
+3 - Port inaccessible.
+
+## Chapitre 14
+
+### Couche transport
+Responsable des communications logique entre les applications éxecutée sur differents hotes
+
+**Responsabilités :**
+- Segmentation des données et reconstituion des segments
+- Identifier, séparer et gérer plusieurs communication
+
+**Protocoles de la couche transport :**
+- Ils spécifient la méthode de transfert des messages entre les hôtes.
+- Deux protocoles : TCP et UDP.
+
+**Missions du protocole TCP :**
+- Numération et suivi des segments de données. Gestion des accusés de réception.
+- Assurer l'acheminement des données perdues. 
+- Mettre les données dans le bon ordre
+
+**UDP (User Datagram Protocol) :**
+- **Fonction de base :** Achemine des segments de données entre applications.
+- **Caractéristiques :**
+  - **Sans connexion :** Aucune établissement de connexion avant l'envoi des données.
+  - **Best Effort :** Livraison des données sans garantie (pas de vérification ni de retransmission).
+  - **Faible surcharge :** Moins de traitement et de vérification que TCP, idéal pour des applications nécessitant rapidité et faible latence.
+- **Points clés :**
+  - **UDP** est simple, rapide et sans garantie de livraison.
+  - **Contrairement à TCP**, il n'établit pas de connexion et ne vérifie pas les données.
+
+## Chapitre 15
+
+### Couche application
+**Role :**
+- Coder
+- Compresser
+- Chiffrer
+
+**Protocoles :**
+- DNS (UDP 53)
+- DHCP (Client : UDP 68 - Serveur : UDP 67)
+- HTTP (TCP : 80, ou 443 en version sécurisée), 
+- SMTP et POP
+
+**Types de messages HTTP :** 
+- GET
+- POST
+- PUT
+
+**Protocole de messagerie :** 
+- SMTP
+- POP
+- IMAP
+
+### Couche session
+**Role :**
+- Créer et gerer les communications entre les applications source et destination
+
+## Chapitre 16
+
+### Menaces et vulnerabilité de la sécurité
+**Types de menaces :**
+- Vol d'informations
+- Perte et manipulation de données
+- Usurpation d'identité
+
+**Types de vulnérabilités :**
+- Techonologique
+- Configuration
+- Politique de sécurité
+
+**Menaces physique :**
+- Materielles
+- Environnementales
+- Electricité
+- Maintenance
+
+**Types de malwares :**
+- Virus
+- Cheval de Troie
+- Vers
+
+**Les 3 catégories d'attaques réseaux :**
+- Attaques de reconnaissance 
+- Attaques d'accès
+- Déni de service
+
+**Types d'attaques par accès :**
+- Attaques par mot de passe 
+- Exploitation de la confiance 
+- Redirection des ports 
+- Homme-au-milieuù
+  
+**Atténuation des menaces :**
+- La défense en profondeur (approche par couche) : Assurer la sécurité par le biais de plusieurs dispositifs en même temps
+- Conserver les sauvegardes : Fréquence, stockage, sécurité et validation
+- Mises à jour et correctifs de sécurité 
+- Authentification, Autorisation et Audit AAA
+- Pare-feu par type : Filtrage des paquets, des applications, des URL et inspection minutieuse des paquets (SPI)
+- Sécurité des points d'extrémité
+
+**Sécurité des périphériques :**
+- Mots de passe
+- Activation de SSH
+- Désactiver les services inutiles
