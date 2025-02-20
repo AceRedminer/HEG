@@ -14,6 +14,7 @@
 - no auto-summary
 - passive interface fa0/1/0
 - redistribute eigrp 65100 metric 1-5
+- default-information originate
 
 **Commandes EIGRP :**
 - redistribute rip metric x x x x 1500
