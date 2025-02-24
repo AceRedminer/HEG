@@ -17,4 +17,4 @@
 - default-information originate
 
 **Commandes EIGRP :**
-- redistribute rip metric x x x x 1500
+- redistribute rip metric 10000 100 255 1 1500

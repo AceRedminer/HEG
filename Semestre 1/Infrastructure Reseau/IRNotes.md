@@ -33,7 +33,7 @@
 
 * **Hostname :**
   1. enable
-  2. configure termina
+  2. configure terminal
   3. hostname *Sw_1_CV*
   4. exit
 * **Password :**
@@ -47,7 +47,7 @@
 
 1. enable
 2. config
-3. service password encryption
+3. service password-encryption
 
 **Mettre un mot de passe admin :**
 
