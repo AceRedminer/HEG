@@ -63,3 +63,23 @@ Approche systémique permet de définir quel est le système étudié
 - Pieces
 - Garage
 
+---
+
+## 24.02.25
+
+**CIA :**
+- Confidentiality
+- Integrity
+- Availability
+
+**AAA :**
+- **Authentication :** identify the user
+- **Authorization :** determine privileges (permissions)
+  - Limit the actions of program that runs in the IT system
+  - Benefits
+  - Principle of Least Privileges
+  - Whitelist approach
+- **Accounting :** maintain a log of the operations made by the user
+
+**Who grants permissions ? :** a trusted super-user
+**Groups for Permission Management :** all the users of the group get the group permissions

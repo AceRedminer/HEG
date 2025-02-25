@@ -58,3 +58,37 @@ Les deux variables pivots identifiées dans cette analyse sont :
 2. **Facteurs technologiques** :  
    - Le déploiement de la 5G et l’essor de l’intelligence artificielle transforment les attentes des consommateurs et les processus commerciaux. Cependant, les risques de piratage et de fraude liés aux technologies de paiement innovantes (sans contact, en ligne) posent des défis de sécurité.  
    - **Impact** : Les commerçants doivent investir dans des technologies sécurisées et innovantes pour attirer et fidéliser les clients, tout en répondant aux préoccupations de protection des données.
+
+---
+
+## 25.02.25
+
+**RACI :**
+- Responsable
+- Acteur
+- Consulté
+- Informé
+
+**Approche systémique :** on définit des éléments et il existe des intéractions entre les éléments
+- Composants structuraux
+- Composants fonctionnels
+
+**Business Model Canvas :**
+- Proposition de Valeur
+- Segments de la Clientèle
+- Canaux de Distribution
+- Relations avec les Clients
+- Activités Clés
+- Ressources Clés
+- Partenaires Clés
+- Sources de Revenues
+- Structure des Couts
+
+**Value Proposition Canvas :**
+- Gains a l'utilisation
+- Produits et services
+- Résolution des problèmes du client
+- Attentes du client
+- Role du client
+- Problèmes rencontrés par le client
+
