@@ -92,3 +92,29 @@ Les deux variables pivots identifiées dans cette analyse sont :
 - Role du client
 - Problèmes rencontrés par le client
 
+---
+
+## 04.03.25
+
+**Ishikawa ou 5M :**
+- Méthode
+- Matière
+- Milieu
+- Matériel
+- Main d'oeuvre
+
+**Exercice :**
+Le service informatique de votre entreprise n'arrive pas à résoudre tous les tickets qu'il reçoit et les collaborateur internes se plaignent que les problèmes sont toujours traités en retard
+
+**Objectif :**
+- Résoudre les tickets en respectant les délais
+- Vérifier les statistique de résolution de tickets
+- Atteignable en augmentant les ressources
+- Réaliste si les ressources de l'entreprise le permet
+- Mettre en place les dispositif nécessaire au max dans 6 mois
+
+- **Méthode :** alternation pour un support 24/24h
+- **Matière :** 
+- **Milieu :** au sein de l'entreprise
+- **Matériel :** plus d'ordinateurs pour les nouveaux collaborateurs
+- **Main d'oeuvre :** plus de collaborateurs, formation, conditions de travail

@@ -83,3 +83,65 @@ Approche systémique permet de définir quel est le système étudié
 
 **Who grants permissions ? :** a trusted super-user
 **Groups for Permission Management :** all the users of the group get the group permissions
+
+## 27.02.25
+
+**SSI :** Sécurité des Systèmes d'Information
+- L'ensemble des moyens mis en place pour garantir la protection du système d'information
+
+**Objectif :** Garantir à long terme la continuité des activités stratégiques
+- Définir les besoins business
+- Définir les activités principales
+
+**Pourquoi protéger :**
+- Réduire la vulnérabilité du SII
+- Assurer sa pérennité et son intégrité
+- Garantir sa disponibilité et ses accès
+- Gérer la confidentialité
+- Gérer l'authentification
+- Auditabilité - Non répudiation
+
+**Protéger quoi ? :**
+- Ressources
+  - Informations
+  - Systèmes
+  - Humaines
+  - Locaux
+  - Processus / Organisation
+
+**Les menaces :** evenement dont la survenances aura un impact sur le fonctionnement de l'entreprise
+- Perte financière
+- Perte d'image
+- Responsabilité civile et pénale
+- Vie privée
+- Désinformation, divulgation, chantage
+- **Involontaires :**
+  - Accidents
+  - Néglicence
+- **Volontaires :**
+  - Code auto-propageable
+  - Attaques (vol, vandalisme)
+- **Physique**
+  - Incendie
+  - Dégats des eaux
+  - Explosions
+  - Coupure alimentation électrique
+  - Coupure réseau
+- **Logiques**
+  - Les virus
+  - Le phising
+  - Les chevaux de troie
+
+---
+
+## 13.03.25
+
+**Analyse des risques :**
+- Perte financière : Prob - 1; Impact - 3 ->
+- Incendie : Prob - 2; Impact 3 -> Prob - 1; Impact - 2;
+- Degats des eaux : Prob - 2; Impact - 3 -> Prob - 1; Impact - 2
+- Explosions : Prob - 1; Impact 4 -> Prob - 1; Impact 4
+- Coupure Electrique : Prob - 2; Impact - 4 -> Prob - 1; Impact 2
+- Coupure réseau : Prob - 1; Impact - 4 -> Prob - 1; Impact - 2
+- Virus : Prob - 2; Impact 4
+- Phising : Prob - 4; Impact 2
