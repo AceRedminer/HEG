@@ -145,3 +145,25 @@ Approche systémique permet de définir quel est le système étudié
 - Coupure réseau : Prob - 1; Impact - 4 -> Prob - 1; Impact - 2
 - Virus : Prob - 2; Impact 4
 - Phising : Prob - 4; Impact 2
+
+---
+
+## 20.03.25
+
+**Exercice EBIOSRM :**
+**Sources :** 
+  - Hacker
+    - **Objectifs visé :**
+      - Vol de données
+      - Accès au réseau Cantonal depuis HEG
+      - Détournement de ressources
+  - Virus
+    - **Objectifs visés :**
+      - Vol de données
+      - Rançon
+      - Detournement de ressources
+  - Collaborateur
+    - **Objectifs visés :**
+      - Sabotage
+      - Usurpation d'identité
+      - Détournement de fonds

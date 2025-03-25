@@ -67,3 +67,38 @@
   - Société en commandite par actions
   - Société à responsabilité limitée
   - Société coopérative
+
+---
+
+## 18.03.25
+
+**Bilan :**
+- **Actif :**
+  - Caisse
+  - Poste-banque
+  - Creances clients
+  - Stocks
+  - Materiel
+  - Machines
+  - Voiture fonction
+  - Immoblier
+  - Brevet
+- **Passif :**
+  - Court terme
+
+**Exercice E-Sport :**
+
+**Apports Associés :** 
+- Anatole, 5000
+- Bernard, 3000
+- Claudia, 2000
+
+Benefice proportionnel aux apports de chacun
+Rien de prévu pour les pertes
+
+Anatole paye 600 Infomat SA
+Bernard paye 1000 Boirunku
+Claudia paye 2000 Publiweb
+
+-6000 - 600 - 1000 - 2000 = -9600
+
