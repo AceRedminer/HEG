@@ -112,9 +112,10 @@
 
 1. conf t
 2. interface fa x/x
-3. switchport mode access
-4. switchport access vlan x
-5. end
+3. switchport mode access, trunk
+4. (switchport trunk encapsulation dot1q)
+5. switchport access, (trunk allowed) vlan x
+6. end
 
 **Configurer une sous-interface VLAN :**
 

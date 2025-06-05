@@ -48,4 +48,28 @@
 
 ---
 
-## 20.03.25
+## 03.04.25
+
+**Regles Pare-feu :**
+- access-list (numero) (action : permit, deny, remark) (condition : 172.16.0.0 0.0.0.255, 10.1.2.7 0.0.0.0, host 10.1.2.7, 0.0.0.0 255.255.255.255, any)
+- int, ip nat inside (prive), ip nat outside (routeur exterieur) 
+- ip nat inside source list 1 int G0/0 overload
+- route def
+
+---
+
+## 08.05.25
+
+### M5Stack :
+
+**digitalRead(pin_number) :** retourne l'etat d'un PIN (HIGH, 1 or LOW, 0)
+**customWrite(pin_number, value) :** ecrit l'etat (HIGH, 1 or LOW, 0) sur un PIN
+**pinMode(pin_number, value) :** defini si c est un PIN entree ou sortie (IN, OUT)
+**Authentification admin Server :** on va dans ServerX -> Services -> IoT
+
+**Donner des droits d'utilisation IoT :** IoT Object -> Config -> Settings -> IoT Server, Assigner adresse IPv4 sur Interface
+
+---
+
+## 22.05.25
+
